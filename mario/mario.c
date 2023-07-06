@@ -8,11 +8,13 @@ int main(void)
     {
        for (int j = 0; j < a; j++)
        {
-            do
-            {
-            printf("#");
-            }
-            while( j <= a );
+            for (int l = 0;     )
+               /* do
+                {
+                    printf("#");
+                }
+                while( j <= a );
+                */
        }
     printf("\n");
     }
