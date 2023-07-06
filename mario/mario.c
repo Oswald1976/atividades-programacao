@@ -3,8 +3,8 @@
 
 int main(void)
 {
-    int s = 0
-    int b = 0
+    int s = 0;
+    int b = 0;
     int a = get_int ("Digite a altura da piramide que deseja(aceitavel entre 1 e 8)");
     while ( a > 0 || a < 9 )
         {
@@ -28,5 +28,5 @@ int main(void)
         }
              loop
 
-    
+
 }
