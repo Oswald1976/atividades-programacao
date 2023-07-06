@@ -10,7 +10,7 @@ int main(void)
        {
             do
             printf("#");
-            while( j < a )
+            while( j <= a )
        }
     printf("\n");
     }
