@@ -8,7 +8,7 @@ int main(void)
     {
        for (int j = 0; j < a; j++)
        {
-            for (int l = 0; l ;l++)
+            for (int l = 0; l < a;l++)
                /* do
                 {
                     printf("#");
