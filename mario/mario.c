@@ -9,8 +9,10 @@ int main(void)
        for (int j = 0; j < a; j++)
        {
             do
+            {
             printf("#");
-            while( j <= a )
+            }
+            while( j <= a );
        }
     printf("\n");
     }
