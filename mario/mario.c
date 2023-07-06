@@ -26,7 +26,7 @@ int main(void)
             }
 
         }
-             loop
 
-
+              printf("ATENÇÃO O NUMERO DEVE ESTAR ENTRE 1 E 8 \n");
+              goto main;
 }
