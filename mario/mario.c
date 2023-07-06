@@ -24,9 +24,9 @@ int main(void)
                 }
             printf("\n");
             }
-            else
-            {
+
+        }
              loop
-            }
-    }
+
+    
 }
