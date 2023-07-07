@@ -17,6 +17,10 @@ int main(void)
                 {
                         printf(" ");
                 }
+                for (int h = 7; j > a; j--)
+                {
+                        printf(" ");
+                }
             printf("\n");
             }
 
