@@ -3,7 +3,7 @@
 
 int main(void)
 {
-   
+
     int a;
     do
     {
