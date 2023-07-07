@@ -21,7 +21,15 @@ int main(void)
                 {
                         printf("#");
                 }
+                printf(" ");
+                for (int h = -1; h < i; h++)
+                {
+                        printf("#");
+                }
+                for (int j = 7; j > i; j--)
+                {
+                        printf(" ");
+                }
             printf("\n");
             }
-
 }
