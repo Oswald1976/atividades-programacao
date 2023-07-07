@@ -11,7 +11,7 @@ int main(void)
 {
     do
         cent = get_float("Digite o Valor que terá que dar de troco em moedas (aceitavel entre 0,01 e 0,99)");
-    while (a < 0, 01 || a > 0, 99);
+    while (cent  < 0, 01 || a >= 0, 99);
     if (a >= 0, 25)
     {
     }
