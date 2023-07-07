@@ -2,6 +2,11 @@
 #include <cs50.h>
 
 float a;
+float b = 0.25;
+float c = 0.10;
+float d = 0.05;
+float d = 0.01;
+
 int main(void)
 {   do
     a = get_float("Digite o Valor que terá que dar de troco em moedas (aceitavel entre 0,01 e 0,99)");
