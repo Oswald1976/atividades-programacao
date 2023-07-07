@@ -3,8 +3,7 @@
 
 int main(void)
 {
-    int s = 0;
-    int b = 0;
+   
     int a;
     do
     {
