@@ -13,7 +13,7 @@ int main(void)
     while ( a < 1 || a > 8 );
         for (int i = 0; i < a; i++)
             {
-                for (int j = 0; j < a; j++)
+                for (int j = 7; j > a; j--)
                 {
                         printf(" ");
                 }
