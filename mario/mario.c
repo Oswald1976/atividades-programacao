@@ -28,5 +28,5 @@ int main(void)
         }
 
               printf("ATENÇÃO O NUMERO DEVE ESTAR ENTRE 1 E 8 \n");
-              goto main;
+          
 }
