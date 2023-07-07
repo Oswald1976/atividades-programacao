@@ -5,7 +5,7 @@ float a;
 float b = 0.25;
 float c = 0.10;
 float d = 0.05;
-float d = 0.01;
+float e = 0.01;
 
 int main(void)
 {   do
