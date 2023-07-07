@@ -13,13 +13,13 @@ int main(void)
     while ( a < 1 || a > 8 );
         for (int i = 0; i < a; i++)
             {
-                for (int j = 7; j > a; j--)
+                for (int j = 7; j > i; j--)
                 {
                         printf(" ");
                 }
-                for (int h = 7; j > a; j--)
+                for (int h = -1; h < i; h++)
                 {
-                        printf(" ");
+                        printf("#");
                 }
             printf("\n");
             }
