@@ -15,15 +15,9 @@ int main(void)
             {
                 for (int j = 0; j < a; j++)
                 {
-                    for (int l = 0; l < a;l++)
-                    {
-                    /* do
-                       {
+
                         printf("#");
-                        }
-                        while( j <= a );
-                        */
-                    }
+                       
                 }
             printf("\n");
             }
