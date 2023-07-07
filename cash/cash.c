@@ -1,7 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
-float a;
+float cent;
 float b = 0.25;
 float c = 0.10;
 float d = 0.05;
