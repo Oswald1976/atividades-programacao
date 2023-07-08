@@ -8,8 +8,8 @@ int main(void)
 {
     do
         cent = get_float("Digite o Valor que terá que dar de troco em moedas (aceitavel entre 0,01 e 0,99)");
-    while ((float) cent < 0,01 || (float) cent > 0,99);
+    while ((int) cent <= 0 || cent >= 1);
     {
-
+        printf("Deu certo """);
     }
 }
