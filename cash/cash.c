@@ -28,7 +28,7 @@ int main(void)
                 m5= m5 + 1 ;
                 cent=cent - 0.05;
             }
-         while ( cent >= 0.00 )
+         while ( cent > 0.00 )
             {
                 m1= m1 + 1 ;
                 cent=cent - 0.01;
