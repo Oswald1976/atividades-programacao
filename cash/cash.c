@@ -6,13 +6,13 @@ int m25 = 0, m10 = 0, m5 = 0, m1 = 0, totalm = 0;
 
 int main(void)
 {
-    do
-    {
+   // do
+   // {
 
         printf("Digite o Valor do troco em moedas (aceitavel entre 0,01 e 0,99 e substitua a , por . )");
         scanf("%float", &cent);
-    }
-    while ((int) cent >= 1);
+    // }
+    // while ((int) cent >= 1);
         while (cent >= 0.25 )
             {
                 m25= m25 + 1 ;
