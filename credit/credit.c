@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-int 
+int ncc
 
 int main(void)
 {
