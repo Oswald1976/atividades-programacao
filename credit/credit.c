@@ -8,5 +8,6 @@ long cardNumValidation(long n)
 
 int main(void)
 {
-    printf("Digite o Numero do Cartão de Credito .. : ");
+    n = get_long("Digite o Numero do Cartão de Credito .. : ");
+  
 }
