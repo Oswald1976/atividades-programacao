@@ -13,9 +13,17 @@ int main(void)
     scanf( "%li", &numerocartao);
     if (numerocartao < 1)
     {
-        printf("Numero Negativo");
+        printf("Digite apenas Numeros Positivos");
     }
-    else if (numerocartao)
+    else if ((isdigit(numerocartao)))
+    {
+            {
+        printf("Digite apenas Numeros");
+    }
+    else
+    printf("Deu Certo\n" );
+    }
+
     /*
     do
     {
@@ -25,5 +33,5 @@ int main(void)
     while (numerocartao < 1);
     */
 
-printf("Deu Certo\n" );
+
 }
