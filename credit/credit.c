@@ -5,5 +5,5 @@
 
 int main(void)
 {
-    printf(" ");
+    printf("Digite o Numero do Cartão de Credito .. : ");
 }
