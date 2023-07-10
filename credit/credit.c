@@ -11,6 +11,7 @@ int main(void)
 {
     do
     {
+    
     printf("Digite o Numero do Cartão de Credito .. : ");
     scanf( "%li", &numerocartao);
     }
