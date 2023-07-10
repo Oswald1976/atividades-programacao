@@ -15,6 +15,7 @@ int main(void)
     {
         printf("Numero Negativo");
     }
+    else if (numerocartao)
     /*
     do
     {
