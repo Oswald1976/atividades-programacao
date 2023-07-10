@@ -12,7 +12,9 @@ int main(void)
     printf("Digite o Numero do Cartão de Credito .. : ");
     scanf( "%li", &numerocartao);
     if (numerocartao < 1)
-
+    {
+        printf("Numero Negativo");
+    }
     /*
     do
     {
@@ -21,6 +23,6 @@ int main(void)
     }
     while (numerocartao < 1);
     */
-   
+
 printf("Deu Certo\n" );
 }
