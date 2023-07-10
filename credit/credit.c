@@ -14,6 +14,6 @@ int main(void)
     printf("Digite o Numero do Cartão de Credito .. : ");
     scanf( "%li", &numerocartao);
     }
-    while (numerocartao > 1);
-printf("Deu Certo");
+    while (numerocartao < 1);
+printf("Deu Certo\n" );
 }
