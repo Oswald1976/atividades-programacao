@@ -9,13 +9,18 @@ long numerocartao;
 
 int main(void)
 {
-    
+    printf("Digite o Numero do Cartão de Credito .. : ");
+    scanf( "%li", &numerocartao);
+    if (numerocartao < 1)
+
+    /*
     do
     {
-
     printf("Digite o Numero do Cartão de Credito .. : ");
     scanf( "%li", &numerocartao);
     }
     while (numerocartao < 1);
+    */
+   
 printf("Deu Certo\n" );
 }
