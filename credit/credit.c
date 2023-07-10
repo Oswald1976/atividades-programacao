@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
+long numerocartao;
 // Prototype the functions
 // long function1(long n);
 // long function2(long n);
@@ -10,7 +11,8 @@ int main(void)
 {
     do
     {
-    numerocartao = get_long("Digite o Numero do Cartão de Credito .. : ");
+    printf("Digite o Numero do Cartão de Credito .. : ");
+    scanf()
     }
     while (numerocartao > 1);
 pr
