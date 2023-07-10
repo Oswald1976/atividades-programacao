@@ -8,6 +8,10 @@ long cardNumValidation(long n)
 
 int main(void)
 {
+    do
+    {
     n = get_long("Digite o Numero do Cartão de Credito .. : ");
-  
+    }
+    while (n > 1);
+    
 }
