@@ -17,7 +17,7 @@ int main(void)
 
 
     printf("Digite o Numero do Cartão de Credito .. : ");
-    scanf( "%s", &numerocartao);
+    scanf( "%i", &numerocartao);
 
     if (numerocartao < 1)
     {
