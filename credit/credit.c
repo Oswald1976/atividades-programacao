@@ -12,7 +12,7 @@ int main(void)
 {
 
     //iniciando variaveis
-    char numerocartao{20};
+    char numerocartao[20];
     int tamanho = 0, i = 0;
 
 
@@ -29,7 +29,7 @@ int main(void)
         printf("Digite apenas Numeros");
     }
     else
-    
+
     printf("Deu Certo\n" );
     }
 
