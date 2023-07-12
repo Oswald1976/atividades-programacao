@@ -9,16 +9,21 @@ int main(void)
     //iniciando variaveis
     char nrcartao[20];
     int inrcartao[20];
-    int i;
+    int qtd=0;
+    int i=0;
 
 
     printf("Digite o Numero do Cartão de Credito .. : ");
     scanf(" %s", nrcartao);
+    while(nrcartao[i] != "\0")
+    {
+        qtd++
+        i++
 
-
+    }
     //Efetua a conversao de array de char para um array de int.
-    // for(i=0;i < sizeof(nrcartao) ;i++)
-    for(i=0; nrcartao[i] != "\0"  ;i++)
+    for(i=0; i < qtd  ;i++)
+
     {
     inrcartao[i]=nrcartao[i]-48;
     }
