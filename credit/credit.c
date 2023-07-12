@@ -13,6 +13,7 @@ int main(void)
 
 
     printf("Digite o Numero do Cartão de Credito .. : ");
+    scanf(" %s", nrcartao);
 
     for (i=0; i < 20; i++)
     {
