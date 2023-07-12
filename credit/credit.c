@@ -3,17 +3,12 @@
 
 
 
-// Prototype the functions
-// long function1(long n);
-// long function2(long n);
-//long cardNumValidation(long n)
-
 int main(void)
 {
 
     //iniciando variaveis
-    int numerocartao[20];
-    int digito;
+    char nrcartao[20];
+    int inrcartao[20];
     int tamanho = 0, i = 0;
 
 
