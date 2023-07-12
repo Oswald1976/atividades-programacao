@@ -15,10 +15,7 @@ int main(void)
     printf("Digite o Numero do Cartão de Credito .. : ");
     scanf(" %s", nrcartao);
 
-    for (i=0; i < 20; i++)
-    {
-        numerocartao[i]=scanf( "%d", &digito);
-    }
+   
     //Efetua a conversao de array de char para um array de int.
     for(i=0;i<11;i++)
     {
