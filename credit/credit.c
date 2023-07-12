@@ -19,7 +19,7 @@ int main(void)
 
     printf("Digite o Numero do Cartão de Credito .. : ");
 
-    for (i=0; i < sizeof(numerocartao); i++)
+    for (i=0; i < 20; i++)
     {
         numerocartao[i]=scanf( "%d", &digito);
     }
