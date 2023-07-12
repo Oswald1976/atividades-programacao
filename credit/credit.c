@@ -17,7 +17,10 @@ int main(void)
 
 
     printf("Digite o Numero do Cartão de Credito .. : ");
-    scanf( "%li", &numerocartao);
+    scanf( "%c", &numerocartao);
+
+    
+
     if (numerocartao < 1)
     {
         printf("Digite apenas Numeros Positivos");
