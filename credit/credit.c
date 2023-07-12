@@ -19,6 +19,11 @@ int main(void)
     {
         numerocartao[i]=scanf( "%d", &digito);
     }
+    //Efetua a conversao de array de char para um array de int.
+    for(i=0;i<11;i++)
+    {
+    inrcartao[i]=nrcartao[i]-48;
+    }
 /*
     if (numerocartao < 1)
     {
