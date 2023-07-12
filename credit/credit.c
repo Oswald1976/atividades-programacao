@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <cs50.h>
+#include <cstring.h>
 
 
 
@@ -22,7 +23,7 @@ int main(void)
 
     }
     //Efetua a conversao de array de char para um array de int.
-    for(i=0; i < qtd  ;i++)
+    for(i=0; i < strlenqtd  ;i++)
 
     {
     inrcartao[i]=nrcartao[i]-48;
