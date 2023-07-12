@@ -19,12 +19,11 @@ int main(void)
 
     //Efetua a conversao de array de char para um array de int.
     for(i=0; i <= strlen(nrcartao) ;i++) // strlen = retorna a quantidade de elemento no array
-
     {
     inrcartao[i]=nrcartao[i]-48; // pq -48 ?
     qtd++; // Acumula  quantidade de elementos do array
     }
-    
+
 /*
     if (numerocartao < 1)
     {
