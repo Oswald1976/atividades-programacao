@@ -21,9 +21,9 @@ int main(void)
 
     for (i=0; i < sizeof(numerocartao); i++)
     {
-        numerocartao[i]=scanf( "%d", digito);
+        numerocartao[i]=scanf( "%d", &digito);
     }
-
+/*
     if (numerocartao < 1)
     {
         printf("Digite apenas Numeros Positivos");
@@ -38,13 +38,6 @@ int main(void)
     printf("Deu Certo\n" );
     }
 
-    /*
-    do
-    {
-    printf("Digite o Numero do Cartão de Credito .. : ");
-    scanf( "%li", &numerocartao);
-    }
-    while (numerocartao < 1);
     */
 
 
