@@ -17,7 +17,7 @@ int main(void)
 
 
     //Efetua a conversao de array de char para um array de int.
-    for(i=0;i<11;i++)
+    for(i=0;i < sizeof(nrcartao) ;i++)
     {
     inrcartao[i]=nrcartao[i]-48;
     }
