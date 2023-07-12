@@ -1,10 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
-// iniciando variaveis
 
-char numerocartao{20};
-int tamanho, i;
 
 // Prototype the functions
 // long function1(long n);
@@ -13,6 +10,12 @@ int tamanho, i;
 
 int main(void)
 {
+
+    //iniciando variaveis
+    char numerocartao{20};
+    int tamanho, i;
+
+
     printf("Digite o Numero do Cartão de Credito .. : ");
     scanf( "%li", &numerocartao);
     if (numerocartao < 1)
