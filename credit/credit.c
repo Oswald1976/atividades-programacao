@@ -10,7 +10,7 @@ int main(void)
     //iniciando variaveis
     char nrcartao[20];
     int inrcartao[20];
-   
+
     int i=0;
 
 
@@ -21,7 +21,7 @@ int main(void)
     for(i=0; i <= strlen(nrcartao) ;i++)
 
     {
-    inrcartao[i]=nrcartao[i]-48;
+    inrcartao[i]=nrcartao[i];
     }
 /*
     if (numerocartao < 1)
