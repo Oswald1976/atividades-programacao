@@ -9,7 +9,7 @@ int main(void)
     //iniciando variaveis
     char nrcartao[20];
     int inrcartao[20];
-    int tamanho = 0, i = 0;
+    int i;
 
 
     printf("Digite o Numero do Cartão de Credito .. : ");
