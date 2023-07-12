@@ -2,6 +2,7 @@
 #include <cs50.h>
 
 long numerocartao;
+
 // Prototype the functions
 // long function1(long n);
 // long function2(long n);
