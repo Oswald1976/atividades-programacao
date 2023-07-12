@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <cs50.h>
 
+// iniciando variaveis
+
 char numerocartao{20};
+int tamanho = 0;
 
 // Prototype the functions
 // long function1(long n);
