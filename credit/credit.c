@@ -10,7 +10,7 @@ int main(void)
     //iniciando variaveis
     char nrcartao[20];
     int inrcartao[20];
-    int qtd=0;
+   
     int i=0;
 
 
@@ -18,7 +18,7 @@ int main(void)
     scanf(" %s", nrcartao);
 
     //Efetua a conversao de array de char para um array de int.
-    for(i=0; i < strlen(nrcartao) ;i++)
+    for(i=0; i <= strlen(nrcartao) ;i++)
 
     {
     inrcartao[i]=nrcartao[i]-48;
