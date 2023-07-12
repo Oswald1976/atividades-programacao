@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <cs50.h>
-#include <cstring.h>
+//#include <cstring.h>
 
 
 
@@ -16,7 +16,7 @@ int main(void)
 
     printf("Digite o Numero do Cartão de Credito .. : ");
     scanf(" %s", nrcartao);
-    
+
     //Efetua a conversao de array de char para um array de int.
     for(i=0; i < strlen(nrcartao) ;i++)
 
