@@ -7,7 +7,7 @@ int main(void)
 {
 
     //iniciando variaveis
-    char nrcartao[20];
+    str nrcartao;
     int inrcartao[20];
     int qtd=0;
     int i=0;
