@@ -12,7 +12,7 @@ int main(void)
 {
 
     //iniciando variaveis
-    char numerocartao[20];
+    int numerocartao[20];
     int tamanho = 0, i = 0;
 
 
