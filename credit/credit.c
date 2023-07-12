@@ -13,14 +13,15 @@ int main(void)
 
     //iniciando variaveis
     int numerocartao[20];
+    int digito;
     int tamanho = 0, i = 0;
 
 
     printf("Digite o Numero do Cartão de Credito .. : ");
-    
-    for (i=0; i < numerocartao(sizeof); i++)
+
+    for (i=0; i < sizeof(numerocartao); i++)
     {
-        numerocartao[i]=scanf( "%d", &numerocartao);
+        numerocartao[i]=scanf( "%d", digito);
     }
 
     if (numerocartao < 1)
