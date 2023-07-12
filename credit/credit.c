@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
-long numerocartao;
+char numerocartao{20};
 
 // Prototype the functions
 // long function1(long n);
