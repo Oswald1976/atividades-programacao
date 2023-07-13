@@ -57,25 +57,25 @@ int main(void)
                printf("\n");
                printf("Amex \n");
             }
-            else if(inrcartao[1] == 3 && inrcartao[2] == 7)
+            if(inrcartao[1] == 3 && inrcartao[2] == 7)
             {
                printf("\n");
                printf("Amex \n");
 
             }
-            else if(inrcartao[1] == 5 && inrcartao[2] == 1)
+            if(inrcartao[1] == 5 && inrcartao[2] == 1)
             {
                printf("\n");
                printf("MasterCard \n");
 
             }
-            else if(inrcartao[1] == 5 && inrcartao[2] == 2)
+            if(inrcartao[1] == 5 && inrcartao[2] == 2)
             {
                printf("\n");
                printf("MasterCard \n");
 
             }
-            else if(inrcartao[1] == 5 && inrcartao[2] == 3)
+            if(inrcartao[1] == 5 && inrcartao[2] == 3)
             {
                printf("\n");
                printf("MasterCard \n");
