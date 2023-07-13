@@ -35,7 +35,7 @@ int main(void)
         printf("\n");
         printf("TENTE NOVAMENTE.... \n");
            // return 0;
-        inicio:
+        inicio;
         }
 
 
