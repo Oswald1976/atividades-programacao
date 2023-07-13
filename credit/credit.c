@@ -50,12 +50,16 @@ int main(void)
             inrcartao[i]=nrcartao[i]-48; // pq -48 ?
             qtd++; // Acumula  quantidade de elementos do array
         }
-            if(inrcartao[1] != 3)
+            if(inrcartao[1] == 3)
             {
                printf("\n");
                printf("Amex \n");
             }
-
+            else if(inrcartao[1] != 3)
+            {
+               printf("\n");
+               printf("Amex \n");
+            }
         /*
         for(i=0; i < strlen(nrcartao) ;i++) // strlen = retorna a quantidade de elemento no array
         {
