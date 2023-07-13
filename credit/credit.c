@@ -35,12 +35,12 @@ int main(void)
             printf("\n");
             printf("TENTE NOVAMENTE.... \n");
             printf("\n");
-         
+
 
 
         }
 
-
+    
 
 
         //Efetua a conversao de array de char para um array de int.
@@ -54,6 +54,6 @@ int main(void)
         {
             printf("%i\n", inrcartao[i]); //Imprimir na tela os numeros depois de passar para o array de inteiro
         }
-    }
+
 
 }
