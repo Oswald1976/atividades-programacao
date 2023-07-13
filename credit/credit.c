@@ -15,10 +15,10 @@ int main(void)
 
 
     printf("Digite o Numero do Cartão de Credito .. : ");
-    scanf(" %s", nrcartao);
+    scanf(" %i", inrcartao);
 
     //Efetua a conversao de array de char para um array de int.
-    for(i=0; i <= strlen(nrcartao) ;i++) // strlen = retorna a quantidade de elemento no array
+  /*  for(i=0; i <= strlen(nrcartao) ;i++) // strlen = retorna a quantidade de elemento no array
     {
     inrcartao[i]=nrcartao[i]-48; // pq -48 ?
     qtd++; // Acumula  quantidade de elementos do array
