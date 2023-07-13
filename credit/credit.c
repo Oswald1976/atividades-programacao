@@ -8,6 +8,8 @@
 int main(void)
 {
 
+goto inicio;
+
     //iniciando variaveis
     char nrcartao[20];
     int inrcartao[20];
@@ -33,6 +35,7 @@ int main(void)
         printf("\n");
         printf("TENTE NOVAMENTE.... \n");
            // return 0;
+        inicio
         }
     }
 
