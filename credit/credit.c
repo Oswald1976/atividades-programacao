@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 #include <string.h>
-#include <windows.h>
+
 
 
 
@@ -14,7 +14,7 @@ int main(void)
     int qtd=0;
     int i=0;
 
-    system("cls");
+    
     printf("Digite o Numero do Cartão de Credito .. : ");
     scanf(" %s", nrcartao);
 
