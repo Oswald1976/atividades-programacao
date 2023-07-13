@@ -18,7 +18,7 @@ int main(void)
     printf("Digite o Numero do Cartão de Credito .. : ");
     scanf(" %s", nrcartao);
 
-    whilefor(i = 0; i <= strlen(nrcartao); i++)
+    for(i = 0; i <= strlen(nrcartao); i++)
     {
         if(nrcartao[i] != '0' && nrcartao[i] != '1' &&
         nrcartao[i] != '2' && nrcartao[i] != '3' &&
