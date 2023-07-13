@@ -40,7 +40,7 @@ int main(void)
 
         }
 
-    
+    }
 
 
         //Efetua a conversao de array de char para um array de int.
