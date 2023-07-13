@@ -24,8 +24,6 @@ int main(void)
         input[i-1] != '4' && input[i-1] != '5' &&
         input[i-1] != '6' && input[i-1] != '7' &&
         input[i-1] != '8' && input[i-1] != '9' &&
-        input[i-1] != '.' && input[i-1] != ',' &&
-        input[i-1] != ' ' && input[i-1] != '-' &&
         input[i-1] != '\0'){
             return 0;
         }
