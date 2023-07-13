@@ -51,10 +51,11 @@ int main(void)
             qtd++; // Acumula  quantidade de elementos do array
         }
 
+        /*
         for(i=0; i < strlen(nrcartao) ;i++) // strlen = retorna a quantidade de elemento no array
         {
             printf("%i\n", inrcartao[i]); //Imprimir na tela os numeros depois de passar para o array de inteiro
         }
-
+        */
 
 }
