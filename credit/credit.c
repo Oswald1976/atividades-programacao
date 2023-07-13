@@ -50,15 +50,59 @@ int main(void)
             inrcartao[i]=nrcartao[i]-48; // pq -48 ?
             qtd++; // Acumula  quantidade de elementos do array
         }
-            if(inrcartao[1] == 3 && inrcartao[2] == 3)
+
+            // testa os codigos para saber qual bandeira pertence o cartão
+            if(inrcartao[1] == 3 && inrcartao[2] == 4)
             {
                printf("\n");
                printf("Amex \n");
             }
-            else if(inrcartao[1] != 3)
+            else if(inrcartao[1] == 3 && inrcartao[2] == 7)
             {
                printf("\n");
                printf("Amex \n");
+
+            }
+            else if(inrcartao[1] == 5 && inrcartao[2] == 1)
+            {
+               printf("\n");
+               printf("MasterCard \n");
+
+            }
+            else if(inrcartao[1] == 5 && inrcartao[2] == 2)
+            {
+               printf("\n");
+               printf("MasterCard \n");
+
+            }
+            else if(inrcartao[1] == 5 && inrcartao[2] == 3)
+            {
+               printf("\n");
+               printf("MasterCard \n");
+
+            }
+            else if(inrcartao[1] == 5 && inrcartao[2] == 4)
+            {
+               printf("\n");
+               printf("MasterCard \n");
+
+            }
+            else if(inrcartao[1] == 5 && inrcartao[2] == 5)
+            {
+               printf("\n");
+               printf("MasterCard \n");
+
+            }
+            else if(inrcartao[1] == 4 )
+            {
+               printf("\n");
+               printf("Visa \n");
+
+            }
+            else
+            {
+               printf("\n");
+               printf("INVALID\n");
             }
         /*
         for(i=0; i < strlen(nrcartao) ;i++) // strlen = retorna a quantidade de elemento no array
