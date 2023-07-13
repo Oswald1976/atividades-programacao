@@ -2,12 +2,12 @@
 #include <cs50.h>
 #include <string.h>
 
-   
+
 
 int main(void)
 {
 
-    Inicio:
+
 
     char nrcartao[20];
     int inrcartao[20];
@@ -37,7 +37,7 @@ int main(void)
         printf("\n");
            // return 0;
 
-        goto Inicio;
+      
         }
 
 
