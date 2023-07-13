@@ -24,7 +24,7 @@ int main(void)
     qtd++; // Acumula  quantidade de elementos do array
     }
 
-/*
+
     if (numerocartao < 1)
     {
         printf("Digite apenas Numeros Positivos");
