@@ -25,7 +25,8 @@ int main(void)
         input[i-1] != '6' && input[i-1] != '7' &&
         input[i-1] != '8' && input[i-1] != '9' &&
         input[i-1] != '\0'){
-            return 0;
+        printf("Você digitou Caracteres errados, lembre de digitar apenas numeros");
+           // return 0;
         }
     }
 
