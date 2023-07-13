@@ -14,7 +14,7 @@ int main(void)
     Inicio:
 
 
-    
+
 
 
     printf("Digite o Numero do Cartão de Credito .. : ");
@@ -35,6 +35,7 @@ int main(void)
         printf("\n");
         printf("TENTE NOVAMENTE.... \n");
            // return 0;
+
         goto Inicio;
         }
 
