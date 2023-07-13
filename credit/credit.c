@@ -30,8 +30,8 @@ int main(void)
            // return 0;
         }
     }
-    else
-    {
+
+
         //Efetua a conversao de array de char para um array de int.
         for(i=0; i <= strlen(nrcartao) ;i++) // strlen = retorna a quantidade de elemento no array
         {
@@ -57,5 +57,5 @@ int main(void)
 
     */
 
-    }
+    
 }
