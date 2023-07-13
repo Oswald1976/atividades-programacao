@@ -8,7 +8,7 @@
 int main(void)
 {
 
-goto inicio;
+    goto inicio;
 
     //iniciando variaveis
     char nrcartao[20];
