@@ -14,7 +14,7 @@ int main(void)
     Inicio:
 
 
-    
+
 
 
     printf("Digite o Numero do Cartão de Credito .. : ");
@@ -34,6 +34,7 @@ int main(void)
         printf("ERRO !!!, Lembre de digitar apenas numeros \n");
         printf("\n");
         printf("TENTE NOVAMENTE.... \n");
+        printf("\n");
            // return 0;
 
         goto Inicio;
@@ -47,6 +48,11 @@ int main(void)
         {
             inrcartao[i]=nrcartao[i]-48; // pq -48 ?
             qtd++; // Acumula  quantidade de elementos do array
+        }
+
+        for(i=0; i <= strlen(nrcartao) ;i++) // strlen = retorna a quantidade de elemento no array
+        {
+            printf("inrcartao[i]\n") //Imprimir na tela os numeros depois de passar para o array de inteiro
         }
     }
 
