@@ -26,7 +26,7 @@ int main(void)
         nrcartao[i] != '8' && nrcartao[i] != '9' &&
         nrcartao[i] != '\0')
         {
-        printf("Você digitou Caracteres errados, lembre de digitar apenas numeros");
+        printf("ERRO !!!, Lembre de digitar apenas numeros ");
            // return 0;
         }
     }
@@ -57,5 +57,5 @@ int main(void)
 
     */
 
-    
+
 }
