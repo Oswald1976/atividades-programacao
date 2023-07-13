@@ -2,7 +2,10 @@
 #include <cs50.h>
 #include <string.h>
 
-
+    char nrcartao[20];
+    int inrcartao[20];
+    int qtd=0;
+    int i=0;
 
 
 int main(void)
@@ -11,11 +14,7 @@ int main(void)
     Inicio:
 
 
-    //iniciando variaveis
-    char nrcartao[20];
-    int inrcartao[20];
-    int qtd=0;
-    int i=0;
+    
 
 
     printf("Digite o Numero do Cartão de Credito .. : ");
