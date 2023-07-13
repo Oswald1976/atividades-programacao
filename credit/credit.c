@@ -30,14 +30,14 @@ int main(void)
         nrcartao[i] != '\0')
         {
 
-        printf("\n");
-        printf("ERRO !!!, Lembre de digitar apenas numeros \n");
-        printf("\n");
-        printf("TENTE NOVAMENTE.... \n");
-        printf("\n");
+            printf("\n");
+            printf("ERRO !!!, Lembre de digitar apenas numeros \n");
+            printf("\n");
+            printf("TENTE NOVAMENTE.... \n");
+            printf("\n");
            // return 0;
 
-      
+
         }
 
 
