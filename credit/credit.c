@@ -8,7 +8,7 @@
 int main(void)
 {
 
-    inicio;
+    Inicio:
 
 
     //iniciando variaveis
@@ -36,7 +36,7 @@ int main(void)
         printf("\n");
         printf("TENTE NOVAMENTE.... \n");
            // return 0;
-        goto inicio;
+        goto Inicio;
         }
 
 
