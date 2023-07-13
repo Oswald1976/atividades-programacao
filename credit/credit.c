@@ -19,12 +19,13 @@ int main(void)
 
     for(i = 0; strlen(nrcartao); i++)
     {
-        if(nrcartao[i] != '0' && input[i-1] != '1' &&
-        input[i-1] != '2' && input[i-1] != '3' &&
-        input[i-1] != '4' && input[i-1] != '5' &&
-        input[i-1] != '6' && input[i-1] != '7' &&
-        input[i-1] != '8' && input[i-1] != '9' &&
-        input[i-1] != '\0'){
+        if(nrcartao[i] != '0' && nrcartao[i] != '1' &&
+        nrcartao[i] != '2' && nrcartao[i] != '3' &&
+        nrcartao[i] != '4' && nrcartao[i] != '5' &&
+        nrcartao[i] != '6' && nrcartao[i] != '7' &&
+        nrcartao[i] != '8' && nrcartao[i] != '9' &&
+        nrcartao[i] != '\0')
+        {
         printf("Você digitou Caracteres errados, lembre de digitar apenas numeros");
            // return 0;
         }
