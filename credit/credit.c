@@ -26,6 +26,7 @@ int main(void)
         nrcartao[i] != '8' && nrcartao[i] != '9' &&
         nrcartao[i] != '\0')
         {
+        printf("\n");
         printf("ERRO !!!, Lembre de digitar apenas numeros \n");
         printf("\n");
         printf("TENTE NOVAMENTE.... ");
