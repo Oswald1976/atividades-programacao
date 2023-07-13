@@ -13,7 +13,7 @@ int main(void)
     int qtd=0;
     int i=0;
 
-
+    system("cls");
     printf("Digite o Numero do Cartão de Credito .. : ");
     scanf(" %s", nrcartao);
 
@@ -26,10 +26,11 @@ int main(void)
         nrcartao[i] != '8' && nrcartao[i] != '9' &&
         nrcartao[i] != '\0')
         {
+
         printf("\n");
         printf("ERRO !!!, Lembre de digitar apenas numeros \n");
         printf("\n");
-        printf("TENTE NOVAMENTE.... ");
+        printf("TENTE NOVAMENTE.... \n");
            // return 0;
         }
     }
