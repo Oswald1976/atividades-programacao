@@ -52,7 +52,7 @@ int main(void)
 
         for(i=0; i <= strlen(nrcartao) ;i++) // strlen = retorna a quantidade de elemento no array
         {
-            printf("inrcartao[i]\n") //Imprimir na tela os numeros depois de passar para o array de inteiro
+            printf("%i\n", inrcartao[i]); //Imprimir na tela os numeros depois de passar para o array de inteiro
         }
     }
 
