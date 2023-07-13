@@ -53,7 +53,7 @@ int main(void)
             if(inrcartao[1] != 3)
             {
                printf("\n");
-               printf("\n");
+               printf("Amex \n");
             }
 
         /*
