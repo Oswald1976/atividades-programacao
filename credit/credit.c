@@ -2,17 +2,17 @@
 #include <cs50.h>
 #include <string.h>
 
-    char nrcartao[20];
-    int inrcartao[20];
-    int qtd=0;
-    int i=0;
-
+   
 
 int main(void)
 {
 
     Inicio:
 
+    char nrcartao[20];
+    int inrcartao[20];
+    int qtd=0;
+    int i=0;
 
 
 
