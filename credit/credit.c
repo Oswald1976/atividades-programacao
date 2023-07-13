@@ -52,7 +52,7 @@ int main(void)
         }
 
             // testa os codigos para saber qual bandeira pertence o cartão
-            if(nrcartao[1] == "3" && nrcartao[2] == "4")
+            if(nrcartao[1] == '3' && nrcartao[2] == '4')
             {
                printf("\n");
                printf("Amex \n");
