@@ -37,7 +37,8 @@ goto inicio;
            // return 0;
         inicio:
         }
-    }
+
+
 
 
         //Efetua a conversao de array de char para um array de int.
@@ -46,24 +47,6 @@ goto inicio;
             inrcartao[i]=nrcartao[i]-48; // pq -48 ?
             qtd++; // Acumula  quantidade de elementos do array
         }
-
-
-/*
-    if (numerocartao < 1)
-    {
-        printf("Digite apenas Numeros Positivos");
     }
-    else if ((isdigit(numerocartao)))
-    {
-            {
-        printf("Digite apenas Numeros");
-    }
-    else
-
-    printf("Deu Certo\n" );
-    }
-
-    */
-
 
 }
