@@ -99,6 +99,10 @@ int main(void)
            printf("INVALID\n");
           // return 0;
         }
+      /* VERIFICAÇÃO DE NUMERO DE CARTAO (Algoritmo de Luhn)
+         pega o penultimo numero digitado multiplica por 2, vai retornando os numeros pulando 1 e fazendo a mesma operaçao
+         
+
 
      for(i=strlen(nrcartao)-1 ; i >= 0 ; i=i-2)
      {
