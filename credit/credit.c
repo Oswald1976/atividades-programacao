@@ -15,11 +15,10 @@ int main(void)
     int qtd=0;
     int i=0;
 
-
-
-
+    do
     printf("Digite o Numero do Cartão de Credito .. : ");
     scanf(" %s", nrcartao);
+    while(nrcartao)
 
     for(i = 0; i <= strlen(nrcartao); i++)
     {
