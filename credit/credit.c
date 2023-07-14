@@ -13,7 +13,7 @@ int main(void)
     char nrcartao[20];
     int inrcartao[20];
     int inrmulti[8];
-    int inrnorma[8];
+    int inrnorma = 0;
     int qtd=0;
     int i=0;
 
@@ -108,7 +108,7 @@ int main(void)
 
      for(n=strlen(nrcartao)-1 ; n <= 0 ; n=n-2)
      {
-      inrnorma[n]
+      inrnorma [n]
 
      }
 
