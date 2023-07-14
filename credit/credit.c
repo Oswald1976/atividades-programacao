@@ -108,15 +108,15 @@ int main(void)
 
      for(n=strlen(nrcartao)-1 ; n <= 0 ; n=n-2)
      {
-      inrnorma [n]
+      inrnorma+=nrcartao[n];
 
      }
 
-
+   /*
      for(n=strlen(nrcartao)-2 ; n <= 0 ; n=n-2)
      {
       inrmulti[n]*2
 
      }
-
+   */
 }
