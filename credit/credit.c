@@ -18,7 +18,7 @@ int main(void)
     do
     printf("Digite o Numero do Cartão de Credito .. : ");
     scanf(" %s", nrcartao);
-    while(nrcartao)
+    while(strlen(nrcartao) < 13 )
 
     for(i = 0; i <= strlen(nrcartao); i++)
     {
