@@ -12,7 +12,7 @@ int main(void)
 
     char nrcartao[20];
     int inrcartao[20];
-    int inrmulti{}
+    int inrmulti[]
     int qtd=0;
     int i=0;
 
