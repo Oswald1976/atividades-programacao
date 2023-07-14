@@ -97,7 +97,7 @@ int main(void)
         {
            printf("\n");
            printf("INVALID\n");
-           return 0;
+          // return 0;
         }
 
      for(i=strlen(nrcartao)-1 ; i >= 0 ; i=i-2)
