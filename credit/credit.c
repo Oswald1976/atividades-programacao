@@ -103,6 +103,9 @@ int main(void)
                printf("\n");
                printf("INVALID\n");
             }
-     for(n=strlen(nrcartao)-2) n
+     for(n=strlen(nrcartao)-2 ; n <= 0 ; n=n-2)
+     {
+      inrcartao[n]*2
+     }
 
 }
