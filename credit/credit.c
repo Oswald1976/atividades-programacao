@@ -106,7 +106,7 @@ int main(void)
                printf("INVALID\n");
             }
 
-     for(i=strlen(nrcartao)-1 ; i <= 0 ; i=i-2)
+     for(i=strlen(nrcartao)-1 ; i >= 0 ; i=i-2)
      {
       inrnorma+=nrcartao[i];
 
