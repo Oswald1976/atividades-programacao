@@ -39,12 +39,9 @@ int main(void)
             printf("TENTE NOVAMENTE.... \n");
             printf("\n");
 
-
-
         }
 
     }
-
 
         //Efetua a conversao de array de char para um array de int.
         for(i=0; i < strlen(nrcartao) ;i++) // strlen = retorna a quantidade de elemento no array
@@ -106,6 +103,6 @@ int main(void)
                printf("\n");
                printf("INVALID\n");
             }
-       
+      
 
 }
