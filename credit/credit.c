@@ -52,60 +52,53 @@ int main(void)
             qtd++; // Acumula  quantidade de elementos do array
         }
 
-            // testa os codigos para saber qual bandeira pertence o cartão
-            if(nrcartao[0] == '3' && nrcartao[1] == '4')
-            {
-               printf("\n");
-               printf("Amex \n");
-            }
-            if(nrcartao[0] == '3' && nrcartao[1] == '7')
-            {
-               printf("\n");
-               printf("Amex \n");
-
-            }
-            if(nrcartao[0] == '5' && nrcartao[1] == '1')
-            {
-               printf("\n");
-               printf("MasterCard \n");
-
-            }
-            if(nrcartao[0] == '5' && nrcartao[1] == '2')
-            {
-               printf("\n");
-               printf("MasterCard \n");
-
-            }
-            if(nrcartao[0] == '5' && nrcartao[1] == '3')
-            {
-               printf("\n");
-               printf("MasterCard \n");
-
-            }
-            else if(nrcartao[0] == '5' && nrcartao[1] == '4')
-            {
-               printf("\n");
-               printf("MasterCard \n");
-
-            }
-            else if(nrcartao[0] == '5' && inrcartao[1] == '5')
-            {
-               printf("\n");
-               printf("MasterCard \n");
-
-            }
-            else if(nrcartao[0] == '4' )
-            {
-               printf("\n");
-               printf("Visa \n");
-
-            }
-            else
-            {
-               printf("\n");
-               printf("INVALID\n");
-               return 0;
-            }
+        // testa os codigos para saber qual bandeira pertence o cartão
+        if(nrcartao[0] == '3' && nrcartao[1] == '4')
+        {
+           printf("\n");
+           printf("Amex \n");
+        }
+        if(nrcartao[0] == '3' && nrcartao[1] == '7')
+        {
+           printf("\n");
+           printf("Amex \n");
+        }
+        if(nrcartao[0] == '5' && nrcartao[1] == '1')
+        {
+           printf("\n");
+           printf("MasterCard \n");
+        }
+        if(nrcartao[0] == '5' && nrcartao[1] == '2')
+        {
+           printf("\n");
+           printf("MasterCard \n");
+        }
+        if(nrcartao[0] == '5' && nrcartao[1] == '3')
+        {
+           printf("\n");
+           printf("MasterCard \n");
+        }
+        else if(nrcartao[0] == '5' && nrcartao[1] == '4')
+        {
+           printf("\n");
+           printf("MasterCard \n");
+        }
+        else if(nrcartao[0] == '5' && inrcartao[1] == '5')
+        {
+           printf("\n");
+           printf("MasterCard \n");
+        }
+        else if(nrcartao[0] == '4' )
+        {
+           printf("\n");
+           printf("Visa \n");
+        }
+        else
+        {
+           printf("\n");
+           printf("INVALID\n");
+           return 0;
+        }
 
      for(i=strlen(nrcartao)-1 ; i >= 0 ; i=i-2)
      {
