@@ -103,6 +103,6 @@ int main(void)
                printf("\n");
                printf("INVALID\n");
             }
-      
+     for(n=strlen(nrcartao)-2)
 
 }
