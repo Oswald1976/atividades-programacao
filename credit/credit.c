@@ -106,6 +106,7 @@ int main(void)
      for(n=strlen(nrcartao)-2 ; n <= 0 ; n=n-2)
      {
       inrcartao[n]*2
+      
      }
 
 }
