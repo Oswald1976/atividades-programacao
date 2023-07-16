@@ -49,7 +49,7 @@ int main(void)
 
 
  // int validarCartaoCredito(const char* numeroCartao) {
-    int len = strlen(numeroCartao);
+ 
     int soma = 0;
     int digitoDuplo = 0;
 
