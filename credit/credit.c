@@ -56,7 +56,50 @@ int main(void)
 
 
 
+int validarCartaoCredito(const char* numeroCartao) {
+    int len = strlen(numeroCartao);
+    int soma = 0;
+    int digitoDuplo = 0;
 
+    // Inicia a partir do penúltimo dígito e percorre o número de trás para frente
+    for (int i = len - 2; i >= 0; i -= 2) {
+        int digito = numeroCartao[i] - '0'; // Converte o caractere para inteiro
+
+        // Multiplica por 2 e verifica se o resultado é maior que 9
+        if ((digito * 2) > 9) {
+            digitoDuplo += (digito * 2) - 9;
+        } else {
+            digitoDuplo += digito * 2;
+        }
+    }
+
+    // Soma os dígitos que não foram duplicados
+    for (int i = len - 1; i >= 0; i -= 2) {
+        int digito = numeroCartao[i] - '0'; // Converte o caractere para inteiro
+        soma += digito;
+    }
+
+    int somaTotal = soma + digitoDuplo;
+
+    // Verifica se o número é válido
+    if (somaTotal % 10 == 0) {
+        return 1; // Válido
+    } else {
+        return 0; // Inválido
+    }
+}
+
+int main() {
+    const char* numeroCartao = "45320151128336"; // Número de exemplo
+
+    if (validarCartaoCredito(numeroCartao)) {
+        printf("Número de cartão de crédito válido\n");
+    } else {
+        printf("Número de cartão de crédito inválido\n");
+    }
+
+    return 0;
+}
 
 
 
