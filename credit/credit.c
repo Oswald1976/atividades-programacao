@@ -110,6 +110,8 @@ int main(void)
            printf("INVALID\n");
           // return 0;
         }
+
+    /*
      for(int i = 0; i < qtd; i++)
         {
             long b = pow(10,i);
@@ -143,5 +145,5 @@ int main(void)
                 }
             }
         }
-
+   */
 }
