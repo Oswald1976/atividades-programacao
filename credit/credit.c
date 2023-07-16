@@ -99,22 +99,38 @@ int main(void)
            printf("INVALID\n");
           // return 0;
         }
-      /* VERIFICAÇÃO DE NUMERO DE CARTAO (Algoritmo de Luhn)
-         pega o penultimo numero digitado multiplica por 2, vai retornando os numeros pulando 1 e fazendo a mesma operaçao
-         
+     for(int i = 0; i < qtd_digit; i++)
+        {
+            long b = pow(10,i);
+            fracoes = number/b;
+            c = fracoes%10;
 
+             if(i%2 != 0) // retorna os digitos na sequência do penúltimo
+            {
+                int tempDigit = c*2;
 
-     for(i=strlen(nrcartao)-1 ; i >= 0 ; i=i-2)
-     {
-      inrnorma+=nrcartao[i];
+                //Cálculos da soma do algoritmo de Luhn
+                if(tempDigit > 9)
+                {
+                    somaDigit1 += tempDigit%10+1;
+                }
+                else
+                {
+                    somaDigit1 += tempDigit;
+                }
 
-     }
+            }
+            else
+            {
+                if(c > 9)
+                {
+                    somaDigit2 += c % 10+1;
+                }
+                else
+                {
+                    somaDigit2 += c;
+                }
+            }
+        }
 
-   /*
-     for(n=strlen(nrcartao)-2 ; n <= 0 ; n=n-2)
-     {
-      inrmulti[n]*2
-
-     }
-   */
 }
