@@ -99,7 +99,7 @@ int main(void)
            printf("INVALID\n");
           // return 0;
         }
-     for(int i = 0; i < qtd_digit; i++)
+     for(int i = 0; i < qtd; i++)
         {
             long b = pow(10,i);
             fracoes = number/b;
