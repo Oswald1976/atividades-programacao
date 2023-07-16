@@ -12,8 +12,8 @@ int main(void)
 
     char nrcartao[20];
     int inrcartao[20];
-    int inrmulti[8];
-    int inrnorma = 0;
+    int tnrmulti = 0;
+    int tnrnorma = 0;
     int qtd=0;
     int i=0;
 
