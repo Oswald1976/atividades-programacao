@@ -52,6 +52,17 @@ int main(void)
             qtd++; // Acumula  quantidade de elementos do array
         }
 
+
+
+
+
+
+
+
+
+
+
+
         // testa os codigos para saber qual bandeira pertence o cartão
         if(nrcartao[0] == '3' && nrcartao[1] == '4')
         {
