@@ -2,15 +2,9 @@
 #include <cs50.h>
 #include <string.h>
 
-// Prototipar função
-
-
-
 
 int main(void)
 {
-
-
 
     char nrcartao[20];
     int inrcartao[20];
@@ -20,14 +14,15 @@ int main(void)
     int i=0;
 
     do
-      {
-
-    printf("Digite o Numero do Cartão de Credito .. : ");
-    scanf(" %s", nrcartao);
-      }
+    {
+        printf("Digite o Numero do Cartão de Credito .. : ");
+        scanf(" %s", nrcartao);
+    }
     while(strlen(nrcartao) < 13 || strlen(nrcartao) > 16);
 
-    for(i = 0; i <= strlen(nrcartao); i++)
+    int len = strlen(nrcartao);
+
+    for(i = 0; i <= len ; i++)
     {
         if(nrcartao[i] != '0' && nrcartao[i] != '1' &&
         nrcartao[i] != '2' && nrcartao[i] != '3' &&
@@ -36,29 +31,24 @@ int main(void)
         nrcartao[i] != '8' && nrcartao[i] != '9' &&
         nrcartao[i] != '\0')
         {
-
             printf("\n");
             printf("ERRO !!!, Lembre de digitar apenas numeros \n");
             printf("\n");
             printf("TENTE NOVAMENTE.... \n");
             printf("\n");
-
         }
 
     }
 
         //Efetua a conversao de array de char para um array de int.
-        for(i=0; i < strlen(nrcartao) ;i++) // strlen = retorna a quantidade de elemento no array
+        for(i=0; i < len  ;i++) // strlen = retorna a quantidade de elemento no array
         {
             inrcartao[i]=nrcartao[i]-48; // pq -48 ?
-            qtd++; // Acumula  quantidade de elementos do array
         }
 
-         while (qtd >=-1)
 
 
-
-int validarCartaoCredito(const char* numeroCartao) {
+ // int validarCartaoCredito(const char* numeroCartao) {
     int len = strlen(numeroCartao);
     int soma = 0;
     int digitoDuplo = 0;
