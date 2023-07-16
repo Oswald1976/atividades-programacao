@@ -81,17 +81,6 @@ int main(void)
     }
 }
 
-int main() {
-    const char* numeroCartao = "45320151128336"; // Número de exemplo
-
-    if (validarCartaoCredito(numeroCartao)) {
-        printf("Número de cartão de crédito válido\n");
-    } else {
-        printf("Número de cartão de crédito inválido\n");
-    }
-
-    return 0;
-}
 
 
 
