@@ -52,7 +52,8 @@ int main(void)
             qtd++; // Acumula  quantidade de elementos do array
         }
 
-         while (qtd .)
+         while (qtd >=-1)
+
 
 
 
