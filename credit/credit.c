@@ -2,6 +2,8 @@
 #include <cs50.h>
 #include <string.h>
 
+// Prototipar função
+
 
 
 
