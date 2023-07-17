@@ -39,7 +39,7 @@ int main(void)
 
     if (len < 13 || len  > 16) // confere se a quantidade numeros esta na faixa aceitavel
     {
-        printf("INVALID");
+        printf("INVALID\n");
         return 0;
     }
 
