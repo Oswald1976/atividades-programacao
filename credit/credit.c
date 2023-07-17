@@ -36,13 +36,13 @@ int main(void)
         }
     }
 
-    if (len < 13 || len  > 16) // confere se a quantidade numeros esta na faixa aceitavel
+   /* if (len < 13 || len  > 16) // confere se a quantidade numeros esta na faixa aceitavel
     {
         printf("INVALID");
         return 0;
     }
 
-
+*/
 
     for(i=0; i < len  ;i++) //
     {
