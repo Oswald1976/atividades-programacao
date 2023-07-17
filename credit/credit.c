@@ -60,7 +60,7 @@ int main(void)
         // Multiplica por 2 e verifica se o resultado é maior que 9
         if ((inrcartao[i]digito * 2) > 9)
         {
-            digitoDuplo += (digito * 2) - 9;
+            inrmulti += (digito * 2) - 9;
         }
         else
         {
