@@ -82,6 +82,7 @@ int main(void)
         printf("Numero de Cartão Valido !!!"); // Válido
     } else {
         printf("Numero de Cartão Invalido !!!"); // Inválido
+        return 0;
     }
 
 
