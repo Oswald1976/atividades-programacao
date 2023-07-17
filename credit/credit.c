@@ -48,7 +48,7 @@ int main(void)
  // int validarCartaoCredito(const char* numeroCartao) { PODE VIRAR UMA FUNÇAO POSTERIORMENTE
 
     // Inicia a partir do penúltimo dígito e percorre o número de trás para frente
-    for (int i = len - 2; i >= 0; i -= 2)
+    for (int i = strlen(nrcartao) - 2; i >= 0; i -= 2)
     {
        // int digito = numeroCartao[i] - '0'; // Converte o caractere para inteiro
 
