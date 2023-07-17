@@ -54,6 +54,7 @@ int main(void)
 
         // Multiplica por 2 e verifica se o resultado é maior que 9
         if ((inrcartao[i] * 2) > 9)
+
         {
             inrmulti += (inrcartao[i] * 2) - 9;
         }
@@ -72,13 +73,13 @@ int main(void)
     }
 
     soma = inrmulti + inrnorma;
-    
+
 
     // Verifica se o número é válido
     if (soma % 10 == 0) {
         printf("Numero de Cartão Valido !!!"); // Válido
     } else {
-        printf("Numero de Cartão Valido !!!"); // Inválido
+        printf("Numero de Cartão Invalido !!!"); // Inválido
     }
 
 
