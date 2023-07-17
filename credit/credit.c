@@ -49,18 +49,21 @@ int main(void)
 
 
  // int validarCartaoCredito(const char* numeroCartao) {
- 
+
     int soma = 0;
     int digitoDuplo = 0;
 
     // Inicia a partir do penúltimo dígito e percorre o número de trás para frente
     for (int i = len - 2; i >= 0; i -= 2) {
-        int digito = numeroCartao[i] - '0'; // Converte o caractere para inteiro
+       // int digito = numeroCartao[i] - '0'; // Converte o caractere para inteiro
 
         // Multiplica por 2 e verifica se o resultado é maior que 9
-        if ((digito * 2) > 9) {
+        if ((inrcartao[i]digito * 2) > 9)
+        {
             digitoDuplo += (digito * 2) - 9;
-        } else {
+        }
+        else
+        {
             digitoDuplo += digito * 2;
         }
     }
