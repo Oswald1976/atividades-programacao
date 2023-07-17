@@ -17,14 +17,8 @@ int main(void)
     printf("Digite o Numero do Cartão de Credito .. : ");
     scanf(" %s", nrcartao);
     len=strlen(nrcartao);
-    if (len < 13 || len  > 16);
-    {
-        Printf("INVALID")
-    }
 
-    // int len = strlen(nrcartao);
-
-    for(i = 0; i <= len ; i++)
+    for(i = 0; i <= len ; i++) // confere se foram digitados apenas numeros
     {
         if(nrcartao[i] != '0' && nrcartao[i] != '1' &&
         nrcartao[i] != '2' && nrcartao[i] != '3' &&
@@ -33,6 +27,7 @@ int main(void)
         nrcartao[i] != '8' && nrcartao[i] != '9' &&
         nrcartao[i] != '\0')
         {
+            printf("INVALID\n");
             printf("\n");
             printf("ERRO !!!, Lembre de digitar apenas numeros \n");
             printf("\n");
@@ -40,7 +35,17 @@ int main(void)
             printf("\n");
         }
     }
-        //Efetua a conversao de array de char para um array de int.
+
+    if (len < 13 || len  > 16) // confere se a quantidade numeros esta na faixa aceitavel
+    {
+        Printf("INVALID");
+        return 0;
+    }
+
+    // int len = strlen(nrcartao);
+
+
+    //Efetua a conversao de array de char para um array de int.
         for(i=0; i < len  ;i++) // strlen = retorna a quantidade de elemento no array
         {
             inrcartao[i]=nrcartao[i]-48; // pq -48 ?
