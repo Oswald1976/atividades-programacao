@@ -55,18 +55,19 @@ int main(void)
         // Multiplica por 2 e verifica se o resultado é maior que 9
         if ((inrcartao[i] * 2) > 9)
         {
-            inrmulti += (digito * 2) - 9;
+            inrmulti += (inrcartao[i] * 2) - 9;
         }
         else
         {
-            inrmulti += digito * 2;
+            inrmulti += inrcartao * 2;
         }
     }
 
     // Soma os dígitos que não foram duplicados
-    for (int i = len - 1; i >= 0; i -= 2) {
-        int digito = inumeroCartao[i] - '0'; // Converte o caractere para inteiro
-        inrnorma += digito;
+    for (int i = len - 1; i >= 0; i -= 2)
+    {
+        // int digito = inumeroCartao[i] - '0'; // Converte o caractere para inteiro
+        inrnorma += inumerocartao[i];
     }
 
     soma = inrmulti + inrnorma;
