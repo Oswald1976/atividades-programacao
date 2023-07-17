@@ -68,9 +68,11 @@ int main(void)
     {
         // int digito = inumeroCartao[i] - '0'; // Converte o caractere para inteiro
         inrnorma += inrcartao[i];
+
     }
 
     soma = inrmulti + inrnorma;
+    
 
     // Verifica se o número é válido
     if (soma % 10 == 0) {
