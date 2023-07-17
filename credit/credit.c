@@ -59,7 +59,7 @@ int main(void)
         }
         else
         {
-            inrmulti += inrcartao * 2;
+            inrmulti += inrcartao[i] * 2;
         }
     }
 
