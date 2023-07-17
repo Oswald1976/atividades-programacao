@@ -8,8 +8,9 @@ int main(void)
 
     char nrcartao[20];
     int inrcartao[20];
-    int tnrmulti = 0;
-    int tnrnorma = 0;
+    int inrmulti = 0;
+    int inrnorma = 0;
+    int soma = 0;
     int qtd=0;
     int i=0;
 
@@ -37,16 +38,12 @@ int main(void)
             printf("TENTE NOVAMENTE.... \n");
             printf("\n");
         }
-
     }
-
         //Efetua a conversao de array de char para um array de int.
         for(i=0; i < len  ;i++) // strlen = retorna a quantidade de elemento no array
         {
             inrcartao[i]=nrcartao[i]-48; // pq -48 ?
         }
-
-
 
  // int validarCartaoCredito(const char* numeroCartao) {
 
@@ -64,7 +61,7 @@ int main(void)
         }
         else
         {
-            digitoDuplo += digito * 2;
+            inrmulti += digito * 2;
         }
     }
 
