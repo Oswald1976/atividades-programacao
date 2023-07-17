@@ -134,39 +134,5 @@ int main(void)
           // return 0;
         }
 
-    /*
-     for(int i = 0; i < qtd; i++)
-        {
-            long b = pow(10,i);
-            fracoes = number/b;
-            c = fracoes%10;
-
-             if(i%2 != 0) // retorna os digitos na sequência do penúltimo
-            {
-                int tempDigit = c*2;
-
-                //Cálculos da soma do algoritmo de Luhn
-                if(tempDigit > 9)
-                {
-                    somaDigit1 += tempDigit%10+1;
-                }
-                else
-                {
-                    somaDigit1 += tempDigit;
-                }
-
-            }
-            else
-            {
-                if(c > 9)
-                {
-                    somaDigit2 += c % 10+1;
-                }
-                else
-                {
-                    somaDigit2 += c;
-                }
-            }
-        }
-   */
+    
 }
