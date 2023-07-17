@@ -106,7 +106,7 @@ int main(void)
         {
            printf("MASTERCARD\n");
         }
-        else if(nrcartao[0] == '5' && inrcartao[1] == '5')
+        else if(nrcartao[0] == '5' && nrcartao[1] == '5')
         {
            printf("MASTERCARD\n");
         }
