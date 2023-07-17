@@ -57,7 +57,7 @@ int main(void)
         if ((inrcartao[i] * 2) > 9)
 
         {
-            inrmulti += (inrcartao[i] * 2) - 9;
+            inrmulti += ((inrcartao[i] * 2) - 9);
         }
         else
         {
