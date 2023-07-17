@@ -54,19 +54,19 @@ int main(void)
         {
            printf("AMEX\n");
         }
-        if(nrcartao[0] == '3' && nrcartao[1] == '7')
+        else if(nrcartao[0] == '3' && nrcartao[1] == '7')
         {
            printf("AMEX\n");
         }
-        if(nrcartao[0] == '5' && nrcartao[1] == '1')
+        else if(nrcartao[0] == '5' && nrcartao[1] == '1')
         {
            printf("MASTERCARD\n");
         }
-        if(nrcartao[0] == '5' && nrcartao[1] == '2')
+        else if(nrcartao[0] == '5' && nrcartao[1] == '2')
         {
            printf("MASTERCARD\n");
         }
-        if(nrcartao[0] == '5' && nrcartao[1] == '3')
+        else if(nrcartao[0] == '5' && nrcartao[1] == '3')
         {
            printf("MASTERCARD\n");;
         }
