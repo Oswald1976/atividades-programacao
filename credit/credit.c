@@ -52,47 +52,38 @@ int main(void)
 // testa os codigos para saber qual bandeira pertence o cartão
         if(nrcartao[0] == '3' && nrcartao[1] == '4')
         {
-           printf("\n");
-           printf("Amex \n");
+           printf("AMEX\n");
         }
         if(nrcartao[0] == '3' && nrcartao[1] == '7')
         {
-           printf("\n");
-           printf("Amex \n");
+           printf("AMEX\n");
         }
         if(nrcartao[0] == '5' && nrcartao[1] == '1')
         {
-           printf("\n");
-           printf("MasterCard \n");
+           printf("MASTERCARD\n");
         }
         if(nrcartao[0] == '5' && nrcartao[1] == '2')
         {
-           printf("\n");
-           printf("MasterCard \n");
+           printf("MASTERCARD\n");
         }
         if(nrcartao[0] == '5' && nrcartao[1] == '3')
         {
-           printf("\n");
-           printf("MasterCard \n");
+           printf("MASTERCARD\n");;
         }
         else if(nrcartao[0] == '5' && nrcartao[1] == '4')
         {
-           printf("\n");
-           printf("MasterCard \n");
+           printf("MASTERCARD\n");
         }
         else if(nrcartao[0] == '5' && inrcartao[1] == '5')
         {
-           printf("\n");
-           printf("MasterCard \n");
+           printf("MASTERCARD\n");
         }
         else if(nrcartao[0] == '4' )
         {
-           printf("\n");
-           printf("Visa \n");
+           printf("VISA\n");
         }
         else
         {
-           printf("\n");
            printf("INVALID\n");
           // return 0;
         }
