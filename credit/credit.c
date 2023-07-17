@@ -117,9 +117,9 @@ int main(void)
 
     if (soma % 10 == 0) // Verifica se o número é válido
     {
-        printf("VALID"); // Válido
+        printf("VALID\n"); // Válido
     } else {
-        printf("INVALID"); // Inválido
+        printf("INVALID\n"); // Inválido
         return 0;
     }
 
