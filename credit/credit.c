@@ -19,6 +19,7 @@ int main(void)
         printf("Digite o Numero do Cartão de Credito .. : ");
         scanf(" %s", nrcartao);
     }
+
     while(strlen(nrcartao) < 13 || strlen(nrcartao) > 16);
 
     int len = strlen(nrcartao);
