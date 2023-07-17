@@ -12,7 +12,7 @@ int main(void)
     int inrnorma = 0;
     int soma = 0;
     int qtd=0;
-    int i=0;
+    int i;
 
     do
     {
