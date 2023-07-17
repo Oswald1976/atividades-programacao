@@ -126,9 +126,9 @@ int main(void)
 
     if (soma % 10 == 0) // Verifica se o número é válido
     {
-        printf("Numero de Cartão Valido !!!"); // Válido
+        printf("VALID"); // Válido
     } else {
-        printf("Numero de Cartão Invalido !!!"); // Inválido
+        printf("INVALID"); // Inválido
         return 0;
     }
 
