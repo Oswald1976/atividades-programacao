@@ -65,8 +65,8 @@ int main(void)
 
     // Soma os dígitos que não foram duplicados
     for (int i = len - 1; i >= 0; i -= 2) {
-        int digito = numeroCartao[i] - '0'; // Converte o caractere para inteiro
-        soma += digito;
+        int digito = inumeroCartao[i] - '0'; // Converte o caractere para inteiro
+        inrnormalsoma += digito;
     }
 
     int somaTotal = soma + digitoDuplo;
