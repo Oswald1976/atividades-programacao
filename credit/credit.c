@@ -74,17 +74,10 @@ int main(void)
 
     // Verifica se o número é válido
     if (soma % 10 == 0) {
-        return 1; // Válido
+        printf("Numero de Cartão Valido !!!"); // Válido
     } else {
-        return 0; // Inválido
+        printf("Numero de Cartão Valido !!!"); // Inválido
     }
-
-
-
-
-
-
-
 
 
         // testa os codigos para saber qual bandeira pertence o cartão
