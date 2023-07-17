@@ -53,7 +53,7 @@ int main(void)
        // int digito = numeroCartao[i] - '0'; // Converte o caractere para inteiro
 
         // Multiplica por 2 e verifica se o resultado é maior que 9
-        if ((inrcartao[i]digito * 2) > 9)
+        if ((inrcartao[i] * 2) > 9)
         {
             inrmulti += (digito * 2) - 9;
         }
@@ -66,13 +66,13 @@ int main(void)
     // Soma os dígitos que não foram duplicados
     for (int i = len - 1; i >= 0; i -= 2) {
         int digito = inumeroCartao[i] - '0'; // Converte o caractere para inteiro
-        inrnormalsoma += digito;
+        inrnorma += digito;
     }
 
-    int somaTotal = soma + digitoDuplo;
+    soma = inrmulti + inrnorma;
 
     // Verifica se o número é válido
-    if (somaTotal % 10 == 0) {
+    if (soma % 10 == 0) {
         return 1; // Válido
     } else {
         return 0; // Inválido
