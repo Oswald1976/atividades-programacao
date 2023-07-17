@@ -100,7 +100,7 @@ int main(void)
 
  // int validarCartaoCredito(const char* numeroCartao) { PODE VIRAR UMA FUNÇAO POSTERIORMENTE
 
-    for (i = qtd - 2; i >= 0; i -= 2) // Inicia a partir do penúltimo para o primeiro
+    for (i = len - 2; i >= 0; i -= 2) // Inicia a partir do penúltimo para o primeiro
     {
 
         if ((inrcartao[i] * 2) > 9) // Multiplica por 2 e verifica se o resultado é maior que 9
@@ -115,7 +115,7 @@ int main(void)
     }
 
 
-    for (i = qtd - 1; i >= 0; i -= 2) // Soma os dígitos que nao foram ultilizados na operação anterior
+    for (i = len - 1; i >= 0; i -= 2) // Soma os dígitos que nao foram ultilizados na operação anterior
     {
         inrnorma += inrcartao[i];
 
