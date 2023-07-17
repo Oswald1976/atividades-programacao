@@ -16,7 +16,7 @@ int main(void)
 
     printf("Digite o Numero do Cartão de Credito .. : ");
     scanf(" %s", nrcartao);
-    len=strlen(nrcartao);
+    len=strlen(nrcartao); // strlen = retorna a quantidade de elemento no array
 
     for(i = 0; i <= len ; i++) // confere se foram digitados apenas numeros
     {
@@ -42,56 +42,14 @@ int main(void)
         return 0;
     }
 
-    // int len = strlen(nrcartao);
 
 
-    //Efetua a conversao de array de char para um array de int.
-        for(i=0; i < len  ;i++) // strlen = retorna a quantidade de elemento no array
-        {
-            inrcartao[i]=nrcartao[i]-48; // pq -48 ?
-            qtd++;
-        }
-
- // int validarCartaoCredito(const char* numeroCartao) { PODE VIRAR UMA FUNÇAO POSTERIORMENTE
-
-    // Inicia a partir do penúltimo dígito e percorre o número de trás para frente
-    for (i = qtd - 2; i >= 0; i -= 2)
+    for(i=0; i < len  ;i++) //
     {
-       // int digito = numeroCartao[i] - '0'; // Converte o caractere para inteiro
-
-        // Multiplica por 2 e verifica se o resultado é maior que 9
-        if ((inrcartao[i] * 2) > 9)
-
-        {
-            inrmulti += (inrcartao[i] * 2) - 9;
-        }
-        else
-        {
-            inrmulti += inrcartao[i] * 2;
-        }
+        inrcartao[i]=nrcartao[i]-48; // pq -48 ?  Efetua a conversao de array de char para um array de int.
     }
 
-    // Soma os dígitos que não foram duplicados
-    for (i = qtd - 1; i >= 0; i -= 2)
-    {
-        // int digito = inumeroCartao[i] - '0'; // Converte o caractere para inteiro
-        inrnorma += inrcartao[i];
-
-    }
-
-    soma = inrmulti + inrnorma;
-
-
-    // Verifica se o número é válido
-    if (soma % 10 == 0) {
-        printf("Numero de Cartão Valido !!!"); // Válido
-    } else {
-        printf("Numero de Cartão Invalido !!!"); // Inválido
-        return 0;
-    }
-
-
-        // testa os codigos para saber qual bandeira pertence o cartão
+// testa os codigos para saber qual bandeira pertence o cartão
         if(nrcartao[0] == '3' && nrcartao[1] == '4')
         {
            printf("\n");
@@ -139,5 +97,39 @@ int main(void)
           // return 0;
         }
 
+
+ // int validarCartaoCredito(const char* numeroCartao) { PODE VIRAR UMA FUNÇAO POSTERIORMENTE
+
+    for (i = qtd - 2; i >= 0; i -= 2) // Inicia a partir do penúltimo para o primeiro
+    {
+
+        if ((inrcartao[i] * 2) > 9) // Multiplica por 2 e verifica se o resultado é maior que 9
+
+        {
+            inrmulti += (inrcartao[i] * 2) - 9;
+        }
+        else
+        {
+            inrmulti += inrcartao[i] * 2;
+        }
+    }
+
+
+    for (i = qtd - 1; i >= 0; i -= 2) // Soma os dígitos que nao foram ultilizados na operação anterior
+    {
+        inrnorma += inrcartao[i];
+
+    }
+
+    soma = inrmulti + inrnorma;
+
+
+    if (soma % 10 == 0) // Verifica se o número é válido
+    {
+        printf("Numero de Cartão Valido !!!"); // Válido
+    } else {
+        printf("Numero de Cartão Invalido !!!"); // Inválido
+        return 0;
+    }
 
 }
