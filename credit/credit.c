@@ -44,12 +44,13 @@ int main(void)
         for(i=0; i < len  ;i++) // strlen = retorna a quantidade de elemento no array
         {
             inrcartao[i]=nrcartao[i]-48; // pq -48 ?
+            qtd++;
         }
 
  // int validarCartaoCredito(const char* numeroCartao) { PODE VIRAR UMA FUNÇAO POSTERIORMENTE
 
     // Inicia a partir do penúltimo dígito e percorre o número de trás para frente
-    for (i = len - 2; i >= 0; i -= 2)
+    for (i = qtd - 2; i >= 0; i -= 2)
     {
        // int digito = numeroCartao[i] - '0'; // Converte o caractere para inteiro
 
@@ -66,7 +67,7 @@ int main(void)
     }
 
     // Soma os dígitos que não foram duplicados
-    for (i = len - 1; i >= 0; i -= 2)
+    for (i = qtd - 1; i >= 0; i -= 2)
     {
         // int digito = inumeroCartao[i] - '0'; // Converte o caractere para inteiro
         inrnorma += inrcartao[i];
