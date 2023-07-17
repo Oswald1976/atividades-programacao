@@ -67,7 +67,7 @@ int main(void)
     for (i = len - 1; i >= 0; i -= 2)
     {
         // int digito = inumeroCartao[i] - '0'; // Converte o caractere para inteiro
-        inrnorma += inumerocartao[i];
+        inrnorma += inrcartao[i];
     }
 
     soma = inrmulti + inrnorma;
