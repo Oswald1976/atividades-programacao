@@ -11,18 +11,18 @@ int main(void)
     int inrmulti = 0;
     int inrnorma = 0;
     int soma = 0;
-    int qtd=0;
+    int len=0;
     int i;
 
-    do
+    printf("Digite o Numero do Cartão de Credito .. : ");
+    scanf(" %s", nrcartao);
+    len=strlen(nrcartao);
+    if (len < 13 || len  > 16);
     {
-        printf("Digite o Numero do Cartão de Credito .. : ");
-        scanf(" %s", nrcartao);
+        Printf("INVALID")
     }
 
-    while(strlen(nrcartao) < 13 || strlen(nrcartao) > 16);
-
-    int len = strlen(nrcartao);
+    // int len = strlen(nrcartao);
 
     for(i = 0; i <= len ; i++)
     {
@@ -134,5 +134,5 @@ int main(void)
           // return 0;
         }
 
-    
+
 }
