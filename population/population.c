@@ -10,7 +10,7 @@ int main(void)
     {
         printf("Digite a Quantidade Atual");
         scanf("%i", popatua);
-    }
+    }W
 
 
 }
