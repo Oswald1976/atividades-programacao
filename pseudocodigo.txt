@@ -1,6 +1,6 @@
 CALCULE O CRESCIMENTO POPULACIONAL E QUANTIDADE DE ANOS QUE ISSO DEMORA
-SOLICITA A QUANT ATUAL DA POPULAÇÃO :  popatua
-SOLICITA A QUANT FUTURA DA POPULAÇÃO : popfutu
+SOLICITA A QUANT ATUAL DA POPULAÇÃO :  popatua (quantidade não pode ser menor q 9)
+SOLICITA A QUANT FUTURA DA POPULAÇÃO : popfutu (quantidade não pode ser menor que popatua)
 CALCULA A QUANT MORTES : popatual / 4 = qtdmort
 CALCULA A QUANT NASCI  : popatual / 3 = qtonasc
 CALCULA A NOVA QTD ATUAL POP : popatua = popatua + (ptonasc - qtdmort)
