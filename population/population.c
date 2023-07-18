@@ -8,7 +8,8 @@ int main(void)
 {
     do
     {
-        printf("Digite a quan")
+        printf("Digite a Quantidade Atual")
+        scanf(%i, &popatua);
     }
 
 
