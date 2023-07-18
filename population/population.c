@@ -9,13 +9,13 @@ int main(void)
     do
     {
         printf("Digite a Quantidade Atual");
-        scanf("%s", popatua);
+        scanf("%i", &popatua);
     }while(popatua < 9);
 
     do
     {
         printf("Digite a Quantidade futural");
-        scanf("%s", popfutu);
+        scanf("%i", &popfutu);
     }while(popfutu <= popatua );
 
     do while (popatua <= popfutu)
