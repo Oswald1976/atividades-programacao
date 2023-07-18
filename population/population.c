@@ -17,5 +17,6 @@ int main(void)
         printf("Digite a Quantidade futural");
         scanf("%d", popfuru);
     }while(popfutu <= popatua );
+    
 
 }
