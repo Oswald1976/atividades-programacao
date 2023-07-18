@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-int popatua, popfutu, qtdmort, qtdnasc, qtdanos;
+int popatua, popfutu, qtdmort, qtdnasc, qtdatua;
 
 
 int main(void)
@@ -18,6 +18,7 @@ int main(void)
         scanf("%d", popfuru);
     }while(popfutu <= popatua );
 
-    popatua / 
-
+    qtdmort = popatua / 4;
+    qtdnasc = popatua / 3;
+    
 }
