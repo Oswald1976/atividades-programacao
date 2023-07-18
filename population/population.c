@@ -18,7 +18,7 @@ int main(void)
         scanf("%i", &popfutu);
     }while(popfutu <= popatua );
 
-    do while (popatua <= popfutu)
+    while (popatua <= popfutu)
     {
         qtdmort = popatua / 4;
         qtdnasc = popatua / 3;
