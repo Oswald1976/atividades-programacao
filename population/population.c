@@ -18,6 +18,6 @@ int main(void)
         scanf("%d", popfuru);
     }while(popfutu <= popatua );
 
-    
+    popatua / 
 
 }
