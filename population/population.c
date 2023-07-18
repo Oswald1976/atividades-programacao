@@ -8,13 +8,13 @@ int main(void)
 {
     do
     {
-        printf("Digite a Quantidade Atual");
+        printf("Digite a Quantidade Atual   ");
         scanf("%i", &popatua);
     }while(popatua < 9);
 
     do
     {
-        printf("Digite a Quantidade futural");
+        printf("Digite a Quantidade futural ");
         scanf("%i", &popfutu);
     }while(popfutu <= popatua );
 
