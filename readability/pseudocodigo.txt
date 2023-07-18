@@ -9,4 +9,6 @@ ONDE L = o número médio de letras por 100 palavras no texto
     S é o número médio de sentenças por 100 palavras no texto
 ARREDONDA O INDICE PARA NUMERO INTEIRO MAIS PROXIMO
 IMPRIME O INDICE
-QUANDO MENOR QUE 1 = 
+QUANDO MENOR QUE 1 = Before Grade 1
+ENTRE ESTES INDICES = 
+QUANDO MAIOR QUE 16 = Grade 16+
