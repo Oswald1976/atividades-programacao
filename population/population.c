@@ -28,5 +28,5 @@ int main(void)
         popatua = popatua + qtdatua ;
         qtdanos++;
     }
-    printf(%qdtanos)
+    printf(%i,qdtanos)
 }
