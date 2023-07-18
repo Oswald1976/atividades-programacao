@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-int popatua, popfutu, qtdmort, qtdnasc, qtdatua;
+int popatua, popfutu, qtdmort, qtdnasc, qtdatua, qtdanos;
 
 
 int main(void)
@@ -24,4 +24,6 @@ int main(void)
     qtdatua = qtdnasc - qtdmort;
 
     popatua = popatua + qtdatua ;
+    qtdanos++;
+
 }
