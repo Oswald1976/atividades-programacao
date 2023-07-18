@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-int popatua, popfutu, qtdmort, qtdnasc, qtdanos
+int popatua, popfutu, qtdmort, qtdnasc, qtdanos;
 
 
 
