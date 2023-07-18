@@ -16,9 +16,9 @@ int main(void)
     {
         printf("Digite a Quantidade futural ");
         scanf("%i", &popfutu);
-    }while(popfutu <= popatua );
+    }while(popfutu < popatua );
 
-    while (popatua <= popfutu)
+    while (popatua < popfutu)
     {
         qtdmort = popatua / 4;
         qtdnasc = popatua / 3;
