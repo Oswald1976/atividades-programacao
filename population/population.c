@@ -20,5 +20,8 @@ int main(void)
 
     qtdmort = popatua / 4;
     qtdnasc = popatua / 3;
-    
+
+    qtdatua = qtdnasc - qtdmort;
+
+    popatua = popatua + qtdatua ;
 }
