@@ -20,13 +20,13 @@ int main(void)
 
     do while (popatua <= popfutu)
     {
-    qtdmort = popatua / 4;
-    qtdnasc = popatua / 3;
+        qtdmort = popatua / 4;
+        qtdnasc = popatua / 3;
 
-    qtdatua = qtdnasc - qtdmort;
+        qtdatua = qtdnasc - qtdmort;
 
-    popatua = popatua + qtdatua ;
-    qtdanos++;
+        popatua = popatua + qtdatua ;
+        qtdanos++;
     }
-    
+    printf(%qdtanos)
 }
