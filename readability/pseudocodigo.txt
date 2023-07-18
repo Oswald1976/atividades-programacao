@@ -7,3 +7,4 @@ FORMULA DO INDICE:
 INDICE = 0,0588 * L - 0,296 * S - 15,8
 ONDE L = o número médio de letras por 100 palavras no texto
     S é o número médio de sentenças por 100 palavras no texto
+    
