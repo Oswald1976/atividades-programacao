@@ -15,7 +15,7 @@ int main(void)
     do
     {
         printf("Digite a Quantidade futural");
-        scanf("%d", popfuru);
+        scanf("%d", popfutu);
     }while(popfutu <= popatua );
 
     do while (popatua <= popfutu)
@@ -28,5 +28,5 @@ int main(void)
         popatua = popatua + qtdatua ;
         qtdanos++;
     }
-    printf("%i\n", qdtanos);
+    printf("%i\n", &qtdanos);
 }
