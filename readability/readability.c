@@ -3,6 +3,7 @@
 #include <ctype.h>
 
 chair texto[];
+int 
 int main(void)
 {
     printf("Texto");
