@@ -3,7 +3,7 @@
 #include <ctype.h>
 
 chair texto[];
-int 
+int letras, palav, frase;
 int main(void)
 {
     printf("Texto");
