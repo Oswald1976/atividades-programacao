@@ -3,6 +3,7 @@
 
 int main(void)
 {
-
+    printf("Texto");
+    scanf()
 
 }
