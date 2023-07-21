@@ -2,7 +2,7 @@
 #include <string.h>
 #include <ctype.h>
 
-string texto;
+chair texto[];
 int main(void)
 {
     printf("Texto");
