@@ -10,10 +10,11 @@ int main(void)
 {
     printf("Texto  : ");
     scanf("%s", texto);
-    int i, len;
+    int i;
+    int len=strlen(texto);
 
 
-    for(i = 0, len = strlen(texto) ; i < len ; len++)
+    for(i = 0 ; i < len ; len++)
     {
 
         if (isalpha(texto[i]) || texto[i] == '\0')  // se o caracter for letra adiciona 1 no contador de letras
