@@ -16,7 +16,7 @@ int main(void)
     int len=strlen(texto);
 
 
-    for(i = 0 ; i < len ; len++)
+    for(i = 0 ; i < len ; i++)
     {
 
         if (isalpha(texto[i]) || texto[i] == '\0')  // se o caracter for letra adiciona 1 no contador de letras
@@ -33,5 +33,6 @@ int main(void)
         }
     }while( i < len );
 
+    printf("%i", letras);
     printf("%i", letras);
 }
