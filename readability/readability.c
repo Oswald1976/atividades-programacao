@@ -8,9 +8,9 @@
 
 int main(void)
 {
-    string texto;
-    printf("Texto  : ");
-    scanf("%s", texto);
+
+
+    string texto = get_string("Digite o texto: ");
 
     int letras = 0 , palav = 0, frase = 0;
     int i;
@@ -37,5 +37,7 @@ int main(void)
     printf("%i", letras);
     printf("\n");
     printf("%i", palav);
+    printf("\n");
+    printf("%i", frase);
     printf("\n");
 }
