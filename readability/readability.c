@@ -3,11 +3,11 @@
 #include <string.h>
 #include <ctype.h>
 
-string texto;
 
 
 int main(void)
 {
+    string texto;
     printf("Texto  : ");
     scanf("%s", texto);
 
