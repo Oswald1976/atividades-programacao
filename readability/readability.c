@@ -41,10 +41,5 @@ int main(void)
 
 
 
-    printf("%i", letras);
-    printf("\n");
-    printf("%i", palav);
-    printf("\n");
-    printf("%i", frase);
-    printf("\n");
+   
 }
