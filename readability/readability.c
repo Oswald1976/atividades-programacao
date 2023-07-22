@@ -37,7 +37,11 @@ int main(void)
     float L = letras / (float) palav * 100;
     float S = frase / (float) palav * 100;
 
-    float INDIC = 0.0588 * L - 0.296 * S - 15.8;
+    float ppart = 0.0588 * L;
+    float spart = 0.296 * S - 15.8;
+
+
+    float INDIC = ppart - spart;
 
     printf("%f", INDIC);
 
