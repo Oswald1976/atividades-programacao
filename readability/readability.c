@@ -9,10 +9,11 @@ int main(void)
 {
     printf("Texto");
     scanf("%s", texto);
+    len = strlen(texto);
 
     do
     {
-        i++;
+        
         if (isalpha(texto[i]) || texto[i] == '\0')  // se o caracter for letra adiciona 1 no contador de letras
         {
             letras++;
@@ -25,7 +26,7 @@ int main(void)
         {
             frase++;
         }
-    }while(i<n)
+    }while( i < len );
 
     printf("%i", letras);
 }
