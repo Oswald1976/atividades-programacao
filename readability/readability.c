@@ -34,5 +34,7 @@ int main(void)
     }while( i < len );
 
     printf("%i", letras);
-    printf("%i", letras);
+    printf("\n");
+    printf("%i", palav);
+    printf("\n");
 }
