@@ -3,7 +3,7 @@
 #include <string.h>
 #include <ctype.h>
 
-char texto[1000];
+string texto;
 
 
 int main(void)
