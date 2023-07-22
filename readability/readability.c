@@ -7,7 +7,7 @@ string texto;
 int letras = 0 , palav = 0, frase = 0;
 int main(void)
 {
-    printf("Texto");
+    printf("Texto  : ");
     scanf("%s", texto);
     int i, len;
 
