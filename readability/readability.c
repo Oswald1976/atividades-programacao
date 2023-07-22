@@ -9,12 +9,23 @@ int main(void)
 {
     printf("Texto");
     scanf("%s", texto);
-    for(i = 0, len = strlen(texto); i < len ; i++)
-        if(texto[i] >= 'a' && texto[i] <= 'z'  && (texto[i] >= 'A' && texto[i] <= 'Z')
 
+    do
+    {
+        i++;
+        if (isalpha(texto[i]) || texto[i] == '\0')  // se o caracter for letra adiciona 1 no contador de letras
         {
             letras++;
         }
+        if (isblank(texto[i]) || texto[i] == '\0') // se o caracter for espaço em branco  adiciona 1 no contador de palav
+        {
+            palav++;
+        }
+        if (texto[i] == '!' || textot[i] == '.' || texto[i] == '?') // se o caracter for ! ou . ou ? adiciona 1 no contador de frase
+        {
+            frase++;
+        }
+    }while(i<n)
 
     printf("%i", letras);
 }
