@@ -34,7 +34,7 @@ int main(void)
         }
     }while( i < len );
 
-    INDIINDICE = 0,0588 * L - 0,296 * S - 15,8
+    INDICE = 0,0588 * L - 0,296 * S - 15,8
 
 
 
