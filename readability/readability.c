@@ -10,6 +10,8 @@ int main(void)
 {
     printf("Texto  : ");
     scanf("%s", texto);
+
+    int letras = 0 , palav = 0, frase = 0;
     int i;
     int len=strlen(texto);
 
