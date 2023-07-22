@@ -39,6 +39,8 @@ int main(void)
 
     float INDIC = 0.0588 * L - 0.296 * S - 15.8;
 
+    printf("%f", INDIC);
+
 
 
 
