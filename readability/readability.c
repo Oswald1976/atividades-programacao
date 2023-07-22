@@ -4,16 +4,17 @@
 #include <ctype.h>
 
 string texto;
-int i, len , letras = 0 , palav = 0, frase = 0;
+int letras = 0 , palav = 0, frase = 0;
 int main(void)
 {
     printf("Texto");
     scanf("%s", texto);
-    len = strlen(texto);
+    int i, len;
 
-    do
+
+    for(i = 0, len = strlen(texto) ;i < len ; len++)
     {
-        
+
         if (isalpha(texto[i]) || texto[i] == '\0')  // se o caracter for letra adiciona 1 no contador de letras
         {
             letras++;
@@ -22,7 +23,7 @@ int main(void)
         {
             palav++;
         }
-        if (texto[i] == '!' || textot[i] == '.' || texto[i] == '?') // se o caracter for ! ou . ou ? adiciona 1 no contador de frase
+        if (texto[i] == '!' || texto[i] == '.' || texto[i] == '?') // se o caracter for ! ou . ou ? adiciona 1 no contador de frase
         {
             frase++;
         }
