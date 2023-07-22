@@ -35,9 +35,9 @@ int main(void)
     }while( i < len );
 
     float L = letras / (float) palavr * 100;
-    float L = letras / (float) palavr * 100;
+    float L = frase / (float) palavr * 100;
 
-    //INDIC = 0,0588 * L - 0,296 * S - 15,8
+    float INDIC = (0,0588 * L) - (0,296 * S - 15,8);
 
 
 
