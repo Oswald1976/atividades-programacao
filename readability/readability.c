@@ -3,7 +3,7 @@
 #include <string.h>
 #include <ctype.h>
 
-char texto[];
+char texto[1000];
 int letras = 0 , palav = 0, frase = 0;
 
 int main(void)
