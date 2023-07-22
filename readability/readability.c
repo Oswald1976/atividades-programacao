@@ -9,7 +9,7 @@ int main(void)
     printf("Texto");
     scanf(%s, texto);
     for(i = 0, len = strlen(texto); i < len ; i++)
-        if 
+        if texto[i] 65 90
 
 
 }
