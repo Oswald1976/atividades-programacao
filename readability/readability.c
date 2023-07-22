@@ -3,12 +3,13 @@
 #include <ctype.h>
 
 chair texto[];
-int letras, palav, frase;
+int i, len, letras, palav, frase;
 int main(void)
 {
     printf("Texto");
     scanf(%s, texto);
-
+    for(i = 0, len = strlen(texto); i < len ; i++)
+        if 
 
 
 }
