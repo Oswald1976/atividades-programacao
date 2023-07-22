@@ -10,6 +10,9 @@ int main(void)
     scanf(%s, texto);
     for(i = 0, len = strlen(texto); i < len ; i++)
         if(texto[i] >= 'a' && texto[i] <= 'z" || texto[i] >= 'A' && texto[i] <= 'Z')
+        {
+            letras++;
+        }
 
 
 }
