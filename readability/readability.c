@@ -2,7 +2,7 @@
 #include <string.h>
 #include <ctype.h>
 
-chair texto[];
+char texto[];
 int i, len, letras, palav, frase;
 int main(void)
 {
