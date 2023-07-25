@@ -44,7 +44,7 @@ int main(void)
     float INDIC = ppart - spart - 15.8;
 
     printf("%f", INDIC);
-
+    
 
 
 
