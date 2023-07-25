@@ -41,14 +41,22 @@ int main(void)
     float spart = 0.296 * S;
 
 
-    float INDIC = ppart - spart - 15.8;
+    float indic = ppart - spart - 15.8;
 
-    printf("%f", INDIC);
+   // printf("%f", INDIC);
 
-    int Grade=round(INDIC);
+    int grade=round(indic);
 
-    if (INDIC >= 16)
-
-
-
+    if (grade >= 16)
+    {
+        printf("Grade 16+");
+    }
+    if (grade < 1)
+    {
+        printf("Before Grade 1");
+    }
+    else
+    {
+        printf("Grade %i", grade);
+    }
 }
