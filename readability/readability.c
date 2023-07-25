@@ -33,9 +33,10 @@ int main(void)
             frase++;
         }
     }while( i < len );
+     palav++;
 
-    float L = letras / (float) palav + 1 * 100;
-    float S = frase / (float) palav + 1 * 100;
+    float L = letras / (float) palav  * 100;
+    float S = frase / (float) palav  * 100;
 
     float ppart = 0.0588 * L;
     float spart = 0.296 * S;
