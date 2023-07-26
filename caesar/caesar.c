@@ -8,11 +8,13 @@
 
 int main(int argc, string argv[])
 {
-   
+
     if(argc != 2)
     {
         printf("Usage: ./caesar key \n");
     }
+
+    for(1=n)
 
     if(isdigit(argv[1]))
     {
