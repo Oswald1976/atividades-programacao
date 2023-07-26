@@ -15,8 +15,8 @@ int main(int argc, char *argv[])
 
         if(keyCheckFunc(argv[1]) == 1) // check argv[1,i] = int
         {
-            txtsimp = get_string("plaintext: ");
-           
+            string txt = get_string("plaintext: ");
+
         }
         else
         {
