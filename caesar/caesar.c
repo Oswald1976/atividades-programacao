@@ -7,6 +7,8 @@
 // Prototype Functions
 int keyCheckFunc(char x[]);
 
+char txt[100];
+
 int main(int argc, char *argv[])
 {
 
@@ -15,7 +17,7 @@ int main(int argc, char *argv[])
 
         if(keyCheckFunc(argv[1]) == 1) // check argv[1,i] = int
         {
-            string txt = get_string("plaintext: ");
+            printf("plaintext: ");
 
         }
         else
