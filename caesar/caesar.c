@@ -4,7 +4,8 @@
 #include <string.h>
 #include <math.h>
 
-
+// Prototype Functions
+int keyCheckFunc(char x[])
 
 int main(int argc, char *argv[])
 {
@@ -24,6 +25,8 @@ int main(int argc, char *argv[])
 
 
 }
+
+// Functions
 
 int keyCheckFunc(char x[])
 {
