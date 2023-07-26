@@ -5,7 +5,7 @@
 #include <math.h>
 
 // Prototype Functions
-int keyCheckFunc(char x[])
+int keyCheckFunc(char x[]);
 
 int main(int argc, char *argv[])
 {
@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
         {
         printf("Usage: ./caesar key \n");
         }
-        
+
     }
     else
     {
