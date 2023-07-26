@@ -14,9 +14,12 @@ int main(int argc, string argv[])
         printf("Usage: ./caesar key \n");
     }
 
-    for(int i=0, len=strlen(argv[1]); )
+    for(int i=0, len=strlen(argv[1]); i < len; i++)
+        {
+            char argvc[i]=argv{1,i};
+        }
 
-    if(isdigit(argv[1]))
+    if(isdigit(argvc[1]))
     {
         printf("Esta certo vc digitou um numero decimal \n");
     }
