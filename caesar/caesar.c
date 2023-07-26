@@ -13,8 +13,15 @@ int main(int argc, char *argv[])
     if(argc == 2)
     {
 
-       if(keyCheckFunc(argv[1]))
-       
+        if(keyCheckFunc(argv[1]) == 1)
+        {
+            printf("Numero inteiro \n");
+        }
+        else
+        {
+        printf("Usage: ./caesar key \n");
+        }
+        
     }
     else
     {
