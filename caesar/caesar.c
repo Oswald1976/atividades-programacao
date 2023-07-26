@@ -10,16 +10,16 @@ int keyCheckFunc(char x[]);
 int main(int argc, char *argv[])
 {
 
-    if(argc == 2)
+    if(argc == 2)  // check two arrays !?!?!?
     {
 
-        if(keyCheckFunc(argv[1]) == 1)
+        if(keyCheckFunc(argv[1]) == 1) // check argv[1,i] = int
         {
             printf("Numero inteiro \n");
         }
         else
         {
-        printf("Usage: ./caesar key \n");
+        printf("Usage: ./caesar key \n");   
         }
 
     }
@@ -43,6 +43,6 @@ int keyCheckFunc(char x[])
         {
             stop = 0;
         }
-     }
+    }
     return stop;
 }
