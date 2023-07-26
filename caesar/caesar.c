@@ -13,10 +13,8 @@ int main(int argc, char *argv[])
     if(argc == 2)
     {
 
-       if(isdigit(argv[1]))
-            {
-                printf("Esta certo vc digitou um numero decimal \n");
-            }
+       if(keyCheckFunc(argv[1]))
+       
     }
     else
     {
