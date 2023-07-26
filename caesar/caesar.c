@@ -8,6 +8,7 @@
 
 int main(int argc, string argv[])
 {
+    char argvc[2];
 
     if(argc != 2)
     {
@@ -16,7 +17,7 @@ int main(int argc, string argv[])
 
     for(int i=0, len=strlen(argv[1]); i < len; i++)
         {
-            char argvc[i]=argv{1,i};
+            argvc[i] = argv{1,i};
         }
 
     if(isdigit(argvc[1]))
