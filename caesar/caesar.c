@@ -15,7 +15,8 @@ int main(int argc, char *argv[])
 
         if(keyCheckFunc(argv[1]) == 1) // check argv[1,i] = int
         {
-            printf("Numero inteiro \n");
+            printf("plaintext: ");
+            scanf
         }
         else
         {
