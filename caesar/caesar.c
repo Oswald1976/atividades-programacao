@@ -19,13 +19,15 @@ int main(int argc, char *argv[])
         }
         else
         {
-        printf("Usage: ./caesar key \n");   
+            printf("Usage: ./caesar key \n");
+            return 1;
         }
 
     }
     else
     {
       printf("Usage: ./caesar key \n");
+      return 1;
     }
 
 
