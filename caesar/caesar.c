@@ -8,16 +8,10 @@
 
 int main(int argc, char *argv[])
 {
-    char argvc[2];
 
     if(argc == 2)
     {
-        for(int i=0, len=strlen(argv[1]); i < len; i++)
-            {
-                argvc[i] = argv{1,i};
-            }
-
-         if(isdigit(argvc[1]))
+       if(!isdigit(argvc[1]))
             {
                 printf("Esta certo vc digitou um numero decimal \n");
             }
