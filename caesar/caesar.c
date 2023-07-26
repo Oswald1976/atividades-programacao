@@ -12,5 +12,12 @@ int main(int argc, string argv[])
     {
         printf("Usage: ./caesar key \n");
     }
-    if(isdigit(argv[2])
+    if(isdigit(argv[2]))
+    {
+        printf("Esta certo vc digitou um numero decimal \n");
+    }
+    else
+    {
+      printf("Usage: ./caesar key \n");
+    }
 }
