@@ -6,7 +6,7 @@
 
 
 
-int main(int argc, string argv[])
+int main(int argc, char *argv[])
 {
     char argvc[2];
 
