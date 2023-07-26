@@ -8,11 +8,12 @@
 
 int main(int argc, string argv[])
 {
+   
     if(argc != 2)
     {
         printf("Usage: ./caesar key \n");
     }
-    
+
     if(isdigit(argv[1]))
     {
         printf("Esta certo vc digitou um numero decimal \n");
