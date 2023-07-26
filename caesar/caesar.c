@@ -11,6 +11,7 @@ int main(int argc, char *argv[])
 
     if(argc == 2)
     {
+
        if(isdigit(argv[1]))
             {
                 printf("Esta certo vc digitou um numero decimal \n");
@@ -20,4 +21,20 @@ int main(int argc, char *argv[])
     {
       printf("Usage: ./caesar key \n");
     }
+
+
+}
+
+int keyCheckFunc(char x[])
+{
+    int stop = 1;
+    for (int i = 0, n = strlen(x); i < n && stop == 1; i++)
+    {
+
+        if (!isdigit(x[i]))
+        {
+            stop = 0;
+        }
+     }
+    return stop;
 }
