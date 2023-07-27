@@ -31,14 +31,16 @@ int main(int argc, char *argv[])
 
                     if(isupper(txt[i])) // se for alfabeto, ai testa pra ver se é maiusculo
                     {
-                        txtcifint[1]=((txt[i] - 65 + key) % 26) + 65;                             // se for maiuscula.. faz isso
+                        txtcifint[i]=((txt[i] - 65 + key) % 26) + 65;                             // se for maiuscula.. faz isso
+                    }
+                    else if(islower(txt[i]))  // se for alfabeto, ai testa pra ver se é minusculo
+                    {
+                        txtcifint[i]=((txt[i] - 97 + key) % 26) + 97;                             // se for minusculo.. faz isso
                     }
                     else
                     {
-                        txtcifint[1]=((txt[i] - 97 + key) % 26) + 97;                             // se for minusculo.. faz isso
+                        txtcifint[i]=txt[i];                            //se nao for alfabeto faz isso
                     }
-
-                                                    //se nao for alfabeto faz isso
             }
 
 
