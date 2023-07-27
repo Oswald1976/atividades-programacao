@@ -25,7 +25,8 @@ int main(int argc, char *argv[])
 
             printf("plaintext: ");
             scanf("%s", txt);
-            for(int i = 0 , int len=strlen(txt) ; i < len ; i++)
+            int len=strlen(txt);
+            for(int i = 0 ; i < len ; i++)
             {
 
                     if(isupper(txt[i])) // se for alfabeto, ai testa pra ver se é maiusculo
