@@ -9,7 +9,7 @@
 int keyCheckFunc(char x[]);
 
 string txt;
-char txtcifint[100];
+char txtcif[100];
 int key;
 int main(int argc, char *argv[])
 {
@@ -29,17 +29,17 @@ int main(int argc, char *argv[])
 
                 if(isupper(txt[i])) // se for alfabeto, ai testa pra ver se é maiusculo
                 {
-                    txtcifint[i]=((txt[i] - 65 + key) % 26) + 65;                             // se for maiuscula.. faz isso
+                    txtcif[i]=((txt[i] - 65 + key) % 26) + 65;                             // se for maiuscula.. faz isso
                 }
                 else if(islower(txt[i]))  // se for alfabeto, ai testa pra ver se é minusculo
                 {
-                    txtcifint[i]=((txt[i] - 97 + key) % 26) + 97;                             // se for minusculo.. faz isso
+                    txtcif[i]=((txt[i] - 97 + key) % 26) + 97;                             // se for minusculo.. faz isso
                 }
                 else
                 {
-                    txtcifint[i]=txt[i];                            //se nao for alfabeto faz isso
+                    txtcif[i]=txt[i];                            //se nao for alfabeto faz isso
                 }
-            printf("ciphertext: %s\n", txtcifint);
+            printf("ciphertext: %s", txtcif);
             }
 
 
