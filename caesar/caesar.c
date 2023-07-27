@@ -9,7 +9,7 @@ int keyCheckFunc(char x[]);
 
 string txt;
 string txtcif;
-int key[2];
+int key;
 
 int main(int argc, char *argv[])
 {
@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
         {
             for(i=n,len=strlen(argv); i<len; i++)
             {
-                key[0] = argv[1,0];
+                key=atoi(argv[1]); // atoi converte char para int
             }
             printf("plaintext: ");
             scanf("%s", txt);
