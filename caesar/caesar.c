@@ -28,15 +28,15 @@ int main(int argc, char *argv[])
             for(i = 0 , len=strlen(txt) ; i < len ; i++)
             {
 
-                    if(islower(txt[i])) // se for alfabeto, ai testa pra ver se é minusculo
+                    if(isupper(txt[i])) // se for alfabeto, ai testa pra ver se é maiusculo
                     {
-                                                        // se for minusculo.. faz isso
+                         txtcif                               // se for minusculo.. faz isso
                     }
                     else
                     {
                                                         // se for maiusculo
                     }
-                
+
                                                     //se nao for alfabeto faz isso
             }
 
