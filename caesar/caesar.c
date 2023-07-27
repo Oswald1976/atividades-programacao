@@ -3,13 +3,14 @@
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
+#include <stdlib.h>
 
 // Prototype Functions
 int keyCheckFunc(char x[]);
 
 string txt;
 int txtcifint;
-int key;
+int key,i,len;
 
 int main(int argc, char *argv[])
 {
@@ -22,7 +23,7 @@ int main(int argc, char *argv[])
 
 
                 key=atoi(argv[1]); // atoi converte char para int
-          
+
             printf("plaintext: ");
             scanf("%s", txt);
             for(i = 0 , len=strlen(txt) ; i < len ; i++)
