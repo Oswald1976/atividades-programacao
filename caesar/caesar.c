@@ -27,8 +27,7 @@ int main(int argc, char *argv[])
             scanf("%s", txt);
             for(i = 0 , len=strlen(txt) ; i < len ; i++)
             {
-                if(isalpha(txt[i])) // testa o caractere para ver se é alfabeto
-                {
+
                     if(islower(txt[i])) // se for alfabeto, ai testa pra ver se é minusculo
                     {
                                                         // se for minusculo.. faz isso
@@ -37,7 +36,7 @@ int main(int argc, char *argv[])
                     {
                                                         // se for maiusculo
                     }
-                }
+                
                                                     //se nao for alfabeto faz isso
             }
 
