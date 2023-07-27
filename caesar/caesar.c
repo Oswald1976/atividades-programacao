@@ -9,6 +9,7 @@ int keyCheckFunc(char x[]);
 
 char txt[100];
 string txtcif;
+int key;
 
 int main(int argc, char *argv[])
 {
@@ -18,6 +19,7 @@ int main(int argc, char *argv[])
 
         if(keyCheckFunc(argv[1]) == 1) // check argv[1,i] = int
         {
+            key=
             printf("plaintext: ");
             scanf("%s", txt);
             for(i = 0 , len=strlen(txt) ; i < len ; i++)
