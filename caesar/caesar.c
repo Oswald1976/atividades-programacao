@@ -41,9 +41,9 @@ int main(int argc, char *argv[])
                 }
 
             }
-
-        }
         printf("ciphertext: %s", txtcif);
+        }
+    
         else
         {
             printf("Usage: ./caesar key \n");
