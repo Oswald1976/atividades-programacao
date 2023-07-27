@@ -41,7 +41,8 @@ int main(int argc, char *argv[])
                 }
 
             }
-        printf("ciphertext: %s\n", txtcif);
+        printf("ciphertext: %s", txtcif);
+        printf("\n");
         }
 
         else
