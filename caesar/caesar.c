@@ -7,7 +7,7 @@
 // Prototype Functions
 int keyCheckFunc(char x[]);
 
-char txt[100];
+string txt;
 string txtcif;
 int key[2];
 
