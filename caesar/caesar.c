@@ -19,9 +19,7 @@ int main(int argc, char *argv[])
 
         if(keyCheckFunc(argv[1]) == 1) // check argv[1,i] = int
         {
-
-
-                key=atoi(argv[1]); // atoi converte char para int
+            key=atoi(argv[1]); // atoi converte char para int
 
             printf("plaintext: ");
             scanf("%s", txt);
@@ -29,18 +27,19 @@ int main(int argc, char *argv[])
             for(int i = 0 ; i < len ; i++)
             {
 
-                    if(isupper(txt[i])) // se for alfabeto, ai testa pra ver se é maiusculo
-                    {
-                        txtcifint[i]=((txt[i] - 65 + key) % 26) + 65;                             // se for maiuscula.. faz isso
-                    }
-                    else if(islower(txt[i]))  // se for alfabeto, ai testa pra ver se é minusculo
-                    {
-                        txtcifint[i]=((txt[i] - 97 + key) % 26) + 97;                             // se for minusculo.. faz isso
-                    }
-                    else
-                    {
-                        txtcifint[i]=txt[i];                            //se nao for alfabeto faz isso
-                    }
+                if(isupper(txt[i])) // se for alfabeto, ai testa pra ver se é maiusculo
+                {
+                    txtcifint[i]=((txt[i] - 65 + key) % 26) + 65;                             // se for maiuscula.. faz isso
+                }
+                else if(islower(txt[i]))  // se for alfabeto, ai testa pra ver se é minusculo
+                {
+                    txtcifint[i]=((txt[i] - 97 + key) % 26) + 97;                             // se for minusculo.. faz isso
+                }
+                else
+                {
+                    txtcifint[i]=txt[i];                            //se nao for alfabeto faz isso
+                }
+            printf("ciphertext: %s\n", txtcifint);
             }
 
 
