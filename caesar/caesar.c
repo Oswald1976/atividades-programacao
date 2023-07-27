@@ -21,8 +21,8 @@ int main(int argc, char *argv[])
         {
             key=atoi(argv[1]); // atoi converte char para int
 
-            printf("plaintext: ");
-            scanf("%s", txt);
+            txt = get_string("plaintext: ");
+            
             len=strlen(txt);
             for(int i = 0 ; i < len ; i++)
             {
