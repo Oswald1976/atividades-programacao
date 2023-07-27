@@ -13,7 +13,7 @@ char txtcif[100];
 int key;
 int main(int argc, char *argv[])
 {
-
+    int len=0;
     if(argc == 2)  // check two arrays !?!?!?
     {
 
@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 
             printf("plaintext: ");
             scanf("%s", txt);
-            int len=strlen(txt);
+            len=strlen(txt);
             for(int i = 0 ; i < len ; i++)
             {
 
