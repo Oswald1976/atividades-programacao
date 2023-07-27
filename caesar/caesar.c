@@ -19,7 +19,10 @@ int main(int argc, char *argv[])
         {
             printf("plaintext: ");
             scanf("%s", txt);
-            
+            for(i = 0 , len=strlen(txt) ; i < len ; i++)
+            {
+                if()
+            }
 
 
         }
