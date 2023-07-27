@@ -10,8 +10,7 @@ int keyCheckFunc(char x[]);
 
 string txt;
 int txtcifint[];
-int key,i,len;
-
+int key;
 int main(int argc, char *argv[])
 {
 
@@ -26,7 +25,7 @@ int main(int argc, char *argv[])
 
             printf("plaintext: ");
             scanf("%s", txt);
-            for(i = 0 , len=strlen(txt) ; i < len ; i++)
+            for(int i = 0 , int len=strlen(txt) ; i < len ; i++)
             {
 
                     if(isupper(txt[i])) // se for alfabeto, ai testa pra ver se é maiusculo
