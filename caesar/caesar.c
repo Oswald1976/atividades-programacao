@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
             key=atoi(argv[1]); // atoi converte char para int
 
             txt = get_string("plaintext: ");
-            
+
             len=strlen(txt);
             for(int i = 0 ; i < len ; i++)
             {
@@ -39,10 +39,10 @@ int main(int argc, char *argv[])
                 {
                     txtcif[i]=txt[i];                            //se nao for alfabeto faz isso
                 }
-            printf("ciphertext: %s", txtcif);
+            
             }
 
-
+        printf("ciphertext: %s", txtcif);
 
         }
         else
