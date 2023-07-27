@@ -9,7 +9,7 @@
 int keyCheckFunc(char x[]);
 
 string txt;
-char txtcifint[];
+char txtcifint[100];
 int key;
 int main(int argc, char *argv[])
 {
