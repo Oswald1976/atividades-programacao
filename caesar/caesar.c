@@ -21,7 +21,10 @@ int main(int argc, char *argv[])
             scanf("%s", txt);
             for(i = 0 , len=strlen(txt) ; i < len ; i++)
             {
-                if()
+                if(isalpha(txt[i]))
+                {
+                    if()
+                }
             }
 
 
