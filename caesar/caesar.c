@@ -39,12 +39,11 @@ int main(int argc, char *argv[])
                 {
                     txtcif[i]=txt[i];                            //se nao for alfabeto faz isso
                 }
-            
+
             }
 
-        printf("ciphertext: %s", txtcif);
-
         }
+        printf("ciphertext: %s", txtcif);
         else
         {
             printf("Usage: ./caesar key \n");
