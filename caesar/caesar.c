@@ -8,6 +8,7 @@
 int keyCheckFunc(char x[]);
 
 char txt[100];
+string txtcif;
 
 int main(int argc, char *argv[])
 {
@@ -21,11 +22,20 @@ int main(int argc, char *argv[])
             scanf("%s", txt);
             for(i = 0 , len=strlen(txt) ; i < len ; i++)
             {
-                if(isalpha(txt[i]))
+                if(isalpha(txt[i])) // testa o caractere para ver se é alfanumerico
                 {
-                    if()
+                    if(islower(txt[i])) 
+                    {
+
+                    }
+                    else
+                    {
+
+                    }
                 }
+
             }
+
 
 
         }
