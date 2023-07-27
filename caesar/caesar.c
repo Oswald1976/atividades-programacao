@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 
                     if(isupper(txt[i])) // se for alfabeto, ai testa pra ver se é maiusculo
                     {
-                         txtcif[1]=int(txt[i]) - 65 + key % 26                              // se for minusculo.. faz isso
+                         txtcif[1]=((int(txt[i]) - 65 + key) % 26)                              // se for minusculo.. faz isso
                     }
                     else
                     {
