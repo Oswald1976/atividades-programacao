@@ -48,6 +48,7 @@ int keycheck(char x[])
     }
     else
     {
+        printf("key must contain 26 characters. \n");
         stop = 0;
     }
     return stop;
