@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
     }
     else
     {
-       printf("Usage: ./substitutioan KEY \n");
+       printf("Usage: ./substitution KEY \n");
     }
 }
 
@@ -29,13 +29,13 @@ int keycheck(char x[])
 {
     int stop = 1;
     int len=strlen(x);
-    if(len == 26)
+    if(len == 26);
     {
         for(int i = 0; i < len && stop == 1; i++ )
         {
             if(isdigit(x[1]))
                 {
-                    stop=0
+                    stop = 0;
                 }
         }
     }
