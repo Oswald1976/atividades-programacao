@@ -47,11 +47,11 @@ int keycheck(char x[])
             for (int j = 0; j < i; j ++)
             {
                 if (argv[1][i] == argv[1][j])
-            {
-                printf("A chave não deve conter caracteres repetidos\n");
-                return 1;
+                {
+                    printf("A chave não deve conter caracteres repetidos\n");
+                    return 1;
+                }
             }
-        }
         }
     }
     else
