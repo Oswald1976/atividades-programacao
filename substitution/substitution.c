@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
         }
         else
         {
-           printf("Usage: ./substitution KEY \n");
+           printf("key must contain 26 characters. \n");
            return 1;
 
 
