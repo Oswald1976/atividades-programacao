@@ -21,7 +21,6 @@ int main(int argc, char *argv[])
            printf("key must contain 26 characters. \n");
            return 1;
 
-
         }
     else
     {
@@ -46,7 +45,7 @@ int keycheck(char x[])
                 stop = 0;
             }
 
-            
+
             /* if testar para ver se tem 2 argumentos iguais
             else
             {
