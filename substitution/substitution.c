@@ -2,8 +2,9 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
+#include <cs50.h>
 
-int keycheck(char x[]);  // prototype functions
+int keycheck(string x[]);  // prototype functions
 
 
 
