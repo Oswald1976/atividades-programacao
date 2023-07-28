@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
     }
     else
     {
-       printf("Usage: ./sub)
+       printf("Usage: ./substitutioan key \n")
     }
 }
 
