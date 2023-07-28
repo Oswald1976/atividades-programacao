@@ -40,14 +40,14 @@ int keycheck(char x[])
     {
         for(int i = 0; i < len && stop == 1; i++ )
         {
-            if(!isalpha(x[1])) // checa se algum dos caracteres do segundo argumento é numerico
+            if(!isalpha(x[i])) // checa se algum dos caracteres do segundo argumento é numerico
             {
                 printf("key must only contain alphabetic characters. \n");
                 stop = 0;
             }
             for (int j = 0; j < i; j ++)
             {
-                if (argv[1][i] == argv[1][j])
+                if (x[i] == x[j])
                 {
                     printf("A chave não deve conter caracteres repetidos\n");
                     stop= 1;
