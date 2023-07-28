@@ -2,13 +2,12 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
-#include <cs50.h>
 
-int keycheck(string x[]);  // prototype functions
-
+int keycheck(char x[]);  // prototype functions
 
 
-int main(int argc, string argv[])
+
+int main(int argc, char *argv[])
 {
     int len=0;
     if(argc == 2 ) // check two arrays ?
@@ -33,7 +32,7 @@ int main(int argc, string argv[])
 
 // functions
 
-int keycheck(string x[])
+int keycheck(char x[])
 {
     int stop = 1;
     int len=strlen(x);
