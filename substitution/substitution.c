@@ -7,7 +7,7 @@ int keycheck(char x[]);  // prototype functions
 
 
 
-int main(int argc, char *argv[])
+int main(int argc, string argv[])
 {
     int len=0;
     if(argc == 2 ) // check two arrays ?
