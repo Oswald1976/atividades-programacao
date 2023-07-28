@@ -49,6 +49,13 @@ int keycheck(char x[])
                 printf("key must only contain alphabetic characters. \n");
                 stop = 0;
             }
+            /* if testar para ver se tem 2 argumentos iguais
+            else
+            {
+                printf("key must only not contain repeated characters. \n");
+                stop = 0;
+            }
+            */
         }
     }
     else
