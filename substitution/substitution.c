@@ -32,7 +32,7 @@ int main(int argc, string argv[])
 
 // functions
 
-int keycheck(char x[])
+int keycheck(string x[])
 {
     int stop = 1;
     int len=strlen(x);
