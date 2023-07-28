@@ -16,10 +16,17 @@ int main(int argc, char *argv[])
         {
 
         }
-    }
+        else
+        {
+           printf("Usage: ./substitution KEY \n");
+           return 1;
+
+
+        }
     else
     {
        printf("Usage: ./substitution KEY \n");
+       return 1;
     }
 }
 
@@ -29,11 +36,11 @@ int keycheck(char x[])
 {
     int stop = 1;
     int len=strlen(x);
-    if(len == 26) // check 26 char is true 
+    if(len == 26) // check 26 char is true
     {
         for(int i = 0; i < len && stop == 1; i++ )
         {
-            if(isdigit(x[1]))
+            if(isdigit(x[1])) // checa se algum dos caracteres do segundo argumento é numerico
                 {
                     stop = 0;
                 }
