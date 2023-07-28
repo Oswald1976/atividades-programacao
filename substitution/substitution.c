@@ -31,12 +31,12 @@ int keycheck(char x[])
     int len=strlen(x);
     if(len == 26)
     {
-
+        
     }
     else
     {
         stop = 0;
     }
-    return stop
+    return stop;
 
 }
