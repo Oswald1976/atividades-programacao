@@ -21,5 +21,7 @@ int main(int argc, char *argv[])
 int keycheck(char x[])
 {
     int i=
-    
+    len=
+    if(len)
+
 }
