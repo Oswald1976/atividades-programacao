@@ -27,13 +27,16 @@ int main(int argc, char *argv[])
 
 int keycheck(char x[])
 {
-    int stop =1
+    int stop = 1;
     int len=strlen(x);
     if(len == 26)
     {
 
     }
     else
+    {
+        stop = 0;
+    }
     return stop
 
 }
