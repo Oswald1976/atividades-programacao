@@ -42,13 +42,11 @@ int keycheck(char x[])
         {
             if(!isalpha(x[1])) // checa se algum dos caracteres do segundo argumento é numerico
             {
-                stop = 0;
-            }
-            else
-            {
                 printf("key must only contain alphabetic characters. \n");
                 stop = 0;
             }
+
+            
             /* if testar para ver se tem 2 argumentos iguais
             else
             {
