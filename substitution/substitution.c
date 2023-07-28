@@ -41,9 +41,9 @@ int keycheck(char x[])
         for(int i = 0; i < len && stop == 1; i++ )
         {
             if(isdigit(x[1])) // checa se algum dos caracteres do segundo argumento é numerico
-                {
-                    stop = 0;
-                }
+            {
+                stop = 0;
+            }
             else
             {
                 printf("key must only contain alphabetic characters. \n");
