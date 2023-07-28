@@ -45,4 +45,4 @@ int keycheck(char x[])
     }
     return stop;
 
-}
+}int len=strlen(x);
