@@ -31,9 +31,12 @@ int keycheck(char x[])
     int len=strlen(x);
     if(len == 26)
     {
-        for(int i = 0; i < len ; i++ )
+        for(int i = 0; i < len && stop == 1; i++ )
         {
-            if
+            if(isdigit(x[1]))
+                {
+                    stop=0
+                }
         }
     }
     else
