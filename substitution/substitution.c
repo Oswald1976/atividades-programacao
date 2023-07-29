@@ -4,7 +4,7 @@
 #include <string.h>
 #include <cs50.h>
 
-char argteste[];
+char argteste[26];
 
 int main(int argc, string argv[])
 {
