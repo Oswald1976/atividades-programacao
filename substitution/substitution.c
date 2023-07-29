@@ -29,6 +29,7 @@ int main(int argc, string argv[])
     }
     string text = get_string("plaintext: ");
     printf("ciphertext: ");
+
     for (int i = 0, n = strlen(text); i < n; i++) {
         if (isupper(text[i])) {
             int cripto = (text[i]) - 'A';
