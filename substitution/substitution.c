@@ -28,7 +28,7 @@ int main(int argc, string argv[])
             }
             for (int j = 0; j < i; j ++)
             {
-                if (x[i] == x[j])
+                if (argv[1][i] == argv[1][j])
                 {
                     printf("A chave não deve conter caracteres repetidos\n");
                     stop= 1;
