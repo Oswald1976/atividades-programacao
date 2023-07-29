@@ -40,18 +40,5 @@ int main(int argc, string argv[])
                     return 0;
                 }
             }
-        }
-
-/*
-    if(keycheck(argv[1]) == 1) // check arvg1 is true
-    {
-        printf("DEU CERTO. \n");
-        return 0;
-    }
-    else
-    {
-        printf("key must contain 26 characters. \n");
-        return 1;
-    } */
-
+      
 }
