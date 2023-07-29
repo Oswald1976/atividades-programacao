@@ -53,6 +53,9 @@ int main(int argc, string argv[])
             {
 
             }
+            textcifra[i]=text[i];
+        }
+        printf()
 
 
 }
