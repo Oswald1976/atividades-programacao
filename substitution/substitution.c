@@ -45,17 +45,21 @@ int main(int argc, string argv[])
         text = get_string("plaintext: ");
         for(i = 0; i < len ; i++)
         {
-            if(islower(argv[1][i]))
+            if(islower(text[i]))
             {
-                txtcifr[i]=text[i]
+                txtcifr[i]=text[i];
             }
-            if(isupper(argv[1][i]))
+            if(isupper(text[i]))
             {
-               txtcifr[i]=text[i]
-            }
                txtcifr[i]=text[i];
+            }
+            if(!isalpha(text[i]))
+            {
+               txtcifr[i]=text[i];
+            }
+        printf("%s", txtcifr(i));
         }
-        printf()
+
 
 
 }
