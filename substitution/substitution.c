@@ -20,7 +20,7 @@ int main(int argc, string argv[])
         printf("key must contain 26 characters. \n");
         return 1;
     }
-    for(int i = 0; i < len ; i++ )
+    for(int i = 0; i <= len ; i++ )
     {
         argteste[i]=argv[1][i];
     }
