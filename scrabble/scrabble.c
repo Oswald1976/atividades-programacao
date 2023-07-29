@@ -20,11 +20,13 @@ int main(void)
     int score1 = compute_score(word1);
     int score2 = compute_score(word2);
 
+    printf(%i, score1);
     // TODO: Print the winner
 }
 
 int compute_score(string word)
 {
+    int score=0;
     word=islower(word);
     int len=strlen(word);
     for(int i = 0; i < len; i++)
@@ -37,5 +39,5 @@ int compute_score(string word)
             }
         }
     }
-
+    retorn score;
 }
