@@ -14,16 +14,24 @@ int main(int argc, char *argv[])
         printf("Usage: ./substitution KEY \n");
         return 1;
     }
+
+
+
+
+
+
+
+
     if(keycheck(argv[1]) == 1) // check arvg1 is true
     {
         printf("DEU CERTO. \n");
         return 0;
     }
-    else
+   /* else
     {
         printf("key must contain 26 characters. \n");
         return 1;
-    }
+    } */
 
 }
 
