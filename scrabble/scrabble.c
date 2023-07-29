@@ -23,5 +23,10 @@ int main(void)
 
 int compute_score(string word)
 {
-    word
+    int len=strlen(word);
+    for(int i = 0; n < len; i++)
+    {
+        
+    }
+
 }
