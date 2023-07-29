@@ -45,9 +45,11 @@ int main(int argc, string argv[])
         for(i = 0; i < len ; i++)
         if(islower(argv[1][i]))
         {
-
+            
         }
         if(isupper(argv[1][i]))
-        
+        {
+
+        }
 
 }
