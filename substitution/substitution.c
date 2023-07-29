@@ -21,7 +21,7 @@ int main(int argc, string argv[])
     }
     for(int i = 0; i < len ; i++ )
         {
-            if(!isalpha(argv[i])) // checa se algum dos caracteres do segundo argumento é numerico
+            if(!isalpha(argv[1][i])) // checa se algum dos caracteres do segundo argumento é numerico
             {
                 printf("key must only contain alphabetic characters. \n");
                 stop = 0;
