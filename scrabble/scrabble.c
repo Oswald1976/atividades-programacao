@@ -32,8 +32,9 @@ int compute_score(string word)
         for(int j = 0; j < len; j++)
         {
             if(word[i] == alp[j])
-                soma += POINTS[j];
-
+            {
+                score += POINTS[j];
+            }
         }
     }
 
