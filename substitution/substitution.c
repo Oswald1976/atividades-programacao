@@ -8,6 +8,7 @@
 
 int main(int argc, string argv[])
 {
+    char textcifra[26];
     char argteste[26];
     int len = strlen(argv[1]);
     if(argc != 2 ) // check two arrays ?
@@ -52,5 +53,6 @@ int main(int argc, string argv[])
             {
 
             }
+
 
 }
