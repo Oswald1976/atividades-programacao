@@ -24,8 +24,7 @@ int main(int argc, string argv[])
         argteste[i]=argv[1][i];
     }
 
-
-
+    for(int i = 0; i < len ; i++ )
         {
             if(!isalpha(argv[1][i])) // checa se algum dos caracteres do segundo argumento é numerico
             {
