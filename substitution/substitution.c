@@ -42,5 +42,6 @@ int main(int argc, string argv[])
             }
         }
         text = get_string("plaintext: ");
+        for(i=0 )
 
 }
