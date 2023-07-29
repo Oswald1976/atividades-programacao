@@ -6,29 +6,25 @@
 
 int keycheck(char x[]);  // prototype functions
 
-
-
 int main(int argc, char *argv[])
 {
     int len=0;
-    if(argc == 2 ) // check two arrays ?
+    if(argc != 2 ) // check two arrays ?
     {
-        if(keycheck(argv[1]) == 1) // check arvg1 is true
-        {
-
-        }
-        else
-        {
-           printf("key must contain 26 characters. \n");
-           return 1;
-
-        }
+        printf("Usage: ./substitution KEY \n");
+        return 1;
+    }
+    if(keycheck(argv[1]) == 1) // check arvg1 is true
+    {
+        printf("DEU CERTO. \n");
+        return 0;
     }
     else
     {
-       printf("Usage: ./substitution KEY \n");
-       return 1;
+        printf("key must contain 26 characters. \n");
+        return 1;
     }
+
 }
 
 // functions
