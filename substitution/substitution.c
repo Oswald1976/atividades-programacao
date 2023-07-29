@@ -31,14 +31,14 @@ int main(int argc, string argv[])
             if(!isalpha(argv[1][i])) // checa se algum dos caracteres do segundo argumento é numerico
             {
                 printf("key must only contain alphabetic characters. \n");
-                return 0;
+                return 1;
             }
             for (int j = 0; j < i; j ++)
             {
                 if (argv[1][i] == argv[1][j])
                 {
-                    printf("A chave não deve conter caracteres repetidos\n");
-                    return 0;
+                    printf("A chave contem caracteres repetidos\n");
+                    return 1;
                 }
             }
         }
