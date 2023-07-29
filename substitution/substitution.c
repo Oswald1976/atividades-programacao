@@ -4,7 +4,7 @@
 #include <string.h>
 #include <cs50.h>
 
-
+char argteste[];
 
 int main(int argc, string argv[])
 {
@@ -20,6 +20,12 @@ int main(int argc, string argv[])
         return 1;
     }
     for(int i = 0; i < len ; i++ )
+    {
+        argteste[i]=argv[1][i];
+    }
+
+
+
         {
             if(!isalpha(argv[1][i])) // checa se algum dos caracteres do segundo argumento é numerico
             {
