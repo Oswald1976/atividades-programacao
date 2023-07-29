@@ -8,7 +8,7 @@
 
 int main(int argc, string argv[])
 {
-    char textcifra[26];
+    char txtcifr[26];
     char argteste[26];
     int len = strlen(argv[1]);
     if(argc != 2 ) // check two arrays ?
@@ -47,13 +47,13 @@ int main(int argc, string argv[])
         {
             if(islower(argv[1][i]))
             {
-                text[i]
+                txtcifr[i]=text[i]
             }
             if(isupper(argv[1][i]))
             {
-
+               txtcifr[i]=text[i]
             }
-            textcifra[i]=text[i];
+               txtcifr[i]=text[i];
         }
         printf()
 
