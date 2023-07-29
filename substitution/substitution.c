@@ -8,20 +8,20 @@
 
 int main(int argc, char *argv[])
 {
-    int len=0;
+    int len = strlen(argv[1]);
     if(argc != 2 ) // check two arrays ?
     {
         printf("Usage: ./substitution KEY \n");
         return 1;
     }
-    if(strlen(argv[1]) != 26) // check 26 char is true
+    if(len != 26) // check 26 char is true
     {
         printf("key must contain 26 characters. \n");
         return 1;
     }
-    for(int i = 0; i < len && stop == 1; i++ )
+    for(int i = 0; i < len ; i++ )
         {
-            if(!isalpha(x[i])) // checa se algum dos caracteres do segundo argumento é numerico
+            if(!isalpha(argv[i])) // checa se algum dos caracteres do segundo argumento é numerico
             {
                 printf("key must only contain alphabetic characters. \n");
                 stop = 0;
