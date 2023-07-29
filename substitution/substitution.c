@@ -6,7 +6,7 @@
 
 
 
-int main(int argc, char *argv[])
+int main(int argc, string argv[])
 {
     int len = strlen(argv[1]);
     if(argc != 2 ) // check two arrays ?
