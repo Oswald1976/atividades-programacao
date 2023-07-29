@@ -58,7 +58,7 @@ int main(int argc, string argv[])
             {
                txtcifr[i]=text[i];
             }
-        printf("%c", txtcifr(i));
+        printf("%c", txtcifr[i]);
         }
 
 
