@@ -43,7 +43,7 @@ int main(int argc, string argv[])
             }
         }
         text = get_string("plaintext: ");
-        printf()
+        printf("ciphertext: ");
         for(i = 0; i < len ; i++)
         {
             if(islower(text[i]))
