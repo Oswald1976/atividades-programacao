@@ -14,7 +14,11 @@ int main(int argc, char *argv[])
         printf("Usage: ./substitution KEY \n");
         return 1;
     }
-    if(len !== 27) // check 26 char is true
+    if(strlen(argv[1]) !== 26) // check 26 char is true
+    {
+        printf("key must contain 26 characters. \n");
+        return 1;
+    }
 
 
 
@@ -43,28 +47,10 @@ int keycheck(char x[])
     int len=strlen(x);
     if(len == 27) // check 26 char is true
     {
-        for(int i = 0; i < len && stop == 1; i++ )
-        {
-            if(!isalpha(x[i])) // checa se algum dos caracteres do segundo argumento é numerico
-            {
-                printf("key must only contain alphabetic characters. \n");
-                stop = 0;
-            }
-            for (int j = 0; j < i; j ++)
-            {
-                if (x[i] == x[j])
-                {
-                    printf("A chave não deve conter caracteres repetidos\n");
-                    stop= 1;
-                }
-            }
-        }
+
     }
     else
-    {
-        printf("key must contain 26 characters. \n");
-        stop = 0;
-    }
+
     return stop;
 
 }
