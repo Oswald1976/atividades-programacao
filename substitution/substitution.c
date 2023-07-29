@@ -4,10 +4,11 @@
 #include <string.h>
 #include <cs50.h>
 
-char argteste[26];
+
 
 int main(int argc, string argv[])
 {
+    char argteste[26];
     int len = strlen(argv[1]);
     if(argc != 2 ) // check two arrays ?
     {
