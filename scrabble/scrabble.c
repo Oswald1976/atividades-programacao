@@ -27,7 +27,7 @@ int compute_score(string word)
     int len=strlen(word);
     for(int i = 0; n < len; i++)
     {
-        
+        if uslower
     }
 
 }
