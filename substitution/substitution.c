@@ -42,6 +42,11 @@ int main(int argc, string argv[])
             }
         }
         text = get_string("plaintext: ");
-        for(i=0 )
+        for(i = 0; i < len ; i++)
+        if(islower(argv[1][i]))
+        {
+
+        }
+        if(islower(argv[1][i]))
 
 }
