@@ -42,18 +42,21 @@ int compute_score(string word)
 {
     int score=0;
     int len=strlen(word);
-    for(int i = 0; i < len; i++)
-    {
-        word[i]=tolower(word[i]);
-    }
 
     for(int i = 0; i < len; i++)
     {
+        if()
+        word[i]=tolower(word[i]);
+
+
+
+
         if(islower(word[i]) == 1)
         {
                 int cripto = ((int)word[i]) - 'a';
                 score += POINTS[cripto];
         }
     }
+
     return score;
 }
