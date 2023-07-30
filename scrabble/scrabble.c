@@ -42,7 +42,7 @@ int compute_score(string word)
     {
 
 
-            int cripto = (word[i]) - 'a';
+            int cripto = ((int)word[i]) - 'a';
 
 
                 score += POINTS[cripto];
