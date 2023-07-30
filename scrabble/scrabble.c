@@ -45,8 +45,8 @@ int compute_score(string word)
 
     for(int i = 0; i < len; i++)
     {
-        if()
-        word[i]=tolower(word[i]);
+        if(isaplpha()
+            word[i]=tolower(word[i]);
 
 
 
