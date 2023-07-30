@@ -28,8 +28,12 @@ int main(void)
 int compute_score(string word)
 {
     int score=0;
-    word=islower(word);
     int len=strlen(word);
+    for(int i = 0; i < len; i++)
+    {
+        word[i]=islower(word[i]);
+    }
+
     for(int i = 0; i < len; i++)
     {
         for(int j = 0; j < len; j++)
