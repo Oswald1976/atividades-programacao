@@ -41,14 +41,12 @@ int compute_score(string word)
 
     for(int i = 0; i < len; i++)
     {
-        for(int j = 0; j < len; j++)
-        {
+
+
             int cripto = (word[i]) - 'a';
-            printf("%c", toupper(valor[cripto]));
+
 
                 score += POINTS[j];
-            }
-        }
     }
     return score;
 }
