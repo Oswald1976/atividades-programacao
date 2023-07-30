@@ -45,16 +45,11 @@ int compute_score(string word)
 
     for(int i = 0; i < len; i++)
     {
-        if(isaplpha()
-            word[i]=tolower(word[i]);
-
-
-
-
-        if(islower(word[i]) == 1)
+        if(isalpha(word[i]))
         {
-                int cripto = ((int)word[i]) - 'a';
-                score += POINTS[cripto];
+            word[i]=tolower(word[i]);
+            int cripto = ((int)word[i]) - 'a';
+            score += POINTS[cripto];
         }
     }
 
