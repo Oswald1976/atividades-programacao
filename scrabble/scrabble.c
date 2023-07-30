@@ -38,7 +38,7 @@ int compute_score(string word)
     {
         for(int j = 0; j < len; j++)
         {
-            if((int)word[i] == alp[j])
+            if(word[i] == alp[j])
             {
                 score += POINTS[j];
             }
