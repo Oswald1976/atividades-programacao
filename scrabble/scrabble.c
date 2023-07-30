@@ -31,7 +31,7 @@ int main(void)
     {
         printf("Player 2 wins!");
     }
-   if(score1 == score2)
+   else
     {
         printf("Tie!");
     }
