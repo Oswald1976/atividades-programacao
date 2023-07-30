@@ -43,7 +43,8 @@ int compute_score(string word)
     {
         for(int j = 0; j < len; j++)
         {
-            if(word[i] == alp[j])
+            int cripto = (word[i]) - 'A';
+            printf("%c", toupper(valor[cripto]));
             {
                 score += POINTS[j];
             }
