@@ -35,7 +35,7 @@ int compute_score(string word)
     int len=strlen(word);
     for(int i = 0; i < len; i++)
     {
-        word[i]=islower(word[i]);
+        word[i]=tolower(word[i]);
     }
 
     for(int i = 0; i < len; i++)
