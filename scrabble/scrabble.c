@@ -49,9 +49,9 @@ int compute_score(string word)
 
     for(int i = 0; i < len; i++)
     {
-        if(!isdigit(word[i]))
+        if(islower(word[i]) == 1)
         {
-            int cripto = ((int)word[i]) - 'a';
+                int cripto = ((int)word[i]) - 'a';
                 score += POINTS[cripto];
         }
     }
