@@ -4,7 +4,17 @@
 
 #define MAX 9 // Numero Max de votos
 
-typedef struct // Criação da estrutura candidato com nome e votos
+
+
+int candidate_count; // Numero de votos
+
+// Function prototypes
+bool vote(string name);
+void print_winner(void);
+
+int main(int argc, string argv[])
+{
+    typedef struct // Criação da estrutura candidato com nome e votos
 {
     string name;
     int votes;
@@ -15,12 +25,6 @@ candidate candidates[MAX]; // Array of candidates
 
 int candidate_count; // Numero de votos
 
-// Function prototypes
-bool vote(string name);
-void print_winner(void);
-
-int main(int argc, string argv[])
-{
     if (argc < 2) // Check for invalid usage
     {
         printf("Usage: plurality [candidate ...]\n");
