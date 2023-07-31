@@ -79,7 +79,7 @@ void print_winner(void) // Print the winner (or winners) of the election
         {
             maisv=candidates[i].votes;
         }
-        printf()
+        printf("s")
     }
 
 
