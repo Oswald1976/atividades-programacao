@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#define MAX 5 // Max number of candidates
+#define MAX 9 // Max number of candidates
 
 typedef struct // Candidates have name and vote count
 {
