@@ -84,7 +84,7 @@ void print_winner(void) // Print the winner (or winners) of the election
     {
         if(candidates[i].votes == maisv)
         {
-        printf("%s", candidates[i].name);
+        printf("%s\n", candidates[i].name);
 
         }
     }
