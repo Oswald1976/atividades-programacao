@@ -21,7 +21,7 @@ void print_winner(void);
 
 int main(int argc, string argv[])
 {
-    
+
     if (argc < 2) // Check for invalid usage
     {
         printf("Usage: plurality [candidate ...]\n");
@@ -61,7 +61,7 @@ bool vote(string name) // Update vote totals given a new vote
     bool voto=false;
     for(int i=0; i < candidate_count; i++)
     {
-        if(candidates[i].name == name)
+        if(strcmp(name, candidates[x].name) == 0)
         {
             candidates[i].votes++;
             voto=true;
