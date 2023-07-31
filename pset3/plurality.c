@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <string.h>
 
-#define MAX 9 // Max number of candidates
+#define MAX 9 // Numero Max de votos
 
-typedef struct // Candidates have name and vote count
+typedef struct // Criação da estrutura candidato com nome e votos
 {
     string name;
     int votes;
