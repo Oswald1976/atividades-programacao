@@ -72,7 +72,10 @@ return voto;
 
 void print_winner(void) // Print the winner (or winners) of the election
 {
+    if(candidate)
+
+
     // TODO
-    return;
+    return 0;
 }
 
