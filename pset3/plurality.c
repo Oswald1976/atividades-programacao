@@ -88,6 +88,6 @@ void print_winner(void) // Print the winner (or winners) of the election
 
         }
     }
-   
+
 }
 
