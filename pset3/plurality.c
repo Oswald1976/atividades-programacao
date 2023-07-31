@@ -23,7 +23,6 @@ candidate;
 
 candidate candidates[MAX]; // Array of candidates
 
-int candidate_count; // Numero de votos
 
     if (argc < 2) // Check for invalid usage
     {
