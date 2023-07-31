@@ -59,9 +59,9 @@ bool vote(string name) // Update vote totals given a new vote
 {
     for(int i=0; i < candidate_count; i++)
     {
-        if(candidate[i].name == name)
+        if(candidates[i].name == name)
         {
-            candidate[i].votes++;
+            candidates[i].votes++;
             return true;
         }
 
