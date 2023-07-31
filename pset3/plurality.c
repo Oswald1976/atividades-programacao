@@ -79,6 +79,7 @@ void print_winner(void) // Print the winner (or winners) of the election
         {
             maisv=candidates[i].votes;
         }
+        if(strcmp(name, candidates[i].name) == 0)
         printf("%s",)
     }
 
