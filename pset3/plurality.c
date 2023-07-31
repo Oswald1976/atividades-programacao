@@ -62,6 +62,7 @@ bool vote(string name) // Update vote totals given a new vote
         if(candidate[i].name == name)
         {
             candidate[i].votes++;
+            return true;
         }
 
     return false;
