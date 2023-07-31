@@ -72,9 +72,10 @@ return voto;
 
 void print_winner(void) // Print the winner (or winners) of the election
 {
+    int maisv=0
     for(int i=0; i < candidate_count; i++)
     {
-        if(candidates[i].votes > candidates[i+1].votes)
+        if(candidates[i].votes > maisv)
     }
 
 
