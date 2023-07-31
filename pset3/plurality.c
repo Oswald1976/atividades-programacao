@@ -13,7 +13,7 @@ candidate;
 
 candidate candidates[MAX]; // Array of candidates
 
-int candidate_count; // Number of candidates
+int candidate_count; // Numero de votos
 
 // Function prototypes
 bool vote(string name);
