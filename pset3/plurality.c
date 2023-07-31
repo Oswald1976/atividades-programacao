@@ -2,22 +2,18 @@
 #include <stdio.h>
 #include <string.h>
 
-// Max number of candidates
-#define MAX 5
+#define MAX 5 // Max number of candidates
 
-// Candidates have name and vote count
-typedef struct
+typedef struct // Candidates have name and vote count
 {
     string name;
     int votes;
 }
 candidate;
 
-// Array of candidates
-candidate candidates[MAX];
+candidate candidates[MAX]; // Array of candidates
 
-// Number of candidates
-int candidate_count;
+int candidate_count; // Number of candidates
 
 // Function prototypes
 bool vote(string name);
@@ -25,15 +21,13 @@ void print_winner(void);
 
 int main(int argc, string argv[])
 {
-    // Check for invalid usage
-    if (argc < 2)
+    if (argc < 2) // Check for invalid usage
     {
         printf("Usage: plurality [candidate ...]\n");
         return 1;
     }
 
-    // Populate array of candidates
-    candidate_count = argc - 1;
+    candidate_count = argc - 1; // Populate array of candidates
     if (candidate_count > MAX)
     {
         printf("Maximum number of candidates is %i\n", MAX);
@@ -44,7 +38,6 @@ int main(int argc, string argv[])
         candidates[i].name = argv[i + 1];
         candidates[i].votes = 0;
     }
-
     int voter_count = get_int("Number of voters: ");
 
     // Loop over all voters
@@ -62,17 +55,15 @@ int main(int argc, string argv[])
     // Display winner of election
     print_winner();
 }
-
-// Update vote totals given a new vote
-bool vote(string name)
+bool vote(string name) // Update vote totals given a new vote
 {
+    candidate.name
     for(int i=0;  )
     // TODO
     return false;
 }
 
-// Print the winner (or winners) of the election
-void print_winner(void)
+void print_winner(void) // Print the winner (or winners) of the election
 {
     // TODO
     return;
