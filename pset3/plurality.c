@@ -66,9 +66,8 @@ bool vote(string name) // Update vote totals given a new vote
             candidates[i].votes++;
             voto=true;
         }
-    voto=false;
-    }
-    return voto;
+     }
+return voto;
 }
 
 void print_winner(void) // Print the winner (or winners) of the election
