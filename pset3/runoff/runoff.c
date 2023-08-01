@@ -28,6 +28,8 @@ candidate candidates[MAX_CANDIDATES];
 int voter_count;
 int candidate_count;
 
+
+
 // Function prototypes
 bool vote(int voter, int rank, string name);
 void tabulate(void);
@@ -139,7 +141,7 @@ bool vote(int voter, int rank, string name)
             candidates[i].votes++;
             voto=true;
         }
-      
+
      }
 
 
