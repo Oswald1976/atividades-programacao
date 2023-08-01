@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <math.h>
+
 
 // Max voters and candidates
 #define MAX_VOTERS 100
@@ -139,7 +139,7 @@ bool vote(int voter, int rank, string name)
             voto=true;
             rank = i;
         }
-      return voto
+      return voto;
      }
 
 
@@ -164,8 +164,8 @@ bool print_winner(void)
 int find_min(void)
 {
     int min=0;
-    min = MAX_VOTERS / float(2)
-    return 0;
+    min = round(MAX_VOTERS / float(2));
+    return min;
 }
 
 // Return true if the election is tied between all candidates, false otherwise
