@@ -136,11 +136,13 @@ bool vote(int voter, int rank, string name)
         {
             candidates[i].votes++;
             voto=true;
-        }   rank=
+            rank = i;
+        }
+      return voto
      }
 
 
-    return false;
+    return voto;
 }
 
 // Tabulate votes for non-eliminated candidates
