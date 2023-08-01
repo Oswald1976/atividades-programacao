@@ -137,7 +137,6 @@ bool vote(int voter, int rank, string name)
         {
             candidates[i].votes++;
             voto=true;
-            rank = i;
         }
       return voto;
      }
