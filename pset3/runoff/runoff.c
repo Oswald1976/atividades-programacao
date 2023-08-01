@@ -163,7 +163,7 @@ bool print_winner(void)
 int find_min(void)
 {
     int min=0;
-    MAX_VOTERS / float()
+    min = MAX_VOTERS / float(2)
     return 0;
 }
 
