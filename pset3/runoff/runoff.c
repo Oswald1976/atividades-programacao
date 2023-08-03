@@ -24,9 +24,10 @@ candidate;
 typedef struct
 {
 
-    
+    int ordem;
+    string name
 }
-
+cedula;
 
 // Array of candidates
 candidate candidates[MAX_CANDIDATES];
