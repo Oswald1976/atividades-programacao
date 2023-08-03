@@ -80,6 +80,8 @@ int main(int argc, string argv[])
     }
 
     // Keep querying for votes
+    while
+    {
     for (int i = 0; i < voter_count; i++)
     {
 
@@ -98,10 +100,10 @@ int main(int argc, string argv[])
 
         printf("\n");
     }
+    }
 
     // Keep holding runoffs until winner exists
-    while (true)
-    {
+
         // Calculate votes given remaining candidates
         tabulate();
 
@@ -137,7 +139,7 @@ int main(int argc, string argv[])
         {
             candidates[i].votes = 0;
         }
-    }
+
     return 0;
 }
 
@@ -147,7 +149,7 @@ bool vote(int voter, int rank, string name)
     bool voto=false;
     for(int i=0; i < candidate_count; i++)
     {
-c        if(strcmp(name, candidates[i].name) == 0)
+        if(strcmp(name, candidates[i].name) == 0)
         {
             cedulas[voter].nrcedu = voter;
             cedulas[rank].ordem = rank;
