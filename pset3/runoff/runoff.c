@@ -111,7 +111,7 @@ int main(int argc, string argv[])
         bool won = print_winner();
         if (won)
         {
-            break;
+          //  break;
         }
 
         // Eliminate last-place candidates
@@ -128,7 +128,7 @@ int main(int argc, string argv[])
                     printf("%s\n", candidates[i].name);
                 }
             }
-            break;
+          //  break;
         }
 
         // Eliminate anyone with minimum number of votes
