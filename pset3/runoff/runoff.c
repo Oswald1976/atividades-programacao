@@ -152,7 +152,7 @@ bool vote(int voter, int rank, string name)
             celulas[].nrcelul = voter;
             celulas[].ordem = rank;
             celulas[].name = name;
-            candidates[i].votes++;
+ //         candidates[i].votes++;
             voto=true;
         }
 
