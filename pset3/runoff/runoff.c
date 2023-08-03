@@ -21,6 +21,9 @@ typedef struct
 }
 candidate;
 
+// Array of candidates
+candidate candidates[MAX_CANDIDATES];
+
 typedef struct
 {
 
@@ -29,8 +32,8 @@ typedef struct
 }
 cedula;
 
-// Array of candidates
-candidate candidates[MAX_CANDIDATES];
+cedula cedulas[MAX_VOTERS];
+
 
 // Numbers of voters and candidates
 int voter_count;
