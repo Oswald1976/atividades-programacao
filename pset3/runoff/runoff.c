@@ -26,7 +26,7 @@ candidate candidates[MAX_CANDIDATES];
 
 typedef struct
 {
-
+    IND vrcelu;
     int ordem;
     string name
 }
