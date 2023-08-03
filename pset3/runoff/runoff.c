@@ -26,7 +26,7 @@ candidate candidates[MAX_CANDIDATES];
 
 typedef struct
 {
-    int nrcelu;
+    int nrcedu;
     int ordem;
     string name;
 }
@@ -149,7 +149,7 @@ bool vote(int voter, int rank, string name)
     {
         if(strcmp(name, candidates[i].name) == 0)
         {
-            cedulas[voter].nrcelul = voter;
+            cedulas[voter].nrcedu = voter;
             cedulas[rank].ordem = rank;
             cedulas[rank].name = name;
  //         candidates[i].votes++;
