@@ -80,7 +80,7 @@ int main(int argc, string argv[])
     }
 
     // Keep querying for votes
-    while
+    while(true)
     {
     for (int i = 0; i < voter_count; i++)
     {
