@@ -26,9 +26,9 @@ candidate candidates[MAX_CANDIDATES];
 
 typedef struct
 {
-    IND nrcelu;
+    int nrcelu;
     int ordem;
-    string name
+    string name;
 }
 cedula;
 
