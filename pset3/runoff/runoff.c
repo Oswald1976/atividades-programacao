@@ -21,6 +21,13 @@ typedef struct
 }
 candidate;
 
+typedef struct
+{
+
+    
+}
+
+
 // Array of candidates
 candidate candidates[MAX_CANDIDATES];
 
