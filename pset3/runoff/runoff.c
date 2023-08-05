@@ -185,7 +185,7 @@ void tabulate(void)
 }
 
 // Print the winner of the election, if there is one
-bool print_winner(void)
+bool print_winner(minvot)
 {
     bool ganho = false;
     int maisv=0;
