@@ -32,7 +32,7 @@ typedef struct
 }
 cedula;
 
-cedula *cedulas[MAX_VOTERS];
+cedula cedulas[MAX_VOTERS];
 
 
 // Numbers of voters and candidates
@@ -151,9 +151,9 @@ bool vote(int voter, int rank, string name)
     {
         if(strcmp(name, candidates[i].name) == 0)
         {
-            ?cedulas[voter].nrcedu = voter;
-            ?cedulas[rank].ordem = rank;
-            ?cedulas[rank].name = name;
+            cedulas[voter].nrcedu = voter;
+            cedulas[rank].ordem = rank;
+            cedulas[rank].name = name;
  //         candidates[i].votes++;
             voto=true;
         }
