@@ -109,17 +109,21 @@ int main(int argc, string argv[])
         }
 
 
-    // Keep holding runoffs until winner exists
-
-        // Calculate votes given remaining candidates
-        tabulate();
 
         // Check if election has been won
         bool won = print_winner();
 
+
+        // Keep holding runoffs until winner exists
+
+        // Calculate votes given remaining candidates
+        tabulate();
+
+
+
         // Eliminate last-place candidates
         int min = find_min();
-        
+
         bool tie = is_tie(min);
 
         // If tie, everyone wins
