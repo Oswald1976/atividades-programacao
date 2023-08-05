@@ -117,11 +117,11 @@ int main(int argc, string argv[])
         }
         else
         {
-           eliminate()
+        eliminate()
             // Keep holding runoffs until winner exists
 
             // Calculate votes given remaining candidates
-            tabulate();
+        tabulate();
 
             // Eliminate last-place candidates
             int min = find_min();
