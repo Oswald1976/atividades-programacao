@@ -117,7 +117,6 @@ int main(int argc, string argv[])
         }
         else
         {
-
             // Keep holding runoffs until winner exists
 
             // Calculate votes given remaining candidates
@@ -196,19 +195,18 @@ bool print_winner(minvot)
                 maisv=candidates[i].votes;
             }
 
-            if(maisv >= minvot)
+        }
+        if(maisv >= minvot)
+        {
+            for(int i=0; i < candidate_count; i++)
             {
-                for(int i=0; i < candidate_count; i++)
-                {
-                    if(candidates[i].votes == maisv)
-                    {
-                        printf("%s\n", candidates[i].name);
-                        ganho = true;
-                    }
-                }
+               if(candidates[i].votes == maisv)
+               {
+                   printf("%s\n", candidates[i].name);
+                   ganho = true;
+               }
             }
         }
-
     return ganho;
 }
 
