@@ -117,13 +117,21 @@ int main(int argc, string argv[])
         }
         else
         {
+        // Eliminate last-place candidates
         eliminate()
-            // Keep holding runoffs until winner exists
 
-            // Calculate votes given remaining candidates
+        // Reset vote counts back to zero
+        for (int i = 0; i < candidate_count; i++)
+        {
+            candidates[i].votes = 0;
+        }
+
+        // Keep holding runoffs until winner exists
+
+        // Calculate votes given remaining candidates
         tabulate();
 
-            // Eliminate last-place candidates
+
             int min = find_min();
 
             bool tie = is_tie(min);
