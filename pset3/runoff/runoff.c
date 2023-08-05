@@ -34,7 +34,7 @@ cedula;
 
 cedula cedulas[MAX_VOTERS];
 
-int indced=0
+int indvot=0;
 
 // Numbers of voters and candidates
 int voter_count;
@@ -152,10 +152,10 @@ bool vote(int voter, int rank, string name)
     {
         if(strcmp(name, candidates[i].name) == 0)
         {
-            cedulas[voter].nrcedu = voter;
-            cedulas[rank].ordem = rank;
-            cedulas[rank].name = name;
- //         candidates[i].votes++;
+            cedulas[indvot].nrcedu = voter;
+            cedulas[indvot].ordem = rank;
+            cedulas[indvot].name = name;
+            indvot++;
             voto=true;
         }
 
