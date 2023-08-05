@@ -22,7 +22,7 @@ typedef struct
 candidate;
 
 // Array of candidates
-candidate candidates[MAX_CANDIDATES];
+candidate *candidates[MAX_CANDIDATES];
 
 typedef struct
 {
