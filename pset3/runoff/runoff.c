@@ -126,9 +126,13 @@ int main(int argc, string argv[])
 
             if(maisv >= minvot)
             {
-                
-
-
+                for(int i=0; i < candidate_count; i++)
+                {
+                    if(candidates[i].votes == maisv)
+                    {
+                        printf("%s\n", candidates[i].name);
+                    }
+                }
             }
         }
 
