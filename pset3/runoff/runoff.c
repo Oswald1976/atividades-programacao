@@ -122,8 +122,6 @@ int main(int argc, string argv[])
             // Calculate votes given remaining candidates
             tabulate();
 
-
-
             // Eliminate last-place candidates
             int min = find_min();
 
