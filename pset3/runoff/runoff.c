@@ -110,7 +110,7 @@ int main(int argc, string argv[])
 
 
         // Check if election has been won
-        bool won = print_winner();
+        bool won = print_winner(minvot);
         if(won==true)
         {
             return 0;
