@@ -196,10 +196,6 @@ void tabulate(void)
                {
                     candidates[j].votes++
                }
-               else
-               {
-                    
-               }
             }
         }
     }
