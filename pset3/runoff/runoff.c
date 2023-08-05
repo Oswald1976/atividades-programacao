@@ -34,6 +34,7 @@ cedula;
 
 cedula cedulas[MAX_VOTERS];
 
+int indced=0
 
 // Numbers of voters and candidates
 int voter_count;
