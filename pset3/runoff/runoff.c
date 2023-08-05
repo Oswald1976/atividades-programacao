@@ -83,22 +83,22 @@ int main(int argc, string argv[])
     // Keep querying for votes
     while(true)
     {
-    for (int i = 0; i < voter_count; i++)
-    {
-
-        // Query for each rank
-        for (int j = 0; j < candidate_count; j++)
+        for (int i = 0; i < voter_count; i++)
         {
-            string name = get_string("Rank %i: ", j + 1);
 
-            // Record vote, unless it's invalid
-            if (!vote(i, j, name))
+            // Query for each rank
+            for (int j = 0; j < candidate_count; j++)
             {
-                printf("Invalid vote.\n");
-             //   return 4;
-                continue ;
-            }
-        }
+                string name = get_string("Rank %i: ", j + 1);
+
+                // Record vote, unless it's invalid
+                if (!vote(i, j, name))
+                {
+                    printf("Invalid vote.\n");
+                //   return 4;
+                    continue ;
+                }
+            
 
         printf("\n");
     }
