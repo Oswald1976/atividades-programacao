@@ -226,12 +226,12 @@ bool is_tie(int min)
 void eliminate(int min)
 {
 
-   int maisv=0;
+   int menosv=voter_count;
         for(int i=0; i < candidate_count; i++)
         {
-            if(candidates[i].votes > maisv)
+            if(candidates[i].votes < menosv)
             {
-                maisv=candidates[i].votes;
+                menosv=candidates[i].votes;
             }
 
         }
@@ -239,7 +239,7 @@ void eliminate(int min)
         {
             for(int i=0; i < candidate_count; i++)
             {
-               if(candidates[i].votes == maisv)
+               if(candidates[i].votes == menosv)
                {
                    printf("%s\n", candidates[i].name);
                    ganho = true;
