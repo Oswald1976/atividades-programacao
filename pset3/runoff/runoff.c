@@ -116,26 +116,7 @@ int main(int argc, string argv[])
 
         // Check if election has been won
         bool won = print_winner();
-        int maisv=0;
-        for(int i=0; i < candidate_count; i++)
-        {
-            if(candidates[i].votes > maisv)
-            {
-                maisv=candidates[i].votes;
-            }
-
-            if(maisv >= minvot)
-            {
-                for(int i=0; i < candidate_count; i++)
-                {
-                    if(candidates[i].votes == maisv)
-                    {
-                        printf("%s\n", candidates[i].name);
-                    }
-                }
-            }
-        }
-
+        
         // Eliminate last-place candidates
         int min = find_min();
         bool tie = is_tie(min);
