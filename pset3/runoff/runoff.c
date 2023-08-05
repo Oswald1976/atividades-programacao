@@ -192,8 +192,10 @@ void tabulate(void)
         {
             if(strcmp(cedulas[i].name, candidates[j].name) == 0 )
             {
-                if(candidates)
-
+               if(candidates[j].eliminate == false)
+               {
+                    candidates[j].votes++
+               }
 
             }
         }
