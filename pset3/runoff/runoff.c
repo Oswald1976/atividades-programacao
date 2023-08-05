@@ -79,9 +79,8 @@ int main(int argc, string argv[])
         printf("Maximum number of voters is %i\n", MAX_VOTERS);
         return 3;
     }
-
-        int minvot=0;
-        minvot = round(voter_count / (float)2);
+    int minvot=0;
+    minvot = round(voter_count / (float)2);
 
 
     // Keep querying for votes
