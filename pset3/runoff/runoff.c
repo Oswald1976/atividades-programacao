@@ -80,6 +80,10 @@ int main(int argc, string argv[])
         return 3;
     }
 
+        int minvot=0;
+        minvot = round(voter_count / (float)2);
+
+
     // Keep querying for votes
     while(true)
     {
