@@ -124,9 +124,9 @@ int main(int argc, string argv[])
                 maisv=candidates[i].votes;
             }
 
-            if (maisv >=)
+            if(maisv >= minvot)
             {
-
+                
 
 
             }
