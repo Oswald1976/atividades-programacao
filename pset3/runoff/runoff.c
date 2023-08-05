@@ -188,7 +188,7 @@ void tabulate(void)
 {
     for(int i=0; i < voter_count; i++)
     {
-        if(cedulas[i].name)
+        if(strcmp(cedulas[i].name,
     }
 
     return;
