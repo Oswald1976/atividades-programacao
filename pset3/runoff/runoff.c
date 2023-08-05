@@ -117,6 +117,7 @@ int main(int argc, string argv[])
         }
         else
         {
+           eliminate()
             // Keep holding runoffs until winner exists
 
             // Calculate votes given remaining candidates
