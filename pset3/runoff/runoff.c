@@ -95,7 +95,8 @@ int main(int argc, string argv[])
             if (!vote(i, j, name))
             {
                 printf("Invalid vote.\n");
-                return 4;
+             //   return 4;
+                continue ;
             }
         }
 
@@ -150,7 +151,7 @@ bool vote(int voter, int rank, string name)
     bool voto=false;
     for(int i=0; i < candidate_count; i++)
     {
-Charlie        if(strcmp(name, candidates[i].name) == 0)
+        if(strcmp(name, candidates[i].name) == 0)
         {
             cedulas[indvot].nrcedu = voter;
             cedulas[indvot].ordem = rank;
