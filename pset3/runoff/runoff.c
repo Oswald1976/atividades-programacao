@@ -112,7 +112,12 @@ int main(int argc, string argv[])
 
         // Check if election has been won
         bool won = print_winner();
-
+        if(won=true)
+        {
+            return 0;
+        }
+        else
+        {
 
         // Keep holding runoffs until winner exists
 
