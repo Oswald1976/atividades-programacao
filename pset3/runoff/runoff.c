@@ -98,11 +98,12 @@ int main(int argc, string argv[])
                 //   return 4;
                     continue ;
                 }
-            
 
-        printf("\n");
-    }
-    }
+
+                 printf("\n");
+            }
+        }
+        
 
     // Keep holding runoffs until winner exists
 
