@@ -120,11 +120,12 @@ int main(int argc, string argv[])
                 maisv=candidates[i].votes;
             }
 
-        if (won)
-        {
+            if (maisv >=)
+            {
 
 
 
+            }
         }
 
         // Eliminate last-place candidates
