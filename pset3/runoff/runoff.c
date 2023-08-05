@@ -103,7 +103,7 @@ int main(int argc, string argv[])
                  printf("\n");
             }
         }
-        
+
 
     // Keep holding runoffs until winner exists
 
@@ -112,9 +112,19 @@ int main(int argc, string argv[])
 
         // Check if election has been won
         bool won = print_winner();
+        int maisv=0;
+        for(int i=0; i < candidate_count; i++)
+        {
+            if(candidates[i].votes > maisv)
+            {
+                maisv=candidates[i].votes;
+            }
+
         if (won)
         {
-          //  break;
+
+
+
         }
 
         // Eliminate last-place candidates
