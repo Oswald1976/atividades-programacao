@@ -112,47 +112,47 @@ int main(int argc, string argv[])
 
         // Check if election has been won
         bool won = print_winner();
-        if(won=true)
+        if(won==true)
         {
             return 0;
         }
         else
         {
 
-        // Keep holding runoffs until winner exists
+            // Keep holding runoffs until winner exists
 
-        // Calculate votes given remaining candidates
-        tabulate();
+            // Calculate votes given remaining candidates
+            tabulate();
 
 
 
-        // Eliminate last-place candidates
-        int min = find_min();
+            // Eliminate last-place candidates
+            int min = find_min();
 
-        bool tie = is_tie(min);
+            bool tie = is_tie(min);
 
-        // If tie, everyone wins
-        if (tie)
-        {
+            // If tie, everyone wins
+            if (tie)
+            {
+                for (int i = 0; i < candidate_count; i++)
+                {
+                    if (!candidates[i].eliminated)
+                    {
+                        printf("%s\n", candidates[i].name);
+                    }
+                }
+            //  break;
+            }
+
+            // Eliminate anyone with minimum number of votes
+            eliminate(min);
+
+            // Reset vote counts back to zero
             for (int i = 0; i < candidate_count; i++)
             {
-                if (!candidates[i].eliminated)
-                {
-                    printf("%s\n", candidates[i].name);
-                }
+                candidates[i].votes = 0;
             }
-          //  break;
         }
-
-        // Eliminate anyone with minimum number of votes
-        eliminate(min);
-
-        // Reset vote counts back to zero
-        for (int i = 0; i < candidate_count; i++)
-        {
-            candidates[i].votes = 0;
-        }
-
     return 0;
 }
 
