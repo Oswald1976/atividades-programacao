@@ -153,7 +153,7 @@ bool vote(int voter, int rank, string name)
     {
         if(strcmp(name, candidates[i].name) == 0)
         {
-            if(nr)
+            for(int l = 0; l < rank; l++)
             cedulas[indvot].nrcedu = voter;
             cedulas[indvot].ordem = rank;
             cedulas[indvot].name = name;
