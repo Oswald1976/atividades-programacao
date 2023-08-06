@@ -176,7 +176,7 @@ bool vote(int voter, int rank, string name)
             cedulas[indvot].name = name;
             candidates[i].votes++;
             indvot++;
-Charli            voto=true;
+            voto=true;
         }
 
      }
