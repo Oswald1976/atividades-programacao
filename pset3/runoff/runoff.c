@@ -161,7 +161,7 @@ int main(int argc, string argv[])
             }
         }
     return 0;
-    }
+}
 
 // Record preference if vote is valid
 bool vote(int voter, int rank, string name)
@@ -194,9 +194,9 @@ void tabulate(void)
         {
             if(strcmp(cedulas[i].name, candidates[j].name) == 0 )
             {
-               if(candidates[j].eliminate == false)
+               if(candidates[j].eliminated == false)
                {
-                    candidates[j].votes++
+                    candidates[j].votes++;
                }
             }
         }
