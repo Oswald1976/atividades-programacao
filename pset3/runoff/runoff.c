@@ -113,6 +113,7 @@ int main(int argc, string argv[])
             {
                 if((strcmp(cedulas[i].name, candidates[j].name) == 0) && candidates[i].eliminated == false)
                      candidates[j].votes++;
+                     return i;
             }
         }
 
