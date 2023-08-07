@@ -107,7 +107,8 @@ int main(int argc, string argv[])
             }
         }
         //rotina pra fazer o primeiro calculo dos primeiros em rank direito.
-
+        for(int i=0, tvoto=candidate_count *  ; i < )
+        cedulas[indvot].ordem = rank;
 
 
         while(true)
