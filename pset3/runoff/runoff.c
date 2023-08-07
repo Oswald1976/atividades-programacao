@@ -268,8 +268,7 @@ void eliminate()
         if(candidates[i].votes == menosv)
         {
              candidates[i].eliminated = true;
-             return;
-         }
+        }
      }
 }
 
