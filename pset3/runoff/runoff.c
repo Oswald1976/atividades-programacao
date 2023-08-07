@@ -107,10 +107,12 @@ int main(int argc, string argv[])
             }
         }
         //rotina pra fazer o primeiro calculo dos primeiros em rank direito.
-        for(int i=0, tvoto=candidate_count *  ; i < )
-        cedulas[indvot].ordem = rank;
+        for(int i=0, tvoto=(candidate_count * voter_count) ; i <tvoto; i+=voter_count )
+        {
+            if(
+                cedulas[indvot].ordem = rank;
 
-
+        }
         while(true)
         {
             // Check if election has been won
