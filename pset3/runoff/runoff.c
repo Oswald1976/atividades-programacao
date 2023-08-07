@@ -106,6 +106,8 @@ int main(int argc, string argv[])
                  printf("\n");
             }
         }
+        //rotina pra fazer o primeiro calculo dos primeiros em rank direito.
+
 
 
         while(true)
