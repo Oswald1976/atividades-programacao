@@ -174,7 +174,7 @@ bool vote(int voter, int rank, string name)
             cedulas[indvot].nrcedu = voter;
             cedulas[indvot].ordem = rank;
             cedulas[indvot].name = name;
-            candidates[i].votes++;
+        //  candidates[i].votes++;
             indvot++;
             voto=true;
         }
