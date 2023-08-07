@@ -107,7 +107,7 @@ int main(int argc, string argv[])
             }
         }
         //rotina pra fazer o primeiro calculo dos primeiros em rank direito.
-        for(int i=0,; i <=tvoto; i+=voter_count-1 )
+        for(int i=0; i <=voter_count-1; i+=voter_count-1 )
         {
             for(int j=0; j < candidate_count; j++)
             {
@@ -116,11 +116,11 @@ int main(int argc, string argv[])
             }
         }
 
-        for(int z=1, tvoto=(candidate_count * voter_count) ; i <tvoto; i+=voter_count-1 )
+        for(int z=i, tvoto=(candidate_count * voter_count) ; z <tvoto; z+=voter_count )
         {
             for(int j=0; j < candidate_count; j++)
             {
-                if((strcmp(cedulas[i].name, candidates[j].name) == 0) && candidates[i].eliminated == false)
+                if((strcmp(cedulas[z].name, candidates[j].name) == 0) && candidates[z].eliminated == false)
                      candidates[j].votes++;
             }
         }
