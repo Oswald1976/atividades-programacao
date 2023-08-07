@@ -109,13 +109,13 @@ int main(int argc, string argv[])
         //rotina pra fazer o primeiro calculo dos primeiros em rank direito.
         for(int i=0, tvoto=(candidate_count * voter_count) ; i <tvoto; i+=voter_count )
         {
-            for(int j=0; j < candidate_count, j++)
+            for(int j=0; j < candidate_count; j++)
             {
-                if((strcmp(cedulas[i]name, candidates[j].name) == 0))
+                if((strcmp(cedulas[i].name, candidates[j].name) == 0))
                      candidates[j].votes++;
             }
         }
-        
+
         while(true)
         {
             // Check if election has been won
