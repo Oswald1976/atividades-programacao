@@ -185,7 +185,7 @@ bool vote(int voter, int rank, string name)
     return voto;
 }
 
-// Tabulate votes for non-eliminated candidates
+// Calcula os votos
 void tabulate(void)
 {
     for(int i=0; i < voter_count; i++)
