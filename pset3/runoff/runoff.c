@@ -195,8 +195,6 @@ void tabulate(void)
     {
         for(int j=0; j < candidate_count; j++)
         {
-            for(int l=0; l < candidate_count; l++)
-            {
                 if(strcmp(preferences[i][j], candidates[l].name) == 0 )
                 {
                     if(candidates[j].eliminated == false)
@@ -205,7 +203,6 @@ void tabulate(void)
                         j = candidate_count;
                         l = candidate_count;
                     }
-                }
             }
         }
     }
