@@ -123,8 +123,9 @@ int main(int argc, string argv[])
             }
             else
             {
+                int min = find_min();
                 // Eliminate last-place candidates
-             eliminate();
+                eliminate(min);
 
                 // Reset vote counts back to zero
                 for (int i = 0; i < candidate_count; i++)
@@ -139,7 +140,7 @@ int main(int argc, string argv[])
             }
 
         }
-            int min = find_min();
+           
 
             bool tie = is_tie(min);
 
