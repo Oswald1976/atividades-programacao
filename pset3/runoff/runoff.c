@@ -212,28 +212,19 @@ void tabulate(void)
 // Print the winner of the election, if there is one
 bool print_winner(minvot)
 {
-    bool ganho = false;
-    int maisv=0;
+
+    
         for(int i=0; i < candidate_count; i++)
         {
-            if(candidates[i].votes => minvot)
+            if(candidates[i].votes >= minvot)
             {
-                maisv=candidates[i].votes;
+                 printf("%s\n", candidates[i].name);
+                 return true;
             }
 
         }
-        if(maisv >= minvot)
-        {
-            for(int i=0; i < candidate_count; i++)
-            {
-               if(candidates[i].votes == maisv)
-               {
-                   printf("%s\n", candidates[i].name);
-                   ganho = true;
-               }
-            }
-        }
-    return ganho;
+
+    return false;
 }
 
 // Return the minimum number of votes any remaining candidate has
