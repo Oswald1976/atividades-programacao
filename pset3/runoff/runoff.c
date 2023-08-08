@@ -4,7 +4,6 @@
 #include <string.h>
 #include <math.h>
 
-
 // Max voters and candidates
 #define MAX_VOTERS 100
 #define MAX_CANDIDATES 9
@@ -24,14 +23,11 @@ candidate;
 // Array of candidates
 candidate candidates[MAX_CANDIDATES];
 
-
 int indvot=0;
 
 // Numbers of voters and candidates
 int voter_count;
 int candidate_count;
-
-
 
 // Function prototypes
 bool vote(int voter, int rank, string name);
