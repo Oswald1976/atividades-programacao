@@ -124,7 +124,7 @@ int main(int argc, string argv[])
             else
             {
                 // Eliminate last-place candidates
-                eliminate();
+             eliminate();
 
                 // Reset vote counts back to zero
                 for (int i = 0; i < candidate_count; i++)
@@ -156,15 +156,8 @@ int main(int argc, string argv[])
             //  break;
             }
 
-            // Eliminate anyone with minimum number of votes
-            eliminate();
 
-            // Reset vote counts back to zero
-            for (int i = 0; i < candidate_count; i++)
-            {
-                candidates[i].votes = 0;
-            }
-        }
+
     return 0;
 }
 
