@@ -201,11 +201,12 @@ void tabulate(void)
                if(candidates[j].eliminated == false)
                {
                     candidates[j].votes++;
+                    j = candidate_count;
                }
             }
         }
     }
-    return;
+    
 }
 
 // Print the winner of the election, if there is one
