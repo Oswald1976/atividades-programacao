@@ -24,15 +24,6 @@ candidate;
 // Array of candidates
 candidate candidates[MAX_CANDIDATES];
 
-typedef struct
-{
-    int nrcedu;
-    int ordem;
-    string name;
-}
-cedula;
-
-cedula cedulas[MAX_VOTERS];
 
 int indvot=0;
 
