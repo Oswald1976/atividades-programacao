@@ -29,7 +29,7 @@ int candidate_count;
 // Function prototypes
 bool vote(int voter, int rank, string name);
 void tabulate(void);
-bool print_winner(int minvot);
+bool print_winner(void);
 int find_min(void);
 bool is_tie(int min);
 void eliminate(void);
