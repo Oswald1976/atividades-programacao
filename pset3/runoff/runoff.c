@@ -89,28 +89,9 @@ int main(int argc, string argv[])
                  printf("\n");
             }
         }
-        //rotina pra fazer o primeiro calculo dos primeiros em rank direito.
-/*        int z=0;
-        for(int i=0; i <=voter_count-1; i+=voter_count-1 )
-        {
-            for(int j=0; j < candidate_count; j++)
-            {
-                if((strcmp(cedulas[i].name, candidates[j].name) == 0) && candidates[i].eliminated == false)
-                     candidates[j].votes++;
-                     z=i;
-            }
-        }
 
-        for(z, tvoto=(candidate_count * voter_count) ; z <tvoto; z+=voter_count )
-        {
-            for(int j=0; j < candidate_count; j++)
-            {
-                if((strcmp(cedulas[z].name, candidates[j].name) == 0) && candidates[z].eliminated == false)
-                     candidates[j].votes++;
-            }
-        }
-*/
 
+int min = find_min();
         while(true)
         {
             tabulate(); // faz os calulos do votos primeiramente
@@ -123,7 +104,7 @@ int main(int argc, string argv[])
             }
             else
             {
-                int min = find_min();
+
                 // Eliminate last-place candidates
                 eliminate(min);
 
@@ -133,14 +114,11 @@ int main(int argc, string argv[])
                     candidates[i].votes = 0;
                 }
 
-                // Keep holding runoffs until winner exists
-
-                // Calculate votes given remaining candidates
-
+               
             }
 
         }
-           
+
 
             bool tie = is_tie(min);
 
