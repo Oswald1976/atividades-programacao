@@ -91,7 +91,7 @@ int main(int argc, string argv[])
             }
         }
         //rotina pra fazer o primeiro calculo dos primeiros em rank direito.
-        int z=0;
+/*        int z=0;
         for(int i=0; i <=voter_count-1; i+=voter_count-1 )
         {
             for(int j=0; j < candidate_count; j++)
@@ -110,7 +110,7 @@ int main(int argc, string argv[])
                      candidates[j].votes++;
             }
         }
-
+*/
 
         while(true)
         {
