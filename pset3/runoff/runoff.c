@@ -63,8 +63,7 @@ int main(int argc, string argv[])
         printf("Maximum number of voters is %i\n", MAX_VOTERS);
         return 3;
     }
-    int minvot=0;
-    minvot = round(voter_count / (float)2);
+    
 
 
     // Keep querying for votes
@@ -117,7 +116,7 @@ int main(int argc, string argv[])
             tabulate(); // faz os calulos do votos primeiramente
 
             // Check if election has been won
-            bool won = print_winner(minvot);
+            bool won = print_winner();
             if(won==true)
             {
                 return 0;
@@ -206,7 +205,7 @@ void tabulate(void)
 }
 
 // Print the winner of the election, if there is one
-bool print_winner(minvot)
+bool print_winner(void)
 {
     for(int i=0; i < candidate_count; i++)
     {
