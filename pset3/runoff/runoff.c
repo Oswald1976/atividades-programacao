@@ -63,7 +63,7 @@ int main(int argc, string argv[])
         printf("Maximum number of voters is %i\n", MAX_VOTERS);
         return 3;
     }
-    
+
 
 
     // Keep querying for votes
@@ -209,7 +209,7 @@ bool print_winner(void)
 {
     for(int i=0; i < candidate_count; i++)
     {
-        if(candidates[i].votes >= minvot)
+        if(candidates[i].votes >= round(voter_count / (float)2))
         {
              printf("%s\n", candidates[i].name);
              return true;
