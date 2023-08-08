@@ -20,7 +20,7 @@ typedef struct
 candidate;
 candidate candidates[MAX_CANDIDATES]; // Array of candidates
 
-int indvot=0;
+
 
 // Numbers of voters and candidates
 int voter_count;
@@ -114,6 +114,8 @@ int main(int argc, string argv[])
 
         while(true)
         {
+            tabulate(); // faz os calulos do votos primeiramente
+
             // Check if election has been won
             bool won = print_winner(minvot);
             if(won==true)
@@ -134,7 +136,7 @@ int main(int argc, string argv[])
                 // Keep holding runoffs until winner exists
 
                 // Calculate votes given remaining candidates
-                tabulate();
+
             }
 
         }
@@ -176,7 +178,7 @@ bool vote(int voter, int rank, string name)
         if(strcmp(name, candidates[i].name) == 0)
         {
             preferences [voter][rank]=name;
-            indvot++;
+
             return true;
         }
 
