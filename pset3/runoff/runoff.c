@@ -113,12 +113,8 @@ int min = find_min();
                 {
                     candidates[i].votes = 0;
                 }
-
-               
             }
-
         }
-
 
             bool tie = is_tie(min);
 
@@ -134,8 +130,6 @@ int min = find_min();
                 }
             //  break;
             }
-
-
 
     return 0;
 }
