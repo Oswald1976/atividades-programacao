@@ -206,7 +206,7 @@ void tabulate(void)
             }
         }
     }
-    
+
 }
 
 // Print the winner of the election, if there is one
@@ -216,7 +216,7 @@ bool print_winner(minvot)
     int maisv=0;
         for(int i=0; i < candidate_count; i++)
         {
-            if(candidates[i].votes > maisv)
+            if(candidates[i].votes => minvot)
             {
                 maisv=candidates[i].votes;
             }
