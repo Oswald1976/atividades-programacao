@@ -8,7 +8,7 @@
 #define MAX_VOTERS 100
 #define MAX_CANDIDATES 9
 
-
+string preferences[MAX_VOTERS][MAX_CANDIDATES]; // preferences[i][j] is jth preference for voter i
 
 // Candidates have name, vote count, eliminated status
 typedef struct
@@ -66,7 +66,6 @@ int main(int argc, string argv[])
     int minvot=0;
     minvot = round(voter_count / (float)2);
 
-    string preferences[voter_count][candidate_count]; // preferences[i][j] is jth preference for voter i
 
     // Keep querying for votes
     while(true)
