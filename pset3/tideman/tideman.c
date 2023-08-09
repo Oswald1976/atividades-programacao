@@ -19,7 +19,7 @@ typedef struct
 pair;
 
 // Array of candidates
-string candidates[MAX];
+string candidates[MAX];CLEA
 pair pairs[MAX * (MAX - 1) / 2];
 
 int pair_count;
