@@ -24,7 +24,7 @@ void reflect(int height, int width, RGBTRIPLE image[height][width])
     RGBTRIPLE(*tmp)[width] = calloc(height, width * sizeof(RGBTRIPLE));
     for(int i=0; i < height; i++)
     {
-        
+        for(int j = width; j > 0; j--)
     }
     return;
 }
