@@ -22,7 +22,10 @@ void grayscale(int height, int width, RGBTRIPLE image[height][width])
 void reflect(int height, int width, RGBTRIPLE image[height][width])
 {
     RGBTRIPLE(*tmp)[width] = calloc(height, width * sizeof(RGBTRIPLE));
-    for(int i=0; )
+    for(int i=0; i < height; i++)
+    {
+        
+    }
     return;
 }
 
