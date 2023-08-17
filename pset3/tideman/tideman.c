@@ -102,6 +102,7 @@ bool vote(int rank, string name, int ranks[])
     // TODO
     return false;
 }
+ls
 
 // Update preferences given one voter's ranks
 void record_preferences(int ranks[])
