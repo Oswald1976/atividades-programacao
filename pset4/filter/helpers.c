@@ -114,5 +114,10 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
 // Detect edges
 void edges(int height, int width, RGBTRIPLE image[height][width])
 {
+    RGBTRIPLE(*tmp)[width] = calloc(height, width * sizeof(RGBTRIPLE)); // aloca um espaço na memoria para um RGBTRIPLE
+
+
+
+    free(tmp);  //  Libera o espaço da memoria para o RGBTRIPLE tmp
     return;
 }
