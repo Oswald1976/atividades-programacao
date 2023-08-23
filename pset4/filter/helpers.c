@@ -115,6 +115,13 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
 void edges(int height, int width, RGBTRIPLE image[height][width])
 {
     RGBTRIPLE(*tmp)[width] = calloc(height, width * sizeof(RGBTRIPLE)); // aloca um espaço na memoria para um RGBTRIPLE
+    for(int i=0; i < height; i++)  // percorre a linha
+    {
+        for(int j=0; j < width; j++) // percorre a coluna
+        {
+            
+        }
+    }
 
 
 
