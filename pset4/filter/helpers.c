@@ -143,12 +143,12 @@ void edges(int height, int width, RGBTRIPLE image[height][width])
                         continue;
                     }
                     // Otherwise add to sums
-                    Gx_red += temp[i + k][j + l].rgbtRed * Gx[k + 1][l + 1];
-                    Gx_green += temp[i + k][j + l].rgbtGreen * Gx[k + 1][l + 1];
-                    Gx_blue += temp[i + k][j + l].rgbtBlue * Gx[k + 1][l + 1];
-                    Gy_red += temp[i + k][j + l].rgbtRed * Gy[k + 1][l + 1];
-                    Gy_green += temp[i + k][j + l].rgbtGreen * Gy[k + 1][l + 1];
-                    Gy_blue += temp[i + k][j + l].rgbtBlue * Gy[k + 1][l + 1];
+                    Gx_red += tmp[i + k][j + l].rgbtRed * Gx[k + 1][l + 1];
+                    Gx_green += tmp[i + k][j + l].rgbtGreen * Gx[k + 1][l + 1];
+                    Gx_blue += tmp[i + k][j + l].rgbtBlue * Gx[k + 1][l + 1];
+                    Gy_red += tmp[i + k][j + l].rgbtRed * Gy[k + 1][l + 1];
+                    Gy_green += tmp[i + k][j + l].rgbtGreen * Gy[k + 1][l + 1];
+                    Gy_blue += tmp[i + k][j + l].rgbtBlue * Gy[k + 1][l + 1];
                 }
             }
             // Calculate Sobel operator
