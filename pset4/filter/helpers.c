@@ -151,7 +151,27 @@ void edges(int height, int width, RGBTRIPLE image[height][width])
                     Gy_blue += temp[i + k][j + l].rgbtBlue * Gy[k + 1][l + 1];
                 }
             }
-
+            // Calculate Sobel operator
+            int red = round(sqrt(Gx_red * Gx_red + Gy_red * Gy_red));
+            int green = round(sqrt(Gx_green * Gx_green + Gy_green * Gy_green));
+            int blue = round(sqrt(Gx_blue * Gx_blue + Gy_blue * Gy_blue));
+            // Cap at 255
+            if (red > 255)
+            {
+                red = 255;
+            }
+            if (green > 255)
+            {
+                green = 255;
+            }
+            if (blue > 255)
+            {
+                blue = 255;
+            }
+            // Assign new values to pixels
+            image[i][j].rgbtRed = red;
+            image[i][j].rgbtGreen = green;
+            image[i][j].rgbtBlue = blue;
 
         }
     }
