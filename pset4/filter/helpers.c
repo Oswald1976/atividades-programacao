@@ -115,11 +115,16 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
 void edges(int height, int width, RGBTRIPLE image[height][width])
 {
     RGBTRIPLE(*tmp)[width] = calloc(height, width * sizeof(RGBTRIPLE)); // aloca um espaço na memoria para um RGBTRIPLE
+
+     // Initialise Sobel arrays
+    int Gx[3][3] = {{-1, 0, 1}, {-2, 0, 2}, {-1, 0, 1}};
+    int Gy[3][3] = {{-1, -2, -1}, {0, 0, 0}, {1, 2, 1}};
+    
     for(int i=0; i < height; i++)  // percorre a linha
     {
         for(int j=0; j < width; j++) // percorre a coluna
         {
-            
+
         }
     }
 
