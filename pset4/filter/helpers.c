@@ -69,12 +69,12 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
                 for (int l = -1; l < 2; l++)
                 {
                     // Check if pixel is outside rows
-                    if (i + k < 0 && i + k >= height)
+                    if (i + k < 0 || i + k >= height)
                     {
                         continue;
                     }
                     // Check if pixel is outside columns
-                    if (j + l < 0 && j + l >= width)
+                    if (j + l < 0 || j + l >= width)
                     {
                         continue;
                     }
