@@ -128,7 +128,29 @@ void edges(int height, int width, RGBTRIPLE image[height][width])
     {
         for(int j=0; j < width; j++) // percorre a coluna
         {
-            
+            for (int k = -1; k < 2; k++)
+            {
+                for (int l = -1; l < 2; l++)
+                {
+                    // Check if pixel is outside rows
+                    if (i + k < 0 || i + k >= height)
+                    {
+                        continue;
+                    }
+                    // Check if pixel is outside columns
+                    if (j + l < 0 || j + l >= width)
+                    {
+                        continue;
+                    }
+                    // Otherwise add to sums
+                    Gx_red += temp[i + k][j + l].rgbtRed * Gx[k + 1][l + 1];
+                    Gx_green += temp[i + k][j + l].rgbtGreen * Gx[k + 1][l + 1];
+                    Gx_blue += temp[i + k][j + l].rgbtBlue * Gx[k + 1][l + 1];
+                    Gy_red += temp[i + k][j + l].rgbtRed * Gy[k + 1][l + 1];
+                    Gy_green += temp[i + k][j + l].rgbtGreen * Gy[k + 1][l + 1];
+                    Gy_blue += temp[i + k][j + l].rgbtBlue * Gy[k + 1][l + 1];
+                }
+            }
 
 
         }
