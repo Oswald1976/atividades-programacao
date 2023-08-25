@@ -172,12 +172,8 @@ void edges(int height, int width, RGBTRIPLE image[height][width])
             image[i][j].rgbtRed = red;
             image[i][j].rgbtGreen = green;
             image[i][j].rgbtBlue = blue;
-
         }
     }
-
-
-
     free(tmp);  //  Libera o espaço da memoria para o RGBTRIPLE tmp
     return;
 }
