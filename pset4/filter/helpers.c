@@ -119,11 +119,17 @@ void edges(int height, int width, RGBTRIPLE image[height][width])
      // Initialise Sobel arrays
     int Gx[3][3] = {{-1, 0, 1}, {-2, 0, 2}, {-1, 0, 1}};
     int Gy[3][3] = {{-1, -2, -1}, {0, 0, 0}, {1, 2, 1}};
-    
+
+    // Initialise ints
+    float Gx_red, Gx_blue, Gx_green, Gy_red, Gy_blue, Gy_green;
+    Gx_red = Gx_blue = Gx_green = Gy_red = Gy_blue = Gy_green = 0;
+
     for(int i=0; i < height; i++)  // percorre a linha
     {
         for(int j=0; j < width; j++) // percorre a coluna
         {
+            
+
 
         }
     }
