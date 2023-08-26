@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
     FILE *file = fopen(argv[1], "r");
     if(file == NULL)
     {
-        printf("Não foi possivel abrir %O que vai ser recuperado ?!?!?!?!\n");
+        printf("Não foi possivel abrir %s !!!\n", argv[1]);
         return 1;
     }
     // Abrir o arquivo de saída
