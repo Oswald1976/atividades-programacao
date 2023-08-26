@@ -25,7 +25,18 @@ int main(int argc, char *argv[])
     if (bytes[0] == 0xff && bytes[1] == 0xd8 && bytes[2] == 0xff)
     {
         int adest = 000;
-        
+        const char *nomeArquivo = "%s.jpg", adest;
+        FILE *arquivo;
+        arquivo = fopen(nomeArquivo, "w");
+        if (arquivo != NULL)
+        {
+            printf("O arquivo existe.\n");
+            fclose(arquivo);
+        }
+        else
+        {
+            printf("O arquivo não existe.\n");
+        }
 
         FILE *destination = fopen(argv[2], "w");
         if (destination == NULL)
