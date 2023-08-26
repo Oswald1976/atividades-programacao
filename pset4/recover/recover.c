@@ -31,6 +31,19 @@ int main(int argc, char *argv[])
             printf("Não foi possível criar %s.\n", argv[2]);
             return 1;
         }
+        else
+        {
+            // Copiar um byte de cada vez do arquivo origem(source) para o arquivo destino(destination)
+            BYTE buffer;
+            while(fread(&buffer, sizeof(BYTE), 1, file))
+            {
+                fwrite(&buffer, sizeof(BYTE), 1, destination);
+            }
+     // Fechar os arquivos
+     fclose(source);
+     fclose(destination);
+     return 0;
+        }
     }
     else
     {
