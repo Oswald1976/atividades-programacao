@@ -18,21 +18,22 @@
 
 int main(int argc, char *argv[])
 {
- if (argc < 2) // Check for invalid usage
-    {
-        printf("O que vai ser recuperado ?!?!?!?!\n");
-        return 1;
-    }
+if (argc < 2) // Check for invalid usage
+   {
+       printf("O que vai ser recuperado ?!?!?!?!\n");
+       return 1;
+   }
 typedef uint8_t buffer[512];
 int imagem , i = 0, gravando = 0;
 char img[10] = "000.jpg";
-    FILE *file = fopen(argv[1], "r");
-    FILE *image = NULL; //INICIALIZA O PONTEIRO VAZIO;
-    if(file == NULL)  // Verifica se o arquivo foi aberto
-    {
-        printf("Não foi possivel abrir %s !!!\n", argv[1]);
-        return 1;
-    }
+
+FILE *file = fopen(argv[1], "r");
+FILE *image = NULL; //INICIALIZA O PONTEIRO VAZIO;
+if(file == NULL)  // Verifica se o arquivo foi aberto
+{
+    printf("Não foi possivel abrir %s !!!\n", argv[1]);
+    return 1;
+}
 
     //a função fread retorna o valor do bloco lido (512) retornando 0 quando chega ao fim do arquivo.
     while ((imagem = fread(buffer, 1, sizeof(buffer), file)) > 0)
