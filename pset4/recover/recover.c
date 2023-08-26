@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
     }
     FILE *file = fopen(argv[1], "r");
     FILE *image = NULL; //INICIALIZA O PONTEIRO VAZIO;
-    if(file == NULL)
+    if(file == NULL)  // Verifica se o arquivo foi aberto
     {
         printf("Não foi possivel abrir %s !!!\n", argv[1]);
         return 1;
