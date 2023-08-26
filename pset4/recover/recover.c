@@ -3,10 +3,10 @@
 #include <stdint.h>
 
 //errado
-fread(buffer, 512, 1, filer);
+// fread(buffer, 512, 1, filer);
 
 // certo
-fread(buffer, 1, 512, filer);
+// fread(buffer, 1, 512, filer);
 
 // 1 = tamanho em byte;
 // 512 = n de bytes a serem lidos de uma so vez;
