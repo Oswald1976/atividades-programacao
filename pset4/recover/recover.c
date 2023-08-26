@@ -8,4 +8,6 @@ int main(int argc, char *argv[])
         printf("O que vai ser recuperado ?!?!?!?!\n");
         return 1;
     }
+    FILE *f = fopen(filename, "r");
+
 }
