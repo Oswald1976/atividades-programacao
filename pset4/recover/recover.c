@@ -39,6 +39,7 @@ int main(int argc, char *argv[])
             {
                 fwrite(&buffer, sizeof(BYTE), 1, destination);
             }
+
      // Fechar os arquivos
      fclose(source);
      fclose(destination);
