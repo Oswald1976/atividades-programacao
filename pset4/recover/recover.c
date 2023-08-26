@@ -24,6 +24,7 @@ int main(int argc, char *argv[])
     // Verificar os três primeiros bytes
     if (bytes[0] == 0xff && bytes[1] == 0xd8 && bytes[2] == 0xff)
     {
+        int adest = 000;
         
 
         FILE *destination = fopen(argv[2], "w");
