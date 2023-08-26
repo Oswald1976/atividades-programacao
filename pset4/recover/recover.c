@@ -3,6 +3,8 @@
 
 typedef uint8_t BYTE[512];
 
+char img[10] = "000.jpg";
+
 
 int main(int argc, char *argv[])
 {
