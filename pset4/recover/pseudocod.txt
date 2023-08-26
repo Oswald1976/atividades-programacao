@@ -10,7 +10,7 @@ Ler os 3 primeiros bytes do cartão (loop)
             gravar em um arquivo 000.jpg
             retorna para o inicio do loop
     senao for
-        procura outros arquivos que exista os bytes padrao
+        procura outros arquivos que exista os bytes padrao jpg
         retorna para o inicio do loop
 fim do cartão
 libera toda memoria
