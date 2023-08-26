@@ -11,8 +11,9 @@ int main(int argc, char *argv[])
         return 1;
     }
     FILE *file = fopen(argv[1], "r");
-    if( file == NULL)
+    if(file == NULL)
     {
+        printf("Não foi possivel abrir %O que vai ser recuperado ?!?!?!?!\n");
         return 1;
     }
     // Abrir o arquivo de saída
