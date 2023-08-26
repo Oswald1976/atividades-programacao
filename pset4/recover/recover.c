@@ -14,7 +14,7 @@
 
 
 typedef uint8_t BYTE[512];
-int imagem, i = gravando = 0;
+int imagem = i = gravando = 0;
 char img[10] = "000.jpg";
 
 
