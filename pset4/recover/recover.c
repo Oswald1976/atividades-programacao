@@ -15,6 +15,14 @@ int main(int argc, char *argv[])
     {
         return 1;
     }
+    // Abrir o arquivo de saída
+     FILE *destination = fopen(argv[2], "w");
+     if (destination == NULL)
+     {
+         fclose(source);
+         printf("Não foi possível criar %s.\n", argv[2]);
+         return 1;
+     }
  // Ler os primeiros 3 bytes
     BYTE bytes[3];
     fread(bytes, sizeof(BYTE), 3, file);
