@@ -5,7 +5,7 @@ int main(int argc, char *argv[])
 {
  if (argc < 2) // Check for invalid usage
     {
-        printf("Usage: plurality [candidate ...]\n");
+        printf("O que vai ser recuperado ?!?!?!?!\n");
         return 1;
     }
 }
