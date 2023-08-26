@@ -13,9 +13,7 @@
 
 
 
-typedef uint8_t buffer[512];
-int imagem , i = 0, gravando = 0;
-char img[10] = "000.jpg";
+
 
 
 int main(int argc, char *argv[])
@@ -25,6 +23,9 @@ int main(int argc, char *argv[])
         printf("O que vai ser recuperado ?!?!?!?!\n");
         return 1;
     }
+typedef uint8_t buffer[512];
+int imagem , i = 0, gravando = 0;
+char img[10] = "000.jpg";
     FILE *file = fopen(argv[1], "r");
     FILE *image = NULL; //INICIALIZA O PONTEIRO VAZIO;
     if(file == NULL)  // Verifica se o arquivo foi aberto
