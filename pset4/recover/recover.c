@@ -50,11 +50,11 @@ while ((imagem = fread(buffer, 1, sizeof(buffer), file)) > 0)
         gravando = 1;
     }
 
-        if (gravando == 1)
-        {
-            fwrite(buffer, 1, imagem, image);
-        }
-    }
+   if (gravando == 1)
+   {
+       fwrite(buffer, 1, imagem, image);
+   }
+}
 
     fclose(image);
     fclose(file);
