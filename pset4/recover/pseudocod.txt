@@ -1,1 +1,17 @@
 Abrir o Cartão de memoria
+le o cartão ate o final do mesmo
+Ler os 3 primeiros bytes do cartão (loop)
+    comparar os mesmos com os primeiros bytes padrao para jpeg
+    se for
+        procurar se existe o arquivo 000.jpg
+        se existir
+            procura um outro arquivo na seguencia numerica que nao tenha e grava
+        se nao existir
+            gravar em um arquivo 000.jpg
+            retorna para o inicio do loop
+    senao for
+        procura outros arquivos que exista os bytes padrao
+        retorna para o inicio do loop
+fim do cartão
+libera toda memoria
+sai do programa
