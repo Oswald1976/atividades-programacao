@@ -1,1 +1,1 @@
-print("Hello, World !!!")
+from cs50 import get_string
