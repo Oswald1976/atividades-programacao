@@ -38,24 +38,12 @@ int main(int argc, char *argv[])
     fwrite(header, 1, sizeof(header), output); // grava os primeiros 44 bites do cabeçalho
     // TODO: Copy header from input file to output file
 
- while ((som = fread(buffer, 1, sizeof(buffer), file)) > 0)
+ while ((som = fread(buffer, 1, sizeof(buffer), input)) > 0)
     {
-        if (buffer[0] == 0xff && buffer[1] == 0xd8 && buffer[2] == 0xff && (buffer[3] & 0xf0) == 0xe0)
-        {
-            if (gravando == 1)
-            {
-                fclose(image);
-            }
-            sprintf(img, "%03i.jpg", i);
-            image = fopen(img, "wb");
-            i++;
-            gravando = 1;
-        }
 
-        if (gravando == 1)
-        {
-            fwrite(buffer, 1, imagem, image);
-        }
+
+            fwrite(buffer, 1, som, output);
+
     }
     // TODO: Read samples from input file and write updated data to output file
 
