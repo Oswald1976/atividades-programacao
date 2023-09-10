@@ -1,11 +1,11 @@
 sort1 uses: 2
 
-How do you know?: TODO
+How do you know?: very fast
 
 sort2 uses: 3
 
-How do you know?: TODO
+How do you know?: fast
 
 sort3 uses: 1
 
-How do you know?: TODO
+How do you know?: slow
