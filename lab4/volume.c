@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
 
     fread(header, 1, sizeof(header), input);
 
-    fread(header, 1, sizeof(header), input);
+    fwrite(header, 1, sizeof(header), input);
 
 
 
