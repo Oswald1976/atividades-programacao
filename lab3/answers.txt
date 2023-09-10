@@ -1,11 +1,11 @@
-./sort1 reversed10000.txtsort1 uses: TODO
+sort1 uses: 2
 
 How do you know?: TODO
 
-sort2 uses: TODO
+sort2 uses: 3
 
 How do you know?: TODO
 
-sort3 uses: TODO
+sort3 uses: 1
 
 How do you know?: TODO
