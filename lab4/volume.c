@@ -31,10 +31,10 @@ int main(int argc, char *argv[])
     }
 
     float factor = atof(argv[3]);
-
+    int som = 0
     uint8_t header[HEADER_SIZE];
 
-    fread(header, 1, sizeof(header), input);
+    som = fread(header, 1, sizeof(header), input);
 
     fwrite(header, 1, sizeof(header), output);
 
