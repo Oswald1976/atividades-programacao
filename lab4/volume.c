@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
 
     uint8_t header[HEADER_SIZE];
 
-    fread(header, 1 )
+    fread(header, 1, sizeof(header), )
 
 
 
