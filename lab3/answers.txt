@@ -1,4 +1,4 @@
-sort1 uses: TODO
+./sort1 reversed10000.txtsort1 uses: TODO
 
 How do you know?: TODO
 
