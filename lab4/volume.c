@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
 
  while ((som = fread(buffer, 1, sizeof(buffer), input)) > 0)
     {
-        
+        som =
 
             fwrite(buffer, 1, som, output);
 
