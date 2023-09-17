@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
 
  while ((som = fread(&buffer, 1, sizeof(buffer), input)) > 0)
     {
-        som = (int16_t)(som * factor);
+        buffer = (int16_t)(buffer * factor);
 
             fwrite(&buffer, sizeof(int16_t), 1, output);
 
