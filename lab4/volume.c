@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
     fwrite(header, 1, sizeof(header), output); // grava os primeiros 44 bites do cabeçalho
     // TODO: Copy header from input file to output file
 
- while ((som = fread(&buffer, 1, sizeof(buffer), input)) > 0)
+ while (fread(&buffer, sizeof(buffer), 1, input) > 0)
     {
         buffer = (int16_t)(buffer * factor);
 
