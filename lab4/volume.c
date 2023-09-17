@@ -31,8 +31,8 @@ int main(int argc, char *argv[])
         return 1;
     }
     float factor = atof(argv[3]);
-    int som = 0,
-    uint8_t header[HEADER_SIZE];
+    int som = 0;
+
 
     fread(header, 1, sizeof(header), input); // le os primeiros 44 bites do cabeçalho
     fwrite(header, 1, sizeof(header), output); // grava os primeiros 44 bites do cabeçalho
