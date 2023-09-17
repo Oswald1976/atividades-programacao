@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
     {
         som = (int16_t)(som * factor);
 
-            fwrite(buffer, som, 1, output);
+            fwrite(&buffer, som, 1, output);
 
     }
     // TODO: Read samples from input file and write updated data to output file
