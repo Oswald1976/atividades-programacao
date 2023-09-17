@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
 
  while ((som = fread(buffer, 1, sizeof(buffer), input)) > 0)
     {
-        som =
+        som = som * factor;
 
             fwrite(buffer, 1, som, output);
 
@@ -50,4 +50,5 @@ int main(int argc, char *argv[])
     // Close files
     fclose(input);
     fclose(output);
+    return 0;
 }
