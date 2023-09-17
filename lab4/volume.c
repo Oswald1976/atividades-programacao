@@ -7,7 +7,7 @@
 // Number of bytes in .wav header
 const int HEADER_SIZE = 44; // Numero de bites do cabeçalho do arquivo wav
 uint8_t header[HEADER_SIZE];
-int16_t buffer[2];
+int16_t buffer;
 
 int main(int argc, char *argv[])
 {
@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
     fwrite(header, 1, sizeof(header), output); // grava os primeiros 44 bites do cabeçalho
     // TODO: Copy header from input file to output file
 
- while ((som = fread(buffer, 1, sizeof(buffer), input)) > 0)
+ while ((som = fread(&buffer, 1, sizeof(buffer), input)) > 0)
     {
         som = (int16_t)(som * factor);
 
