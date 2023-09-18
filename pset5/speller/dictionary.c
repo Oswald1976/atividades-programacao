@@ -21,8 +21,12 @@ node *table[N];
 // Loads dictionary into memory, returning true if successful, else false
 bool load(const char *dictionary)
 {
-    // TODO
-    return false;
+    
+
+    if(dic == NULL)
+    {
+        return false;
+    }
 }
 
 // Returns true if word is in dictionary, else false
