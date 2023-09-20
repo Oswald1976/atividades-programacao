@@ -37,7 +37,14 @@ unsigned int hash(const char *word)
 // Loads dictionary into memory, returning true if successful, else false
 bool load(const char *dictionary)
 {
-    // TODO
+    FILE *dicionario - NULL;
+    dicionario - fopen(dictionary, "r");
+
+    if (dicionario == NULL)
+    {
+        printf("falha ao abrir dicionario");
+        
+    }
     return false;
 }
 
