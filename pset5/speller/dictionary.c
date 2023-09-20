@@ -17,7 +17,7 @@ typedef struct node
 }
 node;
 
-const unsigned int N = 26;  // Number of buckets in hash table
+const int N = 26;  // Number of buckets in hash table
 node *table[N];  // Hash table
 
 // Returns true if word is in dictionary, else false
