@@ -65,7 +65,7 @@ bool load(const char *dictionary)
     int idx, i = 1, x = 0;
     char palavra[LENGTH + 1];
 
-    while(fscanf(dic, "%s", dicbuffer) != EOF)
+    while(fscanf(dicionario, "%s", palavra) != EOF)
     {
 
 // Represents a node in a hash table
