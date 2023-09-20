@@ -150,13 +150,20 @@ bool load(const char *dictionary)
         n->next = NULL;
 
         idx = hash(n->word);
-        
-
-
-
-
+        if (idx == i)
+        {
+            table[idx] = NULL;
+            table[idx] = n;
+            i++;
+        }
+        else
+        {
+            n->next = table;
+            table[idx] = n;
+        }
+    x++;
     }
-
+    fclose(dicionario);
 
     return false;
 }
