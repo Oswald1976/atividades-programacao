@@ -1,9 +1,81 @@
 // Implements a dictionary's functionality
-#include <string.h>
 
+#include <strings.h>
+#include <ctype.h>
 #include <stdbool.h>
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdint.h>
 #include "dictionary.h"
+
+// Represents a node in a hash table
+typedef struct node
+{
+    char word[LENGTH + 1];
+    struct node *next;
+}
+node;
+
+// TODO: Choose number of buckets in hash table
+const unsigned int N = 100000;
+
+// Hash table
+node *table[N];
+
+int dicsize = 0;
+
+// Returns true if word is in dictionary, else false
+bool check(const char *word)
+{
+    // TODO
+    unsigned int hashed = hash(word);
+
+    node *n = table[hashed];
+
+    while(n != NULL)
+    {
+        if (strcasecmp(word, n->word) == 0)
+        {
+            return true;
+        }
+
+        n = n->next;
+    }
+
+    return false;
+}
+
+// Hashes word to a number
+unsigned int hash(const char *word)
+{
+    // TODO: Improve this hash function
+    unsigned long h = 5678;
+    int c = 0;
+
+    while (c == *word++)
+    {
+        h = (5678*h + *word) * 2 + c;
+    }
+
+    return h % N;
+}
+
+// Loads dictionary into memory, returning true if successful, else false
+bool load(const char *dictionary)
+{
+    // TODO load dic into hash table. output is a number corresponding to which bucket to store the word in
+    FILE *dic = fopen(dictionary, "r");
+
+    if(dic == NULL)
+    {
+        return false;
+    }
+
+    char dicbuffer[LENGTH + 1];
+
+    while(fscanf(dic, "%s", dicbuffer) != EOF)
+    {
 
 // Represents a node in a hash table
 typedef struct node
