@@ -96,15 +96,25 @@ bool load(const char *dictionary)
     }
     fclose(dicionario);
 
+    size_library = size();
     if (x == size_library)
-
+    {
+        return true;
+    }
     return false;
 }
 
 // Returns number of words in dictionary if loaded, else 0 if not yet loaded
 unsigned int size(void)
 {
-    // TODO
+    int x = 0. i = 0;
+    while (i < 26)
+    {
+        for(node *tmp = table[i]; tmp != NULL; tmp = tmp->next)
+        {
+            x++
+        }
+    }
     return 0;
 }
 
