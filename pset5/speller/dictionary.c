@@ -99,7 +99,7 @@ bool load(const char *dictionary)
     int size_library = size();
     if (x == size_library)
     {
-        return true,size_library;
+        return true;
     }
     return false;
 }
