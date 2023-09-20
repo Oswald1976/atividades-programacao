@@ -53,8 +53,9 @@ unsigned int hash(const char *word)
 // Loads dictionary into memory, returning true if successful, else false
 bool load(const char *dictionary)
 {
-    // TODO load dic into hash table. output is a number corresponding to which bucket to store the word in
-    FILE *dic = fopen(dictionary, "r");
+
+    FILE *dicionario = NULL;
+    dicionario = fopen(dictionary, "r");
 
     if(dic == NULL)
     {
