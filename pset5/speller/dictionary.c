@@ -49,9 +49,11 @@ bool load(const char *dictionary)
     {
         printf("dicionario aberto com sucesso");
     }
-    
 
+    int     idx, i = 1, x = 0;
+    char    palavra[LENGTH + 1];
 
+    while (fscanf(dicionario), %s, palavra) != EOF)
 
 
     return false;
