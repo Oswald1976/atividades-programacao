@@ -96,6 +96,8 @@ bool load(const char *dictionary)
     }
     fclose(dicionario);
 
+    if (x == size_library)
+
     return false;
 }
 
