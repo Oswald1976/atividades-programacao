@@ -54,6 +54,15 @@ bool load(const char *dictionary)
     char    palavra[LENGTH + 1];
 
     while (fscanf(dicionario), %s, palavra) != EOF)
+    {
+        node *n = malloc(sizeof(node));
+        if (n == NULL)
+        {
+            printf("Falha na alocação de memória.\n");
+            free(table);
+            return false;
+        }
+    }
 
 
     return false;
