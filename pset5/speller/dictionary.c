@@ -68,13 +68,7 @@ bool load(const char *dictionary)
     while(fscanf(dicionario, "%s", palavra) != EOF)
     {
 
-// Represents a node in a hash table
-typedef struct node
-{
-    char word[LENGTH + 1];
-    struct node *next;
-}
-node;
+/
 
 const unsigned int N = 26;  // Number of buckets in hash table
 
