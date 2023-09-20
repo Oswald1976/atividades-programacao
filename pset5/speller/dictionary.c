@@ -112,7 +112,7 @@ unsigned int size(void)
     {
         for(node *tmp = table[i]; tmp != NULL; tmp = tmp->next)
         {
-            x++
+            x++;
         }
         i++;
     }
@@ -129,7 +129,7 @@ bool unload(void)
     int i = 0;
     for (int j = 0; j < 26; j++)
     {
-        while(table[j}] != NULL)
+        while(table[j] != NULL)
         {
             node *temp = table[j];
             table[j] = table[j]->next;
