@@ -26,7 +26,7 @@ bool check(const char *word)
     int i;
     i = hash(word);
 
-    for (node *tmp = &table[i]; tmp != NULL; tmp = tmp->next)
+    for (node *tmp = table[i]; tmp != NULL; tmp = tmp->next)
     {
         if (strcasecmp(word, tmp->word) == 0)
         {
