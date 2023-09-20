@@ -38,10 +38,8 @@ bool check(const char *word)
         {
             return true;
         }
-
         n = n->next;
     }
-
     return false;
 }
 
