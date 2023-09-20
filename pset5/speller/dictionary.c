@@ -150,6 +150,7 @@ bool load(const char *dictionary)
         n->next = NULL;
 
         idx = hash(n->word);
+        
 
 
 
