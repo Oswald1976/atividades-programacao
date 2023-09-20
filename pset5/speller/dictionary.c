@@ -22,12 +22,10 @@ unsigned int size_library;
 
 node *table[N];
 
-
-
 // Returns true if word is in dictionary, else false
 bool check(const char *word)
 {
-    
+
     unsigned int hashed = hash(word);
 
     node *n = table[hashed];
