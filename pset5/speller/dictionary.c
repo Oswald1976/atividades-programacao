@@ -18,7 +18,7 @@ typedef struct node
 node;
 
 const int N = 26;  // Number of buckets in hash table
-node *table;  // Hash table
+node *table[26];  // Hash table
 
 // Returns true if word is in dictionary, else false
 bool check(const char *word)
@@ -26,7 +26,7 @@ bool check(const char *word)
     int i;
     i = hash(word);
 
-    for (node *tmp = table[i]; tmp != NULL; tmp = tmp->next)
+    for (node *tmp = &table[i]; tmp != NULL; tmp = tmp->next)
     {
         if (strcasecmp(word, tmp->word) == 0)
         {
