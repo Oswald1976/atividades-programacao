@@ -74,7 +74,7 @@ bool load(const char *dictionary)
         if (n == NULL)
         {
             printf("Falha na alocação de memória.\n");
-            free(table);
+            free(n);
             return false;
         }
         strcpy(n->word, palavra);
