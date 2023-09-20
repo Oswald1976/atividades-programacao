@@ -57,12 +57,13 @@ bool load(const char *dictionary)
     FILE *dicionario = NULL;
     dicionario = fopen(dictionary, "r");
 
-    if(dic == NULL)
+    if(dicionario == NULL)
     {
+        printf("falha ao abrir dicionario!");
         return false;
     }
-
-    char dicbuffer[LENGTH + 1];
+    int idx, i = 1, x = 0;
+    char palavra[LENGTH + 1];
 
     while(fscanf(dic, "%s", dicbuffer) != EOF)
     {
