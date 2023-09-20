@@ -53,7 +53,7 @@ unsigned int hash(const char *word)
 bool load(const char *dictionary)
 {
     FILE *dicionario = NULL;
-    dicionario - fopen(dictionary, "r");
+    dicionario = fopen(dictionary, "r");
 
     if (dicionario == NULL)
     {
@@ -96,7 +96,7 @@ bool load(const char *dictionary)
     }
     fclose(dicionario);
 
-    size_library = size();
+    int size_library = size();
     if (x == size_library)
     {
         return true;
