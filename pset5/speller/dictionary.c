@@ -20,26 +20,21 @@ node;
 const unsigned int N = 26; // TODO: Choose number of buckets in hash table
 unsigned int size_library;
 
-node *table[N];
+node *table[N]; // Hash table
 
 // Returns true if word is in dictionary, else false
 bool check(const char *word)
 {
+    int i;
+    i = hash(word);
 
-    unsigned int hashed = hash(word);
-
-    node *n = table[hashed];
-
-    while(n != NULL)
-    {
-        if (strcasecmp(word, n->word) == 0)
+    for (node *tmp = table[i; tmp != NULL; tmp = tmp-> next)
         {
-            return true;
+            if (strcasecmp(word, n->word) == 0)
+            {
+                return true;
+            }
         }
-
-        n = n->next;
-    }
-
     return false;
 }
 
