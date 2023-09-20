@@ -43,8 +43,17 @@ bool load(const char *dictionary)
     if (dicionario == NULL)
     {
         printf("falha ao abrir dicionario");
-        
+        return 1;
     }
+    else
+    {
+        printf("dicionario aberto com sucesso");
+    }
+    
+
+
+
+
     return false;
 }
 
