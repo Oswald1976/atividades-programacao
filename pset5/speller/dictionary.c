@@ -1,4 +1,5 @@
 // Implements a dictionary's functionality
+#include <string.h>
 
 #include <stdbool.h>
 
@@ -73,6 +74,11 @@ bool load(const char *dictionary)
             free(table);
             return false;
         }
+        strcpy()
+
+
+
+
     }
 
 
