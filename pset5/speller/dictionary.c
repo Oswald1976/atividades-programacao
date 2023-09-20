@@ -17,61 +17,7 @@ typedef struct node
 }
 node;
 
-const unsigned int N = 26; // TODO: Choose number of buckets in hash table
-unsigned int size_library;
-
-node *table[N]; // Hash table
-
-// Returns true if word is in dictionary, else false
-bool check(const char *word)
-{
-    int i;
-    i = hash(word);
-
-    for (node *tmp = table[i; tmp != NULL; tmp = tmp-> next)
-        {
-            if (strcasecmp(word, n->word) == 0)
-            {
-                return true;
-            }
-        }
-    return false;
-}
-
-// Hashes word to a number
-unsigned int hash(const char *word)
-{
-    char palavra[LENGTH +1];
-    int hash;
-
-    strcpy(palavra, word);
-    hash = tolower(palavra[0]) - 97;
-
-    return hash;
-}
-
-// Loads dictionary into memory, returning true if successful, else false
-bool load(const char *dictionary)
-{
-
-    FILE *dicionario = NULL;
-    dicionario = fopen(dictionary, "r");
-
-    if(dicionario == NULL)
-    {
-        printf("falha ao abrir dicionario!");
-        return false;
-    }
-    int idx, i = 1, x = 0;
-    char palavra[LENGTH + 1];
-
-    while(fscanf(dicionario, "%s", palavra) != EOF)
-    {
-
-/
-
 const unsigned int N = 26;  // Number of buckets in hash table
-
 node *table[N];  // Hash table
 
 // Returns true if word is in dictionary, else false
