@@ -146,7 +146,10 @@ bool load(const char *dictionary)
             free(table);
             return false;
         }
-        strcpy()
+        strcpy(n->word, palavra);
+        n->next = NULL;
+
+        idx = hash(n->word);
 
 
 
