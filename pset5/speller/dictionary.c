@@ -114,6 +114,11 @@ unsigned int size(void)
         {
             x++
         }
+        i++;
+    }
+    if(x > 0)
+    {
+        return x;
     }
     return 0;
 }
