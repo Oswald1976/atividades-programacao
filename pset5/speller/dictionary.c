@@ -126,6 +126,19 @@ unsigned int size(void)
 // Unloads dictionary from memory, returning true if successful, else false
 bool unload(void)
 {
-    // TODO
+    int i = 0;
+    for (int j = 0; j < 26; j++)
+    {
+        while(table[j}] != NULL)
+        {
+            node *temp = table[j];
+            table[j] = table[j]->next;
+            free(temp);
+        }   i++;
+    }
+    if (i == size_library)
+    {
+        return true;
+    }
     return false;
 }
