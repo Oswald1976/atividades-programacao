@@ -16,8 +16,7 @@ typedef struct node
     struct node *next;
 }
 node;
-
-const int N = 26;  // Number of buckets in hash table
+int size_library = size();
 node *table[26];  // Hash table
 
 // Returns true if word is in dictionary, else false
@@ -96,7 +95,6 @@ bool load(const char *dictionary)
     }
     fclose(dicionario);
 
-    int size_library = size();
     if (x == size_library)
     {
         return true;
