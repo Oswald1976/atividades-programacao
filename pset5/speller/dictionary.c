@@ -16,7 +16,7 @@ typedef struct node
     struct node *next;
 }
 node;
-int size_library = 0; // size();
+// int size_library = size();
 node *table[26];  // Hash table
 
 // Returns true if word is in dictionary, else false
