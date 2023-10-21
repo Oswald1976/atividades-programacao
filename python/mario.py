@@ -5,3 +5,4 @@ if altura < 1 or altura > 8
     print("Numero Invalido")
 if altura > 1 and altura < 8
     for i in range(altura)
+     print("#", end="")
