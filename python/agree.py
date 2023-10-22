@@ -1,1 +1,1 @@
-s = input 
+s = input("Do you Agree")
