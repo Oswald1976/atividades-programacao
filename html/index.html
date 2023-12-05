@@ -3,9 +3,9 @@
 <html lang="en">
     <head>
         <script>
-            function greet()
+            function greet(name)
             {
-            alert('ola,');
+            alert('ola,'+name);
             }
         </script>
         <title>
@@ -13,7 +13,7 @@
         </title>
     </head>
     <body>
-        <form onsubmit="greet(); return true">
+        <form onsubmit="greet(name); return true">
             <input id="name" type="text">
             <input type="submit">
         </form>
