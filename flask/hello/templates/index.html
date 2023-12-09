@@ -5,6 +5,9 @@
         <title>Hello</title>
     </head>
     <body>
-        Hello, {{ name }}
+        <form action="/greet" method="get">
+            <input name="name" type="text">
+            <input type="submit">
+        </form>
     </body>
 </html>
