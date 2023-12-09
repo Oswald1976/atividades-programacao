@@ -3,7 +3,7 @@
 <html lang="en">
     <head>
         <script>
-            function greet(name)
+            function greet()
             {
                 let name = document.querySelector('#name').value;
             alert('ola,'+name);
@@ -14,7 +14,7 @@
         </title>
     </head>
     <body>
-        <form onsubmit="greet(name); return true">
+        <form onsubmit="greet(); return true">
             <input id="name" type="text">
             <input type="submit">
         </form>
