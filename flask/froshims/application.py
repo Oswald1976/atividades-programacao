@@ -17,7 +17,7 @@ def index():
 def register():
     name = request.form.get("name")
     if not name:
-        return render_template("error.html", message="")
+        return render_template("error.html", message="Nome Ausente")
     sport = request.form.get("sport")
     if not sport:
         return render_template("error.html")
