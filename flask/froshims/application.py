@@ -5,6 +5,7 @@ app =  Flask(__name__)
 REGISTRANTS = {}
 
 SPORTS =    [
+            "DogdeBall",
             "Flag Football",
             "Soccer",
             "Volleyball",
