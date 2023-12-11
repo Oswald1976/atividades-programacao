@@ -7,7 +7,7 @@
         <input autocomplete="off" autofocus name="name" p´laceholder="Name" type="text">
         <select name="sport">
             <option disabled selection value=" ">Sport</option>
-            {% for sport in sports % }
+            {% for sport in sports %}
                 <option value="{{ sport}}">{{ sport }}</option>
 
             {% endfor %}
