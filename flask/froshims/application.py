@@ -20,8 +20,8 @@ def register():
         return render_template("error.html", message="Nome Ausente")
     sport = request.form.get("sport")
     if not sport:
-        return render_template("error.html")
+        return render_template("error.html", message="Escolha o Esporte")
     if sport not in SPORTS:
-        return render_template("error.html")
+        return render_template("error.html", message="Esporte não Listado")
 
     return render_template("register.html")
