@@ -26,4 +26,5 @@ def register():
     if sport not in SPORTS:
         return render_template("error.html", message="Esporte não Listado")
 
+REGISTRANTS[NAME] = {}
     return render_template("register.html")
