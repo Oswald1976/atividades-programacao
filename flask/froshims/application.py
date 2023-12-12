@@ -28,8 +28,7 @@ def register():
     if sport not in SPORTS:
         return render_template("error.html", message="Esporte não Listado")
 
-    REGISTRANTS[name] = sport
-
+    db.execute("INSERT INTO registrants (name, sport) VALUES (?, ?)", name, sport)
     return redirect("/registrants")
 
 @app.route("/registrants")
