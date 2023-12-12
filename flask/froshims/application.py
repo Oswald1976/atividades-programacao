@@ -1,3 +1,5 @@
+import os
+
 from cs50 import SQL
 from flask import Flask, redirect, render_template, request
 from flask_mail import Mail, Message
