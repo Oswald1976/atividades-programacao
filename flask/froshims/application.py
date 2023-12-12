@@ -3,7 +3,7 @@ from flask import Flask, redirect, render_template, request
 from flask_mail import Mail, Message
 
 app =  Flask(__name__)
-app.config["MAIL_DEFAULT_SENDER"] = os.ge
+app.config["MAIL_DEFAULT_SENDER"] = os.getenv("MAIL_DEFAULT_SENDER")
 db = SQL("sqlite:///froshims.db")
 
 SPORTS =    [
