@@ -28,4 +28,9 @@ def register():
         return render_template("error.html", message="Esporte não Listado")
 
     REGISTRANTS[name] = sport
-    return render_template("registrants.html", registrants=REGISTRANTS)
+
+    return redirect("/registrants")
+
+@app.route("/registrants")
+def registrants():
+        render_template("registrants.html", registrants=REGISTRANTS)
