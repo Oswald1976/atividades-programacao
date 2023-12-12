@@ -1,8 +1,9 @@
+from cs50 from SQL
 from flask import Flask, redirect, render_template, request
 
 app =  Flask(__name__)
 
-REGISTRANTS = {}
+db = SQL("sqlite:///froshims.db")
 
 SPORTS =    [
             "DogdeBall",
