@@ -28,4 +28,4 @@ def register():
         return render_template("error.html", message="Esporte não Listado")
 
     REGISTRANTS[name] = sport
-    return render_template("register.html", registrants=REGISTRANTS)
+    return render_template("registrants.html", registrants=REGISTRANTS)
