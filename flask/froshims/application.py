@@ -1,8 +1,8 @@
 import os
 
 from cs50 import SQL
-from flask import Flask, redirect, render_template, request, Mail, Message
-
+from flask import Flask, redirect, render_template, request
+from flask_mail import 
 
 app =  Flask(__name__)
 app.config["MAIL_DEFAULT_SENDER"] = os.getenv("MAIL_DEFAULT_SENDER")
