@@ -29,9 +29,10 @@ def register():
         return render_template("error.html", message="Esporte não Listado")
 
     db.execute("INSERT INTO registrants (name, sport) VALUES (?, ?)", name, sport)
-    
+
     return redirect("/registrants")
 
 @app.route("/registrants")
 def registrants():
-        render_template("registrants.html", registrants=REGISTRANTS)
+    registrants = db.execute("SELECT * FROM registrants")
+    render_template("registrants.html", registrants=registrants)
