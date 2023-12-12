@@ -30,6 +30,9 @@ def index():
 
 @app.route("/register", methods=["POST"])
 def register():
+    email = request.form.get("email")
+    if not email:
+        return render_template("error.html", message="E-mail Ausente")
     name = request.form.get("name")
     if not name:
         return render_template("error.html", message="Nome Ausente")
