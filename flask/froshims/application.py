@@ -42,7 +42,7 @@ def register():
     if sport not in SPORTS:
         return render_template("error.html", message="Esporte não Listado")
 
-    db.execute("INSERT INTO registrants (name, sport) VALUES (?, ?)", name, sport)
+   # db.execute("INSERT INTO registrants (name, sport) VALUES (?, ?)", name, sport)
 
     message = Message(name+", You are registered ! in" + sport, recipients=[email])
     mail.send(message)
