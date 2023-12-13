@@ -47,7 +47,7 @@ def register():
     message = Message(name+", You are registered ! in" + sport, recipients=[email])
     mail.send(message)
 
-    return redirect("/registrants")
+    return render_template("registrants.html", registrants=registrants)
 
 @app.route("/registrants")
 def registrants():
