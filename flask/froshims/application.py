@@ -5,8 +5,8 @@ from flask import Flask, redirect, render_template, request
 from flask_mail import Mail, Message
 
 app =  Flask(__name__)
-app.config["MAIL_DEFAULT_SENDER"] = os.getenv("MAIL_DEFAULT_SENDER")
-app.config["MAIL_PASSWORD"] = os.getenv("MAIL_PASSWORD")
+app.config["MAIL_DEFAULT_SENDER"] = "osvaldaobonussi@gmail.com" #os.getenv("MAIL_DEFAULT_SENDER")
+app.config["MAIL_PASSWORD"] = "Bigode1976!" #os.getenv("MAIL_PASSWORD")
 app.config["MAIL_PORT"] = 587
 app.config["MAIL_SERVER"] = "smtp.gmail.com"
 app.config["MAIL_USE_TLS"] = True
