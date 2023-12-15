@@ -13,4 +13,6 @@ def index():
 @app.route("/login")
 def login():
     if.request.method == "POST"
+
+    name = request.form.get("name")
     return render_template("login.html")
