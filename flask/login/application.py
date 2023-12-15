@@ -14,6 +14,6 @@ def index():
 def login():
     if.request.method == "POST"
 
-    sesseion["name"] = request.form.get("name")
-    
+        session["name"] = request.form.get("name")
+        return redirect("/")
     return render_template("login.html")
