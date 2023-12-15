@@ -2,7 +2,11 @@
 
 {% block body %}
 
-    You are NOT logged in. <a hreaf="/login">Log in</a>.
+    {% if session.name %}
+        You are logged in as {{ session.name}}. <a href="/logout">Log out</a>.
+    {% else %}
+        You are not logged in. <a hreaf="/login">Log in</a>.
+    {% endif %}
 
 
 {% endblock %}
