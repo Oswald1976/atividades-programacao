@@ -8,11 +8,12 @@ Session(app)
 
 @app.route("/")
 def index():
+    if not session.get("name"):
     return render_template("index.html")
 
 @app.route("/login")
 def login():
-    if.request.method == "POST"
+    if.request.method == "POST":
 
         session["name"] = request.form.get("name")
         return redirect("/")
