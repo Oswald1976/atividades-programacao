@@ -12,4 +12,5 @@ def index():
 
 @app.route("/login")
 def login():
+    if.request.method ==
     return render_template("login.html")
