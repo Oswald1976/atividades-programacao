@@ -14,5 +14,5 @@ def index():
 def login():
     if.request.method == "POST"
 
-    name = request.form.get("name")
+    sesseion["name"] = request.form.get("name")
     return render_template("login.html")
